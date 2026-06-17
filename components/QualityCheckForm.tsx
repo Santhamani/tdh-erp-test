@@ -3,7 +3,7 @@ import { PROCESS_STAGES } from '../constants';
 import { useAuth } from '../contexts/AuthContext';
 import { FormFieldComponent } from './FormField';
 import { db } from '../firebase/firebase';
-import { collection, query, onSnapshot } from 'firebase/firestore';
+import { collection, query, onSnapshot, where, getDocs } from 'firebase/firestore';
 
 const fileToBase64 = (file: File): Promise<string> => {
   return new Promise((resolve, reject) => {
@@ -14,7 +14,11 @@ const fileToBase64 = (file: File): Promise<string> => {
   });
 };
 
-export const QualityCheckForm: React.FC = () => {
+type SubmissionProps = {
+  onSubmissionSuccess: () => void;
+};
+
+export const QualityCheckForm: React.FC<SubmissionProps> = ({ onSubmissionSuccess }) => {
   const { currentUser, verifyPin, submitStageData, getInModeVehicles } = useAuth() as any;
   const formRef = useRef<HTMLFormElement>(null);
   const [isPinModalOpen, setIsPinModalOpen] = useState(false);
@@ -23,18 +27,30 @@ export const QualityCheckForm: React.FC = () => {
   const [submittedData, setSubmittedData] = useState<Record<string, any> | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [successMessage, setSuccessMessage] = useState('');
+  const [vehicleInput, setVehicleInput] = useState('');
+  const [vehicleExists, setVehicleExists] = useState<boolean | null>(null);
+  const [isCheckingVehicle, setIsCheckingVehicle] = useState(false);
+  const [isDuplicateModalOpen, setIsDuplicateModalOpen] = useState(false);
+  const [pendingSubmitData, setPendingSubmitData] = useState<Record<string, any> | null>(null);
 
   // Vehicles dropdown
   const [inVehicles, setInVehicles] = useState<string[]>([]);
   const [vehiclesLoading, setVehiclesLoading] = useState(true);
-
+  const [showVehicleSuggestions, setShowVehicleSuggestions] = useState(false);
+  const filteredVehicles = inVehicles.filter(v =>
+      v.toLowerCase().includes(vehicleInput.toLowerCase())
+    );
   // Stage & fields
   const qualityStage = PROCESS_STAGES.find(stage => stage.id === 'quality-check');
   if (!qualityStage) {
     return <p className="text-center text-red-500">Error: Quality Check stage configuration could not be found. Please contact an administrator.</p>;
   }
   const qualityFields = qualityStage.formFields;
-
+  useEffect(() => {
+          const handler = () => setShowVehicleSuggestions(false);
+          document.addEventListener('click', handler);
+          return () => document.removeEventListener('click', handler);
+      }, []);
   // Load IN-mode vehicles (prefer auth helper, fallback to Firestore subscription)
   useEffect(() => {
     let mounted = true;
@@ -118,6 +134,50 @@ export const QualityCheckForm: React.FC = () => {
     };
   }, [currentUser, getInModeVehicles]);
 
+  const checkVehicleExists = async (vehicleNumber: string) => {
+    if (!vehicleNumber.trim()) {
+      setVehicleExists(null);
+      return;
+    }
+
+    setIsCheckingVehicle(true);
+    try {
+      const q = query(
+        collection(db, 'quality-check_records'),
+        where('details.vehicle_number', '==', vehicleNumber.trim().toUpperCase())
+      );
+
+      const snapshot = await getDocs(q);
+      const today = new Date();
+      today.setHours(0, 0, 0, 0);
+      const tomorrow = new Date(today);
+      tomorrow.setDate(tomorrow.getDate() + 1);
+
+      const todaysRecords = snapshot.docs.filter(doc => {
+        const data = doc.data();
+        if (data?.deleted === true) return false;
+        
+        const timestamp = data.timestamp?.toDate(); // Convert Firestore Timestamp to JS Date
+        return timestamp && timestamp >= today && timestamp < tomorrow;
+      });
+
+      setVehicleExists(todaysRecords.length > 0);
+    } catch (error) {
+      console.error("Error checking vehicle existence:", error);
+      setVehicleExists(null); // Set to null on error
+    } finally {
+      setIsCheckingVehicle(false);
+    }
+  };
+
+  useEffect(() => {
+    const debounceTimer = setTimeout(() => {
+      checkVehicleExists(vehicleInput);
+    }, 500); // 500ms debounce
+
+    return () => clearTimeout(debounceTimer);
+  }, [vehicleInput]);
+
   // Helper: sanitize integer-only on typing (used in input onChange)
   const handleIntegerInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     // keep digits only (no decimals)
@@ -152,26 +212,46 @@ export const QualityCheckForm: React.FC = () => {
       // - find numeric fields from qualityFields (type==='number')
       // - except moisture field names ('moisture', 'moisture_content') we coerce to integer
       const moistureNames = new Set(['moisture', 'moisture_content']);
-      qualityFields.forEach(f => {
+      qualityFields.forEach((f:any) => {
         if (f.type === 'number') {
-          const name = f.name;
-          const raw = data[name];
-          if (raw === undefined || raw === null || String(raw).trim() === '') return;
+          const raw = data[f.name];
+          if (raw === undefined || raw === null || raw === '') return;
 
-          const rawStr = String(raw).trim();
-
-          if (moistureNames.has(name)) {
-            // allow decimals for moisture content
-            const parsed = Number(rawStr);
-            data[name] = Number.isFinite(parsed) ? parsed : rawStr;
-          } else {
-            // integer-only: strip non-digit (and optional leading minus not expected here), parseInt
-            const digits = rawStr.replace(/[^\d\-]/g, ''); // keep digits and minus if any
-            const parsed = parseInt(digits, 10);
-            data[name] = Number.isFinite(parsed) ? parsed : 0;
-          }
+          const parsed = Number.parseFloat(raw);
+          data[f.name] = Number.isFinite(parsed)
+            ? Number(parsed.toFixed(2))
+            : 0;
         }
       });
+
+      // Check for duplicate entry
+      const vehicleNumber = data.vehicle_number;
+      if (vehicleNumber) {
+        try {
+          const qualityCheckQuery = query(
+            collection(db, 'quality-check_records'),
+            where('details.vehicle_number', '==', vehicleNumber.toUpperCase())
+          );
+          const snapshot = await getDocs(qualityCheckQuery);
+          
+          // Filter out deleted records
+          const activeRecords = snapshot.docs.filter(doc => {
+            const docData = doc.data();
+            return docData?.deleted !== true;
+          });
+          
+          if (activeRecords.length > 0) {
+            // Entry already exists, show confirmation modal
+            setPendingSubmitData(data);
+            setIsDuplicateModalOpen(true);
+            setIsSubmitting(false);
+            return;
+          }
+        } catch (err) {
+          console.warn('Error checking for duplicates:', err);
+          // Continue anyway if there's an error checking
+        }
+      }
 
       setSubmittedData(data);
       setIsSubmitting(false);
@@ -181,6 +261,20 @@ export const QualityCheckForm: React.FC = () => {
       alert('An unexpected error occurred while preparing the quality report.');
       setIsSubmitting(false);
     }
+  };
+
+  const handleConfirmDuplicate = () => {
+    if (pendingSubmitData) {
+      setSubmittedData(pendingSubmitData);
+      setPendingSubmitData(null);
+      setIsDuplicateModalOpen(false);
+      setIsPinModalOpen(true);
+    }
+  };
+
+  const handleCancelDuplicate = () => {
+    setPendingSubmitData(null);
+    setIsDuplicateModalOpen(false);
   };
 
   const handlePinConfirm = async () => {
@@ -215,18 +309,65 @@ export const QualityCheckForm: React.FC = () => {
     // Vehicle number dropdown override
     if (field.name === 'vehicle_number') {
       return (
-        <div key={field.name} className="grid grid-cols-2 items-center gap-2">
-          <label className="block text-sm font-medium text-gray-700">{field.label}</label>
-          <select
-            name="vehicle_number"
-            defaultValue=""
-            className="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
-          >
-            <option value="" disabled>{vehiclesLoading ? 'Loading IN vehicles...' : 'Select Vehicle Number'}</option>
-            {inVehicles.map(v => (
-              <option key={v} value={v}>{v}</option>
-            ))}
-          </select>
+        <div key={field.name} className="grid grid-cols-2 items-start gap-2">
+          <label className="block text-sm font-medium text-gray-700 pt-2">
+            {field.label}
+          </label>
+
+          <div>
+            <div className="relative">
+              <input
+                type="text"
+                name="vehicle_number"
+                value={vehicleInput}
+                onChange={(e) => {
+                  setVehicleInput(e.target.value);
+                  setShowVehicleSuggestions(true);
+                }}
+                onFocus={() => setShowVehicleSuggestions(true)}
+                placeholder={vehiclesLoading ? 'Loading IN vehicles...' : 'Enter vehicle number'}
+                className="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
+                autoComplete="off"
+              />
+
+              {/* Suggestions list */}
+              {showVehicleSuggestions && filteredVehicles.length > 0 && (
+                <ul className="absolute z-50 top-full left-0 right-0 mt-1 bg-white border rounded-md shadow-md max-h-48 overflow-y-auto">
+                  {filteredVehicles.map(v => (
+                    <li
+                      key={v}
+                      onClick={() => {
+                        setVehicleInput(v);
+                        setShowVehicleSuggestions(false);
+                        checkVehicleExists(v);
+                      }}
+                      className="px-3 py-2 cursor-pointer hover:bg-red-50"
+                    >
+                      {v}
+                    </li>
+                  ))}
+                </ul>
+              )}
+
+              {/* No results */}
+              {showVehicleSuggestions && vehicleInput && filteredVehicles.length === 0 && (
+                <div className="absolute z-50 top-full left-0 right-0 mt-1 bg-white border rounded-md shadow-md px-3 py-2 text-sm text-gray-500">
+                  No matching vehicles
+                </div>
+              )}
+            </div>
+            
+            {/* Status Indicator */}
+            <div className="mt-1 pl-1 h-4">
+              {isCheckingVehicle ? (
+                <span className="text-sm text-gray-500">Checking...</span>
+              ) : vehicleExists === true ? (
+                <span className="text-sm font-semibold text-red-500">Vehicle details Already Exist</span>
+              ) : vehicleExists === false ? (
+                <span className="text-sm font-semibold text-green-500">New Vehicle</span>
+              ) : null}
+            </div>
+          </div>
         </div>
       );
     }
@@ -243,15 +384,16 @@ export const QualityCheckForm: React.FC = () => {
             <input
               name={field.name}
               type="number"
-              inputMode={isMoisture ? 'decimal' : 'numeric'}
-              step={isMoisture ? '0.01' : '1'}
-              onChange={
-                isMoisture
-                  ? undefined
-                  : (e) => {
-                      e.target.value = e.target.value.replace(/\D+/g, ''); // integer only
-                    }
-              }
+              inputMode="decimal"
+              step="0.01"
+              min="0"
+              onChange={(e) => {
+                // Allow only numbers with up to 2 decimal places
+                const value = e.target.value;
+                if (!/^\d*(\.\d{0,2})?$/.test(value)) {
+                  e.target.value = value.slice(0, -1);
+                }
+              }}
               onWheel={(e) => (e.target as HTMLElement).blur()}
               className="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
               placeholder={field.placeholder || ''}
@@ -315,6 +457,26 @@ export const QualityCheckForm: React.FC = () => {
         </div>
       </form>
 
+      {/* Duplicate Entry Confirmation Modal */}
+      {isDuplicateModalOpen && (
+        <div className="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50 p-4" onClick={handleCancelDuplicate}>
+          <div className="bg-white rounded-lg shadow-xl w-full max-w-sm animate-fade-in p-6" onClick={(e) => e.stopPropagation()}>
+            <div className="flex items-center justify-center w-12 h-12 rounded-full bg-yellow-100 mx-auto mb-4">
+              <svg className="w-6 h-6 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4v2m0-11a9 9 0 110 18 9 9 0 010-18z" />
+              </svg>
+            </div>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 text-center">Duplicate Entry</h3>
+            <p className="text-sm text-slate-600 mb-6 text-center">An entry for this vehicle number already exists in quality check. Do you still want to enter quality check for this vehicle?</p>
+            <div className="flex justify-end space-x-2">
+              <button type="button" onClick={handleCancelDuplicate} className="px-4 py-2 bg-gray-200 rounded-md font-medium hover:bg-gray-300">Cancel</button>
+              <button type="button" onClick={handleConfirmDuplicate} className="px-4 py-2 bg-red-600 text-white rounded-md font-medium hover:bg-red-700">Continue</button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* PIN Confirmation Modal */}
       {isPinModalOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50 p-4" onClick={handleCloseModal}>
           <div className="bg-white rounded-lg shadow-xl w-full max-w-sm animate-fade-in p-6" onClick={(e) => e.stopPropagation()}>

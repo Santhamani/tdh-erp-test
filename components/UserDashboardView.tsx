@@ -11,6 +11,8 @@ import { GateEntryActivityTable } from './GateEntryActivityTable';
 import { StorageActivityTable } from './StorageActivityTable';
 import { QualityCheckActivityTable } from './QualityCheckActivityTable';
 import { DispatchActivityTable } from './DispatchActivityTable';
+import { ProcessingActivityTable } from './ProcessingActivityTable';
+import { SalesActivityTable } from './SalesActivityTable';
 
 // A generic card for displaying stats
 const StatCard = ({ icon, label, value }: { icon: JSX.Element, label: string, value: string | number }) => (
@@ -54,7 +56,7 @@ export const UserDashboardView: React.FC = () => {
                     ...baseData,
                     greeting: "Dispatch Console",
                     quote: "Manage and record all outbound shipments.",
-                    activityComponent: <DispatchActivityTable currentUser={currentUser} />
+                    activityComponent: <DispatchActivityTable/>
                 };
 
             case 'GATE_ENTRY_OPERATOR':
@@ -87,6 +89,22 @@ export const UserDashboardView: React.FC = () => {
                     greeting: "Storage Management",
                     quote: "Oversee all stored materials.",
                     activityComponent: <StorageActivityTable currentUser={currentUser}/>
+                };
+
+            case 'PLANT_OPERATOR':
+                return {
+                    ...baseData,
+                    greeting: "Processing Console",
+                    quote: "Track and verify processing stage records.",
+                    activityComponent: <ProcessingActivityTable currentUser={currentUser}/>
+                };
+
+            case 'SALES_OPERATOR':
+                return {
+                    ...baseData,
+                    greeting: "Sales Console",
+                    quote: "Review and manage daily sales uploads.",
+                    activityComponent: <SalesActivityTable currentUser={currentUser}/>
                 };
 
             default:

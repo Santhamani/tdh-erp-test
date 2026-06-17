@@ -10,6 +10,8 @@ import { QualityCheckActivityTable } from './QualityCheckActivityTable';
 import { BinOperationActivityTable } from './BinOperationActivityTable';
 import { StorageActivityTable } from './StorageActivityTable';
 import { DispatchActivityTable } from './DispatchActivityTable'; // Import the new dispatch table
+import { ProcessingActivityTable } from './ProcessingActivityTable';
+import { SalesActivityTable } from './SalesActivityTable.tsx';
 
 // --- START: Chart Components (No changes here) ---
 interface BarChartProps {
@@ -92,8 +94,14 @@ const ActivityLogTable: React.FC<ActivityLogTableProps> = ({ logs, stageId }) =>
 
     const getRow = (log: LogEntry): (string | number)[] => {
         const timestamp = new Date(log.timestamp).toLocaleString();
-        const detailsString = JSON.stringify(log.details?.submittedData || log.details);
-        return [timestamp, log.userName, log.action, detailsString.substring(0, 100) + (detailsString.length > 100 ? '...' : '')];
+        const details = typeof log.details === 'object' && log.details !== null ? log.details.submittedData || log.details : log.details;
+        const detailsString = JSON.stringify(details);
+        return [
+            timestamp,
+            log.userName ?? 'Unknown User',
+            log.action ?? 'RECORDED',
+            detailsString.substring(0, 100) + (detailsString.length > 100 ? '...' : '')
+        ];
     };
     
     const filteredLogs = useMemo(() => {
@@ -208,12 +216,14 @@ const KpiCard: React.FC<{ title: string; value: string | number; }> = ({ title, 
 );
 
 // DYNAMIC TABLE MAPPING
-const specificTableMap: Record<string, React.FC<{ currentUser: User }>> = {
+const specificTableMap: Partial<Record<string, React.FC<{ currentUser: User }>>> = {
   arrival: GateEntryActivityTable,
   weighing: WeighingActivityTable,
   'quality-check': QualityCheckActivityTable,
   bin_operation: BinOperationActivityTable,
   storage: StorageActivityTable,
+    processing: ProcessingActivityTable,
+    sales: SalesActivityTable,
   dispatch: DispatchActivityTable, // Add dispatch table to the map
 };
 
@@ -222,7 +232,12 @@ export const AnalyticsModal: React.FC<AnalyticsModalProps> = ({ stage, onClose }
 
     const stageLogs = useMemo(() => logs
         .filter(log => log.stageId === stage.id)
-        .sort((a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime()),
+        .sort((a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime())
+        .map(log => ({
+            ...log,
+            timestamp: typeof log.timestamp === 'string' ? log.timestamp : log.timestamp.toISOString(),
+            deleted: log.deleted ?? false
+        })),
     [logs, stage.id]);
 
     // This logic remains the same, it drives the KPI cards and charts
@@ -334,7 +349,7 @@ export const AnalyticsModal: React.FC<AnalyticsModalProps> = ({ stage, onClose }
         }
     }, [stageLogs, stage.id]);
     
-    const ActivityTable = specificTableMap[stage.id];
+    const ActivityTable = specificTableMap[stage.id] ?? null;
 
     return (
         <Modal isOpen={true} onClose={onClose} containerClassName="max-w-7xl" bgClassName="bg-slate-100">

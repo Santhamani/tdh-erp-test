@@ -4,7 +4,8 @@ import { PROCESS_STAGES } from '../constants';
 import { FormFieldComponent } from './FormField';
 import { PlusIcon, TrashIcon } from './Icons';
 import { db } from '../firebase/firebase';
-import { collection, query, onSnapshot } from 'firebase/firestore';
+import { collection, query, onSnapshot, where, getDocs } from 'firebase/firestore';
+import { productData, Product } from '../productData';
 
 interface DispatchFormProps {
   onSubmissionSuccess: () => void;
@@ -27,7 +28,7 @@ export const DispatchForm: React.FC<DispatchFormProps> = ({ onSubmissionSuccess 
   }
 
   // Build initial form data (non-item fields)
-  const initialFormData = stageConfig.formFields.reduce((acc: Record<string, any>, field) => {
+  const initialFormData = stageConfig.formFields.reduce((acc: Record<string, any>, field: any) => {
     if (field.type !== 'heading' && !field.name.startsWith('item')) acc[field.name] = '';
     return acc;
   }, {});
@@ -38,12 +39,22 @@ export const DispatchForm: React.FC<DispatchFormProps> = ({ onSubmissionSuccess 
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState<string | null>(null);
   const [driverNameManuallyEdited, setDriverNameManuallyEdited] = useState(false);
-
-  // IN-mode vehicles
-  const [inVehicles, setInVehicles] = useState<string[]>([]);
-  const [vehiclesLoading, setVehiclesLoading] = useState(true);
+  const [vehicleInput, setVehicleInput] = useState('');
+  const [isDuplicateModalOpen, setIsDuplicateModalOpen] = useState(false);
+  const [pendingSubmitData, setPendingSubmitData] = useState<Record<string, any> | null>(null);
+        // vehicle list for dropdown
+    const [inVehicles, setInVehicles] = useState<string[]>([]);
+    const [vehiclesLoading, setVehiclesLoading] = useState(true);
+    const [showVehicleSuggestions, setShowVehicleSuggestions] = useState(false);
+    const filteredVehicles = inVehicles.filter(v =>
+        v.toLowerCase().includes(vehicleInput.toLowerCase())
+    );
   const [vehicleDriverMap, setVehicleDriverMap] = useState<Map<string, string>>(new Map());
-
+    useEffect(() => {
+        const handler = () => setShowVehicleSuggestions(false);
+        document.addEventListener('click', handler);
+        return () => document.removeEventListener('click', handler);
+    }, []);
   useEffect(() => {
     let mounted = true;
     setVehiclesLoading(true);
@@ -138,14 +149,36 @@ export const DispatchForm: React.FC<DispatchFormProps> = ({ onSubmissionSuccess 
   // helpers
   const setField = (name: string, value: any) => setFormData(prev => ({ ...prev, [name]: value }));
 
-  const handleItemChange = (id: number, field: keyof ItemRow, value: string) =>
-    setItems(prev => prev.map(it => it.id === id ? { ...it, [field]: value } : it));
+  const handleItemChange = (id: number, field: keyof ItemRow, value: string) => {
+    setItems(prev =>
+      prev.map(it => {
+        if (it.id === id) {
+          const newItem = { ...it, [field]: value };
+          if (field === 'name') {
+            const product = productData.find((p:any) => p.name === value);
+            if (product) {
+              const availableWeights = Object.keys(product.weights);
+              newItem.weight = availableWeights.length > 0 ? availableWeights[0] : '';
+            } else {
+              newItem.weight = '';
+            }
+          }
+          return newItem;
+        }
+        return it;
+      })
+    );
+  };
 
   const addItem = () => setItems(prev => [...prev, { id: Date.now(), name: '', type: '', quantity: '', weight: '' }]);
   const removeItem = (id: number) => setItems(prev => prev.length > 1 ? prev.filter(it => it.id !== id) : prev);
 
   const sanitizeName = (s: string) => s.replace(/[^A-Za-z0-9\s.\-']/g, '').replace(/\s{2,}/g, ' ').trim();
   const sanitizeInteger = (s: string) => (s || '').toString().replace(/\D+/g, '');
+  const sanitizeDecimal = (s: string) => {
+    const num = parseFloat(s) || 0;
+    return num.toFixed(2);
+  };
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -158,13 +191,14 @@ export const DispatchForm: React.FC<DispatchFormProps> = ({ onSubmissionSuccess 
       const vehicle = String(formData.vehicle_number || '').trim() || 'N/A';
       const destination = sanitizeName(String(formData.destination || '')) || 'N/A';
       const client = sanitizeName(String(formData.client_name || '')) || 'N/A';
+      const bags = sanitizeInteger(String(formData.no_of_bags || '')) || 'N/A';
 
       // Sanitize numeric fields, show N/A if empty
       let gross = String(formData.gross_weight ?? formData.in_weight ?? '');
       let tare = String(formData.tare_weight ?? formData.out_weight ?? '');
 
-      gross = sanitizeInteger(gross) || 'N/A';
-      tare = sanitizeInteger(tare) || 'N/A';
+      gross = gross.trim() ? sanitizeDecimal(gross) : 'N/A';
+      tare = tare.trim() ? sanitizeDecimal(tare) : 'N/A';
 
       // items: map to item_1_name / item_1_quantity ... store strings
       const validItems = items
@@ -183,6 +217,7 @@ export const DispatchForm: React.FC<DispatchFormProps> = ({ onSubmissionSuccess 
         driver_name: String(formData.driver_name || '').trim() || 'N/A',
         gross_weight: gross, // string or N/A
         tare_weight: tare,   // string or N/A
+        no_of_bags: bags,
         note: String(formData.note ?? '').trim() || 'N/A',
         vehicle_number: vehicle,
         // other fields will be filled below (item_N_name / item_N_quantity)
@@ -199,6 +234,28 @@ export const DispatchForm: React.FC<DispatchFormProps> = ({ onSubmissionSuccess 
         // optionally include type as item_N_type
         if (it.type) details[`item_${i}_type`] = it.type || 'N/A';
       });
+
+      // Check for duplicate entry
+      if (vehicle && vehicle !== 'N/A') {
+        try {
+          const dispatchQuery = query(
+            collection(db, 'dispatch_records'),
+            where('details.vehicle_number', '==', vehicle.toUpperCase())
+          );
+          const snapshot = await getDocs(dispatchQuery);
+          
+          const activeRecords = snapshot.docs.filter(doc => doc.data()?.deleted !== true);
+          
+          if (activeRecords.length > 0) {
+            setPendingSubmitData(details);
+            setIsDuplicateModalOpen(true);
+            setIsSubmitting(false);
+            return;
+          }
+        } catch (err) {
+          console.warn('Error checking for duplicates:', err);
+        }
+      }
 
       // Submit via submitStageData (AuthContext will wrap into collection doc with timestamp/user)
       await submitStageData('dispatch', details);
@@ -219,17 +276,48 @@ export const DispatchForm: React.FC<DispatchFormProps> = ({ onSubmissionSuccess 
     }
   };
 
-  // compute net weight as integer difference, show Quintal as earlier if desired
-  const grossInt = parseInt(sanitizeInteger(String(formData.gross_weight ?? formData.in_weight ?? '0')) || '0', 10);
-  const tareInt = parseInt(sanitizeInteger(String(formData.tare_weight ?? formData.out_weight ?? '0')) || '0', 10);
-  const netKg = Math.abs(grossInt - tareInt);
-  const netQuintal = (netKg);
+  const handleConfirmDuplicate = async () => {
+    if (pendingSubmitData) {
+      try {
+        await submitStageData('dispatch', pendingSubmitData);
+        setSuccess('Dispatch record submitted successfully!');
+        setFormData(initialFormData);
+        setItems([{ id: Date.now(), name: '', type: '', quantity: '', weight: '' }]);
+        setDriverNameManuallyEdited(false);
+        setPendingSubmitData(null);
+        setIsDuplicateModalOpen(false);
+        
+        setTimeout(() => {
+          setSuccess(null);
+        }, 5000);
+      } catch (err: any) {
+        setError(err?.message || 'Unexpected error');
+        setIsSubmitting(false);
+      }
+    }
+  };
 
-  // render fields - vehicle_number rendered as dropdown, filter out no_of_bags
-  const mainFields = stageConfig.formFields.filter(f => !f.name.startsWith('item') && f.name !== 'no_of_bags');
+  const handleCancelDuplicate = () => {
+    setPendingSubmitData(null);
+    setIsDuplicateModalOpen(false);
+    setIsSubmitting(false);
+  };
+
+  // compute net weight as decimal difference, show Quintal as earlier if desired
+  const grossDecimal = parseFloat(sanitizeDecimal(String(formData.gross_weight ?? formData.in_weight ?? '0'))) || 0;
+  const tareDecimal = parseFloat(sanitizeDecimal(String(formData.tare_weight ?? formData.out_weight ?? '0'))) || 0;
+  const netDecimal = Math.abs(grossDecimal - tareDecimal);
+
+  const totalItemWeight = items.reduce((sum, item) => {
+    const total = (parseFloat(item.quantity) || 0) * (parseFloat(item.weight) || 0);
+    return sum + total;
+  }, 0);
+
+  // render fields - vehicle_number rendered as dropdown
+  const mainFields = stageConfig.formFields.filter((f:any) => !f.name.startsWith('item'));
   
   // Split fields into sections: before weight_heading and from weight_heading onwards
-  const weightHeadingIndex = mainFields.findIndex(f => f.name === 'weight_heading');
+  const weightHeadingIndex = mainFields.findIndex((f:any) => f.name === 'weight_heading');
   const fieldsBeforeWeight = weightHeadingIndex >= 0 ? mainFields.slice(0, weightHeadingIndex) : mainFields;
   const fieldsFromWeight = weightHeadingIndex >= 0 ? mainFields.slice(weightHeadingIndex) : [];
 
@@ -238,6 +326,9 @@ export const DispatchForm: React.FC<DispatchFormProps> = ({ onSubmissionSuccess 
       return { onChange: (e: React.ChangeEvent<HTMLInputElement>) => setField(name, sanitizeName(e.target.value)) };
     }
     if (['gross_weight', 'tare_weight', 'in_weight', 'out_weight'].includes(name)) {
+      return { inputMode: 'decimal' as const, step: '0.01' as const, onChange: (e: React.ChangeEvent<HTMLInputElement>) => setField(name, e.target.value.replace(/[^\d.]/g, '').replace(/\.(?=.*\.)/g, '')) };
+    }
+    if (['no_of_bags'].includes(name)) {
       return { inputMode: 'numeric' as const, step: '1' as const, onChange: (e: React.ChangeEvent<HTMLInputElement>) => setField(name, sanitizeInteger(e.target.value)) };
     }
     return {};
@@ -255,20 +346,62 @@ export const DispatchForm: React.FC<DispatchFormProps> = ({ onSubmissionSuccess 
     if (field.name === 'vehicle_number') {
       return (
         <React.Fragment key="vehicle_number_group">
-          <div className="mb-4">
-            <label className="block text-sm font-medium text-gray-700 mb-1">{field.label}</label>
-            <select
-              name="vehicle_number"
-              value={formData.vehicle_number || ''}
-              onChange={(e) => setField('vehicle_number', e.target.value)}
-              className="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-red-500"
-            >
-              <option value="">{vehiclesLoading ? 'Loading IN vehicles...' : 'Select Vehicle'}</option>
-              {inVehicles.map(v => <option key={v} value={v}>{v}</option>)}
-            </select>
+          {/* Vehicle Number */}
+          <div className="mb-4 relative">
+            <label className="block text-sm font-medium text-gray-700 mb-1">
+              {field.label}
+            </label>
+
+            <div className="relative flex">
+              {/* Input */}
+              <input
+                type="text"
+                name="vehicle_number"
+                value={vehicleInput}
+                onChange={(e) => {
+                  setVehicleInput(e.target.value);
+                  setField('vehicle_number', e.target.value);
+                  setShowVehicleSuggestions(true);
+                }}
+                onFocus={() => setShowVehicleSuggestions(true)}
+                placeholder={vehiclesLoading ? 'Loading IN vehicles...' : 'Enter vehicle number'}
+                className="w-full px-3 py-2 border rounded-l-md focus:outline-none focus:ring-1 focus:ring-red-500"
+                autoComplete="off"
+              />
+
+              {/* Suggestions */}
+              {showVehicleSuggestions && filteredVehicles.length > 0 && (
+                <ul className="absolute z-50 top-full left-0 right-0 mt-1 bg-white border rounded-md shadow-md max-h-48 overflow-y-auto">
+                  {filteredVehicles.map(v => (
+                    <li
+                      key={v}
+                      onClick={() => {
+                        setVehicleInput(v);
+                        setField('vehicle_number', v);
+                        setShowVehicleSuggestions(false);
+                      }}
+                      className="px-3 py-2 cursor-pointer hover:bg-red-50"
+                    >
+                      {v}
+                    </li>
+                  ))}
+                </ul>
+              )}
+
+              {/* No match */}
+              {showVehicleSuggestions && vehicleInput && filteredVehicles.length === 0 && (
+                <div className="absolute z-50 top-full left-0 right-0 mt-1 bg-white border rounded-md shadow-md px-3 py-2 text-sm text-gray-500">
+                  No matching vehicles
+                </div>
+              )}
+            </div>
           </div>
+
+          {/* Driver Name */}
           <div className="mb-4">
-            <label className="block text-sm font-medium text-gray-700 mb-1">Driver Name</label>
+            <label className="block text-sm font-medium text-gray-700 mb-1">
+              Driver Name
+            </label>
             <input
               type="text"
               name="driver_name"
@@ -285,23 +418,10 @@ export const DispatchForm: React.FC<DispatchFormProps> = ({ onSubmissionSuccess 
       );
     }
 
+
     // show In Weight / Out Weight labels but keep underlying DB keys gross_weight/tare_weight
     if (field.name === 'gross_weight' || field.name === 'in_weight') {
       const name = field.name === 'in_weight' ? 'gross_weight' : field.name; // if config uses in_weight, map to gross_weight for DB
-      return (
-        <FormFieldComponent
-          key={name}
-          field={{ ...field, name: name, label: 'Out Weight' }}
-          value={String(formData[name] ?? '')}
-          onChange={(n, v) => setField(n, v)}
-          inputProps={getInputProps(name)}
-          isRequired={false}
-          />
-      );
-    }
-    
-    if (field.name === 'tare_weight' || field.name === 'out_weight') {
-      const name = field.name === 'out_weight' ? 'tare_weight' : field.name;
       return (
         <FormFieldComponent
           key={name}
@@ -311,7 +431,20 @@ export const DispatchForm: React.FC<DispatchFormProps> = ({ onSubmissionSuccess 
           inputProps={getInputProps(name)}
           isRequired={false}
         />
-        
+      );
+    }
+
+    if (field.name === 'tare_weight' || field.name === 'out_weight') {
+      const name = field.name === 'out_weight' ? 'tare_weight' : field.name;
+      return (
+        <FormFieldComponent
+          key={name}
+          field={{ ...field, name: name, label: 'Out Weight' }}
+          value={String(formData[name] ?? '')}
+          onChange={(n, v) => setField(n, v)}
+          inputProps={getInputProps(name)}
+          isRequired={false}
+        />
       );
     }
 
@@ -363,7 +496,7 @@ export const DispatchForm: React.FC<DispatchFormProps> = ({ onSubmissionSuccess 
         {/* Item Details */}
         <div key="item_section">
           <div className='flex justify-between items-center mb-4'>
-            <h3 className="text-lg font-semibold text-gray-700">{stageConfig.formFields.find(f => f.name === 'item_list_heading')?.label || 'Item Details'}</h3>
+            <h3 className="text-lg font-semibold text-gray-700">{stageConfig.formFields.find((f:any) => f.name === 'item_list_heading')?.label || 'Item Details'}</h3>
             <button type="button" onClick={addItem} className="flex items-center px-3 py-1.5 bg-red-600 text-white text-sm font-bold rounded-md hover:bg-red-700">
               <PlusIcon />
               <span className="ml-1">Add Item</span>
@@ -371,45 +504,77 @@ export const DispatchForm: React.FC<DispatchFormProps> = ({ onSubmissionSuccess 
           </div>
 
           <div className="space-y-4">
-            {items.map(it => {
-              const qty = parseFloat(it.quantity) || 0;
-              const wt = parseFloat(it.weight) || 0;
-              const total = qty * wt;
-              
-              return (
-              <div key={it.id} className="p-4 border rounded-lg bg-slate-50/50 relative">
-                <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
-                  <div>
-                    <label className="text-sm font-medium text-gray-700 mb-1 block">Item Name</label>
-                    <input type="text" value={it.name} onChange={(e) => handleItemChange(it.id, 'name', e.target.value)} className="w-full px-3 py-2 border rounded-md" placeholder="e.g., Toor Dal" />
-                  </div>
-                  <div>
-                    <label className="text-sm font-medium text-gray-700 mb-1 block">Type</label>
-                    <input type="text" value={it.type} onChange={(e) => handleItemChange(it.id, 'type', e.target.value)} className="w-full px-3 py-2 border rounded-md" placeholder="e.g., Raw" />
-                  </div>
-                  <div>
-                    <label className="text-sm font-medium text-gray-700 mb-1 block">Quantity</label>
-                    <input type="number" value={it.quantity} onChange={(e) => handleItemChange(it.id, 'quantity', sanitizeInteger(e.target.value))} className="w-full px-3 py-2 border rounded-md" placeholder="e.g., 12" min="0" step="1" />
-                  </div>
-                  <div>
-                    <label className="text-sm font-medium text-gray-700 mb-1 block">Weight (ql)</label>
-                    <input type="number" value={it.weight} onChange={(e) => handleItemChange(it.id, 'weight', sanitizeInteger(e.target.value))} className="w-full px-3 py-2 border rounded-md" placeholder="e.g., 50" min="0" step="1" />
-                  </div>
-                  <div>
-                    <label className="text-sm font-medium text-gray-700 mb-1 block">Total (ql)</label>
-                    <input type="text" value={total.toFixed(2)} className="w-full px-3 py-2 border rounded-md bg-gray-100" readOnly />
-                  </div>
-                </div>
+            {items.map((item, index) => {
+              const selectedProduct = productData.find((p:any) => p.name === item.name);
+              const quantityOptions = [25, 30, 40, 50];
+              const total = (parseFloat(item.quantity) || 0) * (parseFloat(item.weight) || 0);
 
-                {items.length > 1 && (
-                  <div className="absolute -top-2 -right-2">
-                    <button type="button" onClick={() => removeItem(it.id)} className="p-1 bg-white text-slate-400 hover:text-red-600 hover:bg-red-100 rounded-full shadow-md border">
+              return (
+                <div key={item.id} className="p-4 border rounded-lg bg-gray-50 space-y-4">
+                  <div className="flex justify-between items-center">
+                    <h4 className="font-semibold text-gray-700">Item #{index + 1}</h4>
+                    <button type="button" onClick={() => removeItem(item.id)} className="text-red-500 hover:text-red-700 disabled:opacity-50" disabled={items.length <= 1}>
                       <TrashIcon />
                     </button>
                   </div>
-                )}
-              </div>
-            );
+
+                  <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
+                    {/* Item Name */}
+                    <div className="md:col-span-2">
+                      <label className="block text-sm font-medium text-gray-700 mb-1">Item Name</label>
+                      <select
+                        value={item.name}
+                        onChange={(e) => handleItemChange(item.id, 'name', e.target.value)}
+                        className="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-red-500"
+                      >
+                        <option value="">Select Item</option>
+                        {productData.map((p:any) => (
+                          <option key={p.name} value={p.name}>{p.name}</option>
+                        ))}
+                      </select>
+                    </div>
+
+                    {/* Quantity */}
+                    <div>
+                      <label className="block text-sm font-medium text-gray-700 mb-1">Bags</label>
+                      <input
+                        type="number"
+                        value={item.quantity}
+                        onChange={(e) => handleItemChange(item.id, 'quantity', e.target.value)}
+                        className="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-red-500"
+                        placeholder="e.g., 10"
+                      />
+                    </div>
+
+                    {/* Weight */}
+                    <div>
+                      <label className="block text-sm font-medium text-gray-700 mb-1">Weight (KG)</label>
+                      <select
+                        value={item.weight}
+                        onChange={(e) => handleItemChange(item.id, 'weight', e.target.value)}
+                        className="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-red-500"
+                      >
+                        <option value="">Weight</option>
+                        {quantityOptions.map(q => (
+                          <option key={q} value={q}>{q}</option>
+                        ))}
+                      </select>
+                    </div>
+                    
+                    {/* Total */}
+                    <div>
+                      <label className="block text-sm font-medium text-gray-700 mb-1">Total</label>
+                      <input
+                        type="text"
+                        value={total.toFixed(2)}
+                        readOnly
+                        disabled
+                        className="w-full px-3 py-2 border rounded-md bg-gray-100"
+                      />
+                    </div>
+                  </div>
+                </div>
+              );
             })}
           </div>
         </div>
@@ -418,9 +583,15 @@ export const DispatchForm: React.FC<DispatchFormProps> = ({ onSubmissionSuccess 
         {fieldsFromWeight.map(renderField)}
 
         {/* Net weight (computed) */}
-        <div className="bg-gray-50 p-4 rounded-lg mt-6">
-          <h3 className="text-lg font-semibold text-gray-700">Calculated Net Weight</h3>
-          <p className="text-2xl font-bold text-gray-800 mt-2">{netQuintal} Quintal</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+          <div className="bg-gray-50 p-4 rounded-lg">
+            <h3 className="text-lg font-semibold text-gray-700">Calculated Item Weight</h3>
+            <p className="text-2xl font-bold text-gray-800 mt-2">{totalItemWeight.toFixed(2)} KG</p>
+          </div>
+          <div className="bg-gray-50 p-4 rounded-lg">
+            <h3 className="text-lg font-semibold text-gray-700">Calculated Net Weight</h3>
+            <p className="text-2xl font-bold text-gray-800 mt-2">{netDecimal.toFixed(2)} Quintal</p>
+          </div>
         </div>
 
         {error && <div className="text-red-500 font-medium mt-4">Error: {error}</div>}
@@ -429,6 +600,25 @@ export const DispatchForm: React.FC<DispatchFormProps> = ({ onSubmissionSuccess 
           {isSubmitting ? 'Submitting...' : 'Submit Dispatch Record'}
         </button>
       </form>
+
+      {/* Duplicate Entry Confirmation Modal */}
+      {isDuplicateModalOpen && (
+        <div className="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50 p-4" onClick={handleCancelDuplicate}>
+          <div className="bg-white rounded-lg shadow-xl w-full max-w-sm animate-fade-in p-6" onClick={(e) => e.stopPropagation()}>
+            <div className="flex items-center justify-center w-12 h-12 rounded-full bg-yellow-100 mx-auto mb-4">
+              <svg className="w-6 h-6 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4v2m0-11a9 9 0 110 18 9 9 0 010-18z" />
+              </svg>
+            </div>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 text-center">Duplicate Entry</h3>
+            <p className="text-sm text-slate-600 mb-6 text-center">An entry for this vehicle already exists in dispatch. Do you still want to enter dispatch for this vehicle?</p>
+            <div className="flex justify-end space-x-2">
+              <button type="button" onClick={handleCancelDuplicate} className="px-4 py-2 bg-gray-200 rounded-md font-medium hover:bg-gray-300">Cancel</button>
+              <button type="button" onClick={handleConfirmDuplicate} className="px-4 py-2 bg-red-600 text-white rounded-md font-medium hover:bg-red-700">Continue</button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

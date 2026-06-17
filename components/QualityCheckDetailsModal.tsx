@@ -105,21 +105,21 @@ export const QualityCheckDetailsModal: React.FC<QualityCheckDetailsModalProps> =
   const entries = Object.entries(details).filter(([k]) => !hiddenKeys.has(k));
 
   const orderedKeys = [
+    'size_analysis_7',
+    'size_analysis_5',
+    'size_analysis_4',
+    'small_mud_percent',
+    'big_mud_stones_percent',
     'damage_1',
     'physical_damage_2',
-    'sm_percent',
-    'lm_percent',
-    'moisture_content',
-    'size_4',
-    'size_5',
-    'size_7',
+    'moisture_content_percent',
   ];
 
   return (
     // outer wrapper: align to top on small screens to avoid keyboard overlap; center on larger
-    <div className="fixed inset-0 bg-black bg-opacity-70 flex items-start sm:items-center justify-center z-50 p-4" onClick={onClose}>
+    <div className="fixed inset-0 bg-black bg-opacity-70 flex items-start justify-center z-50 p-4" onClick={onClose}>
       <div
-        className="bg-slate-50 rounded-t-2xl sm:rounded-2xl shadow-2xl w-full max-w-[380px] sm:max-w-2xl mx-auto transform transition-transform duration-200"
+        className="bg-slate-50 rounded-t-2xl sm:rounded-2xl shadow-2xl w-full max-w-[380px] sm:max-w-2xl mx-auto transform transition-transform duration-200 max-h-[85vh] flex flex-col overflow-hidden mt-6"
         onClick={(e) => e.stopPropagation()}
         role="dialog"
         aria-modal="true"
@@ -146,7 +146,7 @@ export const QualityCheckDetailsModal: React.FC<QualityCheckDetailsModalProps> =
         </div>
 
         {/* Body (scrollable). Reduced max-height so footer area remains visible */}
-        <div className="p-3 sm:p-4 md:p-6 max-h-[calc(100vh-180px)] overflow-y-auto space-y-4 pb-6">
+        <div className="p-3 sm:p-4 md:p-6 flex-1 min-h-0 overflow-y-auto space-y-4 pb-6">
 
           {/* Test Results & Details */}
           <div className="bg-white p-4 rounded-xl shadow-md">

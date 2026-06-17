@@ -10,6 +10,7 @@ import { DispatchForm } from './components/DispatchForm';
 import { WeighingForm } from './components/WeighingForm';
 import { QualityCheckForm } from './components/QualityCheckForm';
 import { BinOperationForm } from './components/BinOperationForm';
+import { SalesForm } from './components/SalesForm';
 import { ProfileModal } from './components/ProfileModal';
 import { ManagerProcessView } from './components/ManagerProcessView';
 import { AnalyticsModal } from './components/AnalyticsModal';
@@ -66,6 +67,8 @@ const AppContent: React.FC = () => {
                     return <QualityCheckForm onSubmissionSuccess={() => setCurrentView('dashboard')} />;
                 case 'BIN_OPERATOR':
                     return <BinOperationForm onSubmissionSuccess={() => setCurrentView('dashboard')} />;
+                case 'SALES_OPERATOR':
+                    return <SalesForm onSubmissionSuccess={() => setCurrentView('dashboard')} />;
                 default:
                     return <UserDashboardView />;
             }

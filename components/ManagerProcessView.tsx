@@ -11,13 +11,15 @@ const colorMap: Record<string, { bg: string; text: string; border: string }> = {
     'bg-gray-100': { bg: '#dcfce7', text: '#166534', border: '#bbf7d0' },  // Changed to green
     'bg-pink-100': { bg: '#fce7f3', text: '#be185d', border: '#fbcfe8' },
     'bg-purple-100': { bg: '#f3e8ff', text: '#6b21a8', border: '#e9d5ff' },
+    'bg-fuchsia-100': { bg: '#fae8ff', text: '#a21caf', border: '#f5d0fe' },
+    'bg-amber-100': { bg: '#fef3c7', text: '#92400e', border: '#fde68a' },
     'bg-blue-100': { bg: '#dbeafe', text: '#1e40af', border: '#93c5fd' },  // Fixed dispatch blue
     'bg-sky-100': { bg: '#e0f2fe', text: '#0c4a6e', border: '#bae6fd' },  // Dispatch stage sky blue
 };
 
 export const ManagerProcessView: React.FC<ManagerProcessViewProps> = ({ stages, onStageClick }) => {
     // Active stages that can be clicked
-    const activeStageIds = ['arrival', 'weighing', 'quality-check', 'dispatch'];
+    const activeStageIds = ['arrival', 'weighing', 'quality-check', 'processing', 'sales', 'dispatch'];
     const activeStages = stages.filter(stage => activeStageIds.includes(stage.id));
     
     // Inactive stages (greyed out, not clickable)

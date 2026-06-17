@@ -9,8 +9,17 @@ import {
     CubeIcon, 
     PaperAirplaneIcon, 
     ShieldCheckIcon,
-    SparklesIcon 
+    SparklesIcon,
+    DocumentTextIcon 
 } from './components/Icons';
+
+export const PROCESSING_STAGE_COLUMNS = [
+    'Pre Cleaning',
+    'Oiling',
+    'Dry',
+    'Water',
+    'Processed'
+];
 
 export const PROCESS_STAGES: ProcessStage[] = [
     {
@@ -186,9 +195,10 @@ export const PROCESS_STAGES: ProcessStage[] = [
         },
         icon: <CogIcon />,
         formFields: [
-            { name: 'process_id', label: 'Process ID', type: 'text', placeholder: 'e.g., PROC-001' },
-            { name: 'machine_id', label: 'Machine ID', type: 'text', placeholder: 'e.g., MILL-02' },
-            { name: 'parameters', label: 'Parameters', type: 'textarea', placeholder: 'e.g., Grade A, Split' },
+            { name: 'processing_heading', label: 'Processing Details', type: 'heading' },
+            { name: 'vehicle_number', label: 'Vehicle Number', type: 'dropdown' },
+            { name: 'brand', label: 'Brand', type: 'dropdown', options: ['Double horse', 'Maharani'] },
+            { name: 'stage_table_heading', label: 'Stage Table', type: 'heading' }
         ],
     },
     {
@@ -229,6 +239,26 @@ export const PROCESS_STAGES: ProcessStage[] = [
             { name: 'packing_id', label: 'Packing ID', type: 'text', placeholder: 'e.g., PACK-001' },
             { name: 'bag_size_kg', label: 'Bag Size (ql)', type: 'dropdown', options: ['25', '50', '100'] },
             { name: 'no_of_bags', label: 'Number of Bags', type: 'number', placeholder: 'e.g., 200' },
+        ],
+    },
+    {
+        id: 'sales',
+        name: 'Sales Stage',
+        responsibleRole: 'Sales Operator',
+        erpModule: 'Sales_Module',
+        dependentOn: 'Packing',
+        output: 'Sales Report',
+        description: 'Upload daily sales export and review line-item details before dispatch.',
+        color: {
+            bg: 'bg-amber-100',
+            text: 'text-amber-800',
+            border: 'border-amber-300'
+        },
+        icon: <DocumentTextIcon />,
+        formFields: [
+            { name: 'sales_heading', label: 'Sales Details', type: 'heading' },
+            { name: 'sales_timestamp', label: 'Timestamp', type: 'text' },
+            { name: 'sales_upload', label: 'Upload Sales File', type: 'file' }
         ],
     },
     {
@@ -287,5 +317,6 @@ export const ROLE_PERMISSIONS: Partial<Record<Role, string[]>> = {
     STORE_MANAGER: ['storage'],
     PLANT_OPERATOR: ['processing'],
     PACKAGING_OPERATOR: ['packing'],
+    SALES_OPERATOR: ['sales'],
     DISPATCH_OPERATOR: ['dispatch']
 };

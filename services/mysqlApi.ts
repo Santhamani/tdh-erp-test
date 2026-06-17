@@ -59,5 +59,6 @@ export const mysqlApi = {
   softDeleteArrival: (id: string) => request<{ ok: boolean }>(`/arrival-records/${id}/soft-delete`, { method: 'PATCH' }),
   softDeleteWeighing: (id: string) => request<{ ok: boolean }>(`/weighing-records/${id}/soft-delete`, { method: 'PATCH' }),
   softDeleteQualityCheck: (id: string) => request<{ ok: boolean }>(`/quality-check-records/${id}/soft-delete`, { method: 'PATCH' }),
-  softDeleteDispatch: (id: string) => request<{ ok: boolean }>(`/dispatch-records/${id}/soft-delete`, { method: 'PATCH' })
+  softDeleteDispatch: (id: string) => request<{ ok: boolean }>(`/dispatch-records/${id}/soft-delete`, { method: 'PATCH' }),
+  softDeleteSales: (id: string) => request<{ ok: boolean }>(`/sales-records/${id}/soft-delete`, { method: 'PATCH' })
 };

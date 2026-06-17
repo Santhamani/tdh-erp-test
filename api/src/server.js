@@ -115,11 +115,13 @@ app.get('/arrival-records', (req, res) => listStage('arrival_records', req, res)
 app.get('/weighing-records', (req, res) => listStage('weighing_records', req, res));
 app.get('/quality-check-records', (req, res) => listStage('quality_check_records', req, res));
 app.get('/dispatch-records', (req, res) => listStage('dispatch_records', req, res));
+app.get('/sales-records', (req, res) => listStage('sales_records', req, res));
 
 app.patch('/arrival-records/:id/soft-delete', (req, res) => softDeleteStage('arrival_records', req, res));
 app.patch('/weighing-records/:id/soft-delete', (req, res) => softDeleteStage('weighing_records', req, res));
 app.patch('/quality-check-records/:id/soft-delete', (req, res) => softDeleteStage('quality_check_records', req, res));
 app.patch('/dispatch-records/:id/soft-delete', (req, res) => softDeleteStage('dispatch_records', req, res));
+app.patch('/sales-records/:id/soft-delete', (req, res) => softDeleteStage('sales_records', req, res));
 
 app.get('/in-mode-vehicles', async (_req, res) => {
   const rows = await query(
@@ -259,6 +261,22 @@ app.post('/stage-records', async (req, res) => {
         );
       }
     }
+  } else if (stageId === 'sales') {
+    await exec(
+      `INSERT INTO sales_records (
+         firestore_doc_id, file_name, sales_timestamp, note, deleted, created_by_user_id, created_by_user_name, created_at, details_json
+       ) VALUES (?, ?, ?, ?, 0, ?, ?, ?, ?)`,
+      [
+        crypto.randomUUID(),
+        data.file_name || data.fileName || 'Sales Upload',
+        data.sales_timestamp || new Date().toISOString().slice(0, 19).replace('T', ' '),
+        data.note || null,
+        currentUser?.id || null,
+        currentUser?.name || null,
+        createdAt,
+        JSON.stringify(data)
+      ]
+    );
   } else {
     await exec(
       `INSERT INTO stage_records (
@@ -279,8 +297,8 @@ app.post('/stage-records', async (req, res) => {
   res.status(201).json({ ok: true });
 });
 
-const port = Number(process.env.API_PORT || 4000);
-const host = process.env.API_HOST || '127.0.0.1';
+const port = Number(process.env.PORT || process.env.API_PORT || 4000);
+const host = process.env.IP || process.env.API_HOST || '127.0.0.1';
 
 app.listen(port, host, () => {
   console.log(`API listening on http://${host}:${port}`);

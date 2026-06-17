@@ -166,6 +166,23 @@ CREATE TABLE IF NOT EXISTS dispatch_items (
 		ON DELETE CASCADE
 );
 
+-- sales_records in Firestore
+CREATE TABLE IF NOT EXISTS sales_records (
+	id BIGINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+	firestore_doc_id VARCHAR(128) NULL UNIQUE,
+	file_name VARCHAR(255) NULL,
+	sales_timestamp DATETIME NULL,
+	note TEXT NULL,
+	deleted TINYINT(1) NOT NULL DEFAULT 0,
+	created_by_user_id VARCHAR(128) NULL,
+	created_by_user_name VARCHAR(120) NULL,
+	created_at DATETIME NOT NULL,
+	details_json JSON NULL,
+	INDEX idx_sales_created (created_at),
+	INDEX idx_sales_deleted (deleted),
+	CONSTRAINT fk_sales_created_by FOREIGN KEY (created_by_user_id) REFERENCES users(id)
+);
+
 -- Other stages currently posted through submitStageData can remain flexible.
 CREATE TABLE IF NOT EXISTS stage_records (
 	id BIGINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,

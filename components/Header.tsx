@@ -19,7 +19,7 @@ export const Header: React.FC<HeaderProps> = ({ currentUser, onLogout, currentVi
     const dropdownRef = useRef<HTMLDivElement>(null);
     const isManager = managerRoles.includes(currentUser.role);
     // Add DISPATCH_OPERATOR to this array to change the button label
-    const isDataEntryRole = ['GATE_ENTRY_OPERATOR', 'WEIGHING_OPERATOR', 'QUALITY_OPERATOR', 'BIN_OPERATOR', 'DISPATCH_OPERATOR'].includes(currentUser.role);
+    const isDataEntryRole = ['GATE_ENTRY_OPERATOR', 'WEIGHING_OPERATOR', 'QUALITY_OPERATOR', 'BIN_OPERATOR', 'DISPATCH_OPERATOR', 'PLANT_OPERATOR', 'SALES_OPERATOR'].includes(currentUser.role);
     
     const processViewLabel = isDataEntryRole ? 'Create Record' : 'Process View';
     const mobileProcessViewLabel = isDataEntryRole ? 'Create Record' : 'Process';

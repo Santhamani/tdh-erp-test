@@ -15,12 +15,13 @@
     "api:start": "npm --prefix api run start"
   },
   "dependencies": {
-    "firebase-admin": "^13.1.0",
     "firebase": "^12.6.0",
+    "firebase-admin": "^13.1.0",
     "mysql2": "^3.11.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-router-dom": "^7.9.6"
+    "react-router-dom": "^7.9.6",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",

@@ -36,8 +36,9 @@ export const ProfileModal: React.FC<ProfileModalProps> = ({ currentUser, onClose
     const labelClasses = "block text-sm font-medium text-slate-600";
 
     return (
-        <Modal isOpen={true} onClose={onClose} title={`${currentUser?.name} Profile`}>
+        <Modal isOpen={true} onClose={onClose}>
             <div className="p-6">
+                <h2 className="text-lg font-semibold mb-4">{currentUser?.name} Profile</h2>
                 <div className="flex flex-col items-center text-center mb-6">
                     <p className="text-sm text-slate-500 capitalize">User: {currentUser?.role.replace(/_/g, ' ')}</p>
                 </div>

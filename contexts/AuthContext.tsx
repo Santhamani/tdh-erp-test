@@ -17,6 +17,7 @@ interface LogEntry {
     userName: string;
     action: string;
     details: Record<string, any>;
+    deleted?: boolean;
 }
 
 // The shape of the authentication context
@@ -143,6 +144,11 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
                         id: doc.id,
                         stageId: stageId,
                         timestamp: timestamp,
+                        userId: data.userId || '',
+                        userName: data.userName || '',
+                        action: data.action || 'RECORDED',
+                        details: data.details || {},
+                        deleted: data.deleted || false
                     } as any as LogEntry;
                 });
 
