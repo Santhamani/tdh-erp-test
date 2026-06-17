@@ -3,6 +3,8 @@ import { db } from '../firebase/firebase';
 import { collection, query, orderBy, onSnapshot, Timestamp, where, getDocs, doc, updateDoc } from 'firebase/firestore';
 import type { User, LogEntry } from '../types';
 import { QualityCheckDetailsModal } from './QualityCheckDetailsModal';
+import { USE_MYSQL } from '../services/appConfig';
+import { mysqlApi } from '../services/mysqlApi';
 
 type TimeFilter = '24h' | 'week' | 'month' | 'custom';
 
@@ -24,6 +26,39 @@ export const QualityCheckActivityTable: React.FC<{ currentUser: User }> = ({ cur
         if (!currentUser) {
             setArrivalData(new Map());
             return;
+        }
+
+        if (USE_MYSQL) {
+            let cancelled = false;
+
+            const load = async () => {
+                try {
+                    const rows = await mysqlApi.getArrivalRecords();
+                    if (cancelled) return;
+                    const dataMap = new Map<string, { party: string; bags: number }>();
+                    rows.forEach((row) => {
+                        const details = (row.details || row) as Record<string, any>;
+                        const vehicleNumber = details.vehicle_number;
+                        if (vehicleNumber) {
+                            dataMap.set(vehicleNumber, {
+                                party: details.party || '-',
+                                bags: details.bags || 0
+                            });
+                        }
+                    });
+                    setArrivalData(dataMap);
+                } catch (error) {
+                    if (!cancelled) console.error('Error fetching arrival records from API: ', error);
+                }
+            };
+
+            const interval = setInterval(load, 15000);
+            load();
+
+            return () => {
+                cancelled = true;
+                clearInterval(interval);
+            };
         }
 
         const q = query(collection(db, "arrival_records"));
@@ -52,6 +87,29 @@ export const QualityCheckActivityTable: React.FC<{ currentUser: User }> = ({ cur
         if (!currentUser) {
             setQualityRecords([]);
             return;
+        }
+
+        if (USE_MYSQL) {
+            let cancelled = false;
+
+            const load = async () => {
+                try {
+                    const records = await mysqlApi.getQualityCheckRecords();
+                    if (cancelled) return;
+                    const isAdmin = currentUser?.role === 'ADMIN';
+                    setQualityRecords(isAdmin ? records : records.filter((r) => !r.deleted));
+                } catch (error) {
+                    if (!cancelled) console.error('Error fetching quality check records from API: ', error);
+                }
+            };
+
+            const interval = setInterval(load, 15000);
+            load();
+
+            return () => {
+                cancelled = true;
+                clearInterval(interval);
+            };
         }
 
         const q = query(collection(db, "quality-check_records"), orderBy("timestamp", "desc"));
@@ -154,9 +212,10 @@ export const QualityCheckActivityTable: React.FC<{ currentUser: User }> = ({ cur
         
         setIsUpdating(true);
         try {
-            const updatePromises = Array.from(selectedIds).map(id => 
-                updateDoc(doc(db, 'quality-check_records', id), { deleted: true })
-            );
+            const updatePromises = Array.from(selectedIds).map((id) => {
+                if (USE_MYSQL) return mysqlApi.softDeleteQualityCheck(id);
+                return updateDoc(doc(db, 'quality-check_records', id), { deleted: true });
+            });
             await Promise.all(updatePromises);
             setSelectedIds(new Set());
         } catch (error) {

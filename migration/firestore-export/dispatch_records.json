@@ -1,0 +1,2562 @@
+{
+  "collection": "dispatch_records",
+  "count": 110,
+  "docs": [
+    {
+      "id": "0MYYpRmKkOfaamW3Upya",
+      "data": {
+        "timestamp": "2026-02-23T13:05:43.577Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "govardhan traders",
+          "destination": "Attapur",
+          "driver_name": "Azeem",
+          "gross_weight": "1920.00",
+          "tare_weight": "6630.00",
+          "no_of_bags": "82",
+          "note": "N/A",
+          "vehicle_number": "AP39VD0168",
+          "item_1_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_1_quantity": "82",
+          "item_1_weight": "50",
+          "item_1_total": "4100.00",
+          "item_2_name": "IDLY RAVVA (1KG)",
+          "item_2_quantity": "20",
+          "item_2_weight": "30",
+          "item_2_total": "600.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "0k6AbxAuyOMwirS24XXC",
+      "data": {
+        "timestamp": "2026-03-05T12:53:28.735Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "Hyderabad",
+          "destination": "Hyderabad",
+          "driver_name": "Azeem",
+          "gross_weight": "1910.00",
+          "tare_weight": "6610.00",
+          "no_of_bags": "170",
+          "note": "N/A",
+          "vehicle_number": "AP39VD0168",
+          "item_1_name": "TDH URAD GOTA 1 KG",
+          "item_1_quantity": "155",
+          "item_1_weight": "25",
+          "item_1_total": "3875.00",
+          "item_2_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_2_quantity": "15",
+          "item_2_weight": "50",
+          "item_2_total": "750.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "0mWOnLktKnJ7ecGUroG5",
+      "data": {
+        "timestamp": "2026-02-21T13:17:39.700Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "Maharani",
+          "destination": "maharani p.p",
+          "driver_name": "Suribabu",
+          "gross_weight": "1160.00",
+          "tare_weight": "2570.00",
+          "no_of_bags": "49",
+          "note": "N/A",
+          "vehicle_number": "AP39VA0689",
+          "item_1_name": "POTTU PAPPU (1KG)",
+          "item_1_quantity": "14",
+          "item_1_weight": "1",
+          "item_1_total": "14.00",
+          "item_2_name": "POTTU PAPPU (PER 1 KG)",
+          "item_2_quantity": "35",
+          "item_2_weight": "30",
+          "item_2_total": "1050.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "0szYiWizCIOrpudiQJKa",
+      "data": {
+        "timestamp": "2026-03-12T11:43:38.604Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "sri sai krishna traders",
+          "destination": "Hyderabad",
+          "driver_name": "N/A",
+          "gross_weight": "5810.00",
+          "tare_weight": "11590.00",
+          "no_of_bags": "218",
+          "note": "N/A",
+          "vehicle_number": "TG12T2310",
+          "item_1_name": "TDH URAD GOTA 1 KG",
+          "item_1_quantity": "208",
+          "item_1_weight": "25",
+          "item_1_total": "5200.00",
+          "item_2_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_2_quantity": "10",
+          "item_2_weight": "50",
+          "item_2_total": "500.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "0vhmWrdleeO2qot04CwE",
+      "data": {
+        "timestamp": "2026-02-03T14:35:59.360Z",
+        "userId": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3",
+        "userName": "Shekar - Dispatch1",
+        "details": {
+          "client_name": "Palnadu transport",
+          "destination": "Hyd",
+          "driver_name": "B. Srinivas",
+          "gross_weight": "131.00",
+          "tare_weight": "N/A",
+          "no_of_bags": "305",
+          "note": "N/A",
+          "vehicle_number": "AP39U2277",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "0yLuXDb6j5lO60zCSA3F",
+      "data": {
+        "timestamp": "2026-02-21T13:17:42.643Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "Maharani",
+          "destination": "maharani p.p",
+          "driver_name": "Suribabu",
+          "gross_weight": "1160.00",
+          "tare_weight": "2570.00",
+          "no_of_bags": "49",
+          "note": "N/A",
+          "vehicle_number": "AP39VA0689",
+          "item_1_name": "POTTU PAPPU (1KG)",
+          "item_1_quantity": "14",
+          "item_1_weight": "1",
+          "item_1_total": "14.00",
+          "item_2_name": "POTTU PAPPU (PER 1 KG)",
+          "item_2_quantity": "35",
+          "item_2_weight": "30",
+          "item_2_total": "1050.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "18fC5SIxM74M6o24uXJC",
+      "data": {
+        "timestamp": "2026-02-21T13:17:43.785Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "Maharani",
+          "destination": "maharani p.p",
+          "driver_name": "Suribabu",
+          "gross_weight": "1160.00",
+          "tare_weight": "2570.00",
+          "no_of_bags": "49",
+          "note": "N/A",
+          "vehicle_number": "AP39VA0689",
+          "item_1_name": "POTTU PAPPU (1KG)",
+          "item_1_quantity": "14",
+          "item_1_weight": "1",
+          "item_1_total": "14.00",
+          "item_2_name": "POTTU PAPPU (PER 1 KG)",
+          "item_2_quantity": "35",
+          "item_2_weight": "30",
+          "item_2_total": "1050.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "2IwiSg7lgMK6rKPkRxip",
+      "data": {
+        "timestamp": "2026-02-27T06:48:29.891Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "sri siva sai agencies",
+          "destination": "Alwal",
+          "driver_name": "Sarim",
+          "gross_weight": "5810.00",
+          "tare_weight": "15990.00",
+          "no_of_bags": "317",
+          "note": "N/A",
+          "vehicle_number": "TG08V5925",
+          "item_1_name": "TDH URAD GOTA 1 KG",
+          "item_1_quantity": "202",
+          "item_1_weight": "25",
+          "item_1_total": "5050.00",
+          "item_2_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_2_quantity": "80",
+          "item_2_weight": "50",
+          "item_2_total": "4000.00",
+          "item_3_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_3_quantity": "35",
+          "item_3_weight": "30",
+          "item_3_total": "1050.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "2QIM7z5tl930GLl3b4qe",
+      "data": {
+        "timestamp": "2026-02-06T05:18:40.551Z",
+        "userId": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3",
+        "userName": "Shekar - Dispatch1",
+        "details": {
+          "client_name": "Sai Ram traders",
+          "destination": "Tenali",
+          "driver_name": "K.Ravi",
+          "gross_weight": "50.00",
+          "tare_weight": "N/A",
+          "no_of_bags": "100",
+          "note": "Nunna 50 kg - 100 bags",
+          "vehicle_number": "AP39WM0435",
+          "item_1_name": "Nunna",
+          "item_1_quantity": "100",
+          "item_1_weight": "50",
+          "item_1_total": "5000.00",
+          "item_1_type": "Husk",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "2nIo3iT8woltsSKE9rKd",
+      "data": {
+        "timestamp": "2026-03-12T11:45:42.734Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "N/A",
+          "destination": "vijayanagaram",
+          "driver_name": "Narasareddy",
+          "gross_weight": "6390.00",
+          "tare_weight": "19420.00",
+          "no_of_bags": "325",
+          "note": "N/A",
+          "vehicle_number": "AP28TB1060",
+          "item_1_name": "POTTU PAPPU (1KG)",
+          "item_1_quantity": "325",
+          "item_1_weight": "40",
+          "item_1_total": "13000.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "3zZV5xVEXSxnEjLkTTe8",
+      "data": {
+        "timestamp": "2026-01-23T08:14:26.868Z",
+        "userId": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3",
+        "userName": "Shekar - Dispatch1",
+        "details": {
+          "client_name": "N/A",
+          "destination": "MAHABUBNAGARWANAPARTHYKONDAMALEPALLY",
+          "driver_name": "Hassain",
+          "gross_weight": "50",
+          "tare_weight": "N/A",
+          "note": "N/A",
+          "vehicle_number": "AP39WG7485",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "48ogRdyi5uLUF7rpdC7L",
+      "data": {
+        "timestamp": "2026-01-23T12:16:47.572Z",
+        "userId": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3",
+        "userName": "Shekar - Dispatch1",
+        "details": {
+          "client_name": "Maruthi maga store and sri Mahalakshmi",
+          "destination": "Kosgi makthal",
+          "driver_name": "Gopi krishna",
+          "gross_weight": "44",
+          "tare_weight": "N/A",
+          "note": "N/A",
+          "vehicle_number": "AP39WA7265",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "6QUqJ9UBYttOB85RPM1n",
+      "data": {
+        "timestamp": "2026-02-06T06:51:06.872Z",
+        "userId": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3",
+        "userName": "Shekar - Dispatch1",
+        "details": {
+          "client_name": "Aa agro",
+          "destination": "Hyd",
+          "driver_name": "Masthan vali",
+          "gross_weight": "50.00",
+          "tare_weight": "N/A",
+          "no_of_bags": "140",
+          "note": "N/A",
+          "vehicle_number": "AP39WB1803",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "6UrLyim6v1GtoUHLDPAP",
+      "data": {
+        "timestamp": "2026-02-03T13:44:49.174Z",
+        "userId": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3",
+        "userName": "Shekar - Dispatch1",
+        "details": {
+          "client_name": "Kiranakart",
+          "destination": "HYD",
+          "driver_name": "Ashok",
+          "gross_weight": "75.00",
+          "tare_weight": "N/A",
+          "no_of_bags": "235",
+          "note": "N/A",
+          "vehicle_number": "TG08UU1152",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "6bV6Trn4uMGZJ8bsuLUQ",
+      "data": {
+        "timestamp": "2026-03-06T05:19:10.622Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "N/A",
+          "destination": "N/A",
+          "driver_name": "N/A",
+          "gross_weight": "N/A",
+          "tare_weight": "N/A",
+          "no_of_bags": "N/A",
+          "note": "N/A",
+          "vehicle_number": "N/A",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "6iM7NXQB1zohQyYAQTvb",
+      "data": {
+        "timestamp": "2026-01-23T10:43:24.702Z",
+        "userId": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3",
+        "userName": "Shekar - Dispatch1",
+        "details": {
+          "client_name": "GOVARDHAN TRADERS AND RADHIKA KIRANA",
+          "destination": "HYDERABAD",
+          "driver_name": "Azeem",
+          "gross_weight": "44",
+          "tare_weight": "N/A",
+          "note": "N/A",
+          "vehicle_number": "AP39VD0168",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "6qavp8Xl7rxR2ZMfet1M",
+      "data": {
+        "timestamp": "2026-01-23T07:44:25.795Z",
+        "userId": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3",
+        "userName": "Shekar - Dispatch1",
+        "details": {
+          "client_name": "Shobha traders and 3 partys",
+          "destination": "Siricilla karimnagar jagityala",
+          "driver_name": "G amkamarao",
+          "gross_weight": "43",
+          "tare_weight": "N/A",
+          "note": "N/A",
+          "vehicle_number": "AP39WL0635",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "6uJlOzbCFhIMB14LPxlI",
+      "data": {
+        "timestamp": "2026-02-07T06:28:04.521Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "d mart",
+          "destination": "hyd",
+          "driver_name": "Krishna",
+          "gross_weight": "125.00",
+          "tare_weight": "125.60",
+          "no_of_bags": "500",
+          "note": "Dh gota loose 25kg",
+          "vehicle_number": "TS08UK5234",
+          "item_1_name": "dh gota",
+          "item_1_quantity": "500",
+          "item_1_weight": "25",
+          "item_1_total": "12500.00",
+          "item_1_type": "gota",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "72Pd0i1AfcKV32ayGa9f",
+      "data": {
+        "timestamp": "2026-03-03T10:12:07.160Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "zepto",
+          "destination": "Hyderabad",
+          "driver_name": "Ashok",
+          "gross_weight": "6250.00",
+          "tare_weight": "11570.00",
+          "no_of_bags": "209",
+          "note": "N/A",
+          "vehicle_number": "TG08U1152",
+          "item_1_name": "TDH URAD GOTA 1 KG",
+          "item_1_quantity": "208",
+          "item_1_weight": "25",
+          "item_1_total": "5200.00",
+          "item_2_name": "TDH URAD GOTA 1 KG",
+          "item_2_quantity": "1",
+          "item_2_weight": "40",
+          "item_2_total": "40.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "7pQVGBAkLvEpwxapAnNE",
+      "data": {
+        "timestamp": "2026-02-26T07:40:30.078Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "N/A",
+          "destination": "tiruchhi",
+          "driver_name": "N/A",
+          "gross_weight": "10910.00",
+          "tare_weight": "36050.00",
+          "no_of_bags": "650",
+          "note": "N/A",
+          "vehicle_number": "6278",
+          "item_1_name": "MAHARANI URAD GOTA (1KG)",
+          "item_1_quantity": "280",
+          "item_1_weight": "50",
+          "item_1_total": "14000.00",
+          "item_2_name": "POTTU PAPPU (1KG)",
+          "item_2_quantity": "370",
+          "item_2_weight": "30",
+          "item_2_total": "11100.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "8VL9spjtPobvWGceTpru",
+      "data": {
+        "timestamp": "2026-03-10T12:22:32.856Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "Southern super market",
+          "destination": "Hyderabad",
+          "driver_name": "Kiran",
+          "gross_weight": "1950.00",
+          "tare_weight": "5858.00",
+          "no_of_bags": "153",
+          "note": "N/A",
+          "vehicle_number": "AP39UV6061",
+          "item_1_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_1_quantity": "153",
+          "item_1_weight": "25",
+          "item_1_total": "3825.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "99TVSGzkox7WoeDKqUvQ",
+      "data": {
+        "timestamp": "2026-02-27T06:48:50.064Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "N/A",
+          "destination": "N/A",
+          "driver_name": "N/A",
+          "gross_weight": "N/A",
+          "tare_weight": "N/A",
+          "no_of_bags": "N/A",
+          "note": "N/A",
+          "vehicle_number": "N/A",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "9vi21yJuMVd3krYZRamt",
+      "data": {
+        "timestamp": "2026-02-21T14:27:47.895Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "palanadu",
+          "destination": "Hyderabad palanadu",
+          "driver_name": "Sk vahid",
+          "gross_weight": "N/A",
+          "tare_weight": "N/A",
+          "no_of_bags": "145",
+          "note": "N/A",
+          "vehicle_number": "AP07TM8388",
+          "item_1_name": "TDH URAD GOTA 1 KG",
+          "item_1_quantity": "145",
+          "item_1_weight": "50",
+          "item_1_total": "7250.00",
+          "item_2_name": "TDH URAD GOTA 1 KG",
+          "item_2_quantity": "55",
+          "item_2_weight": "30",
+          "item_2_total": "1650.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "ABGVfpb6ghfmgaNtI6Iv",
+      "data": {
+        "timestamp": "2026-02-21T13:17:41.298Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "Maharani",
+          "destination": "maharani p.p",
+          "driver_name": "Suribabu",
+          "gross_weight": "1160.00",
+          "tare_weight": "2570.00",
+          "no_of_bags": "49",
+          "note": "N/A",
+          "vehicle_number": "AP39VA0689",
+          "item_1_name": "POTTU PAPPU (1KG)",
+          "item_1_quantity": "14",
+          "item_1_weight": "1",
+          "item_1_total": "14.00",
+          "item_2_name": "POTTU PAPPU (PER 1 KG)",
+          "item_2_quantity": "35",
+          "item_2_weight": "30",
+          "item_2_total": "1050.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "ADbddiT3bE3GgBoWxQ07",
+      "data": {
+        "timestamp": "2026-01-23T11:03:58.966Z",
+        "userId": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3",
+        "userName": "Shekar - Dispatch1",
+        "details": {
+          "client_name": "Sumeet traders",
+          "destination": "Hyderabad",
+          "driver_name": "Dhiraj Kumar",
+          "gross_weight": "120",
+          "tare_weight": "N/A",
+          "note": "N/A",
+          "vehicle_number": "TS07UK0969",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "AvdXgChI69pIgc69M8eS",
+      "data": {
+        "timestamp": "2026-03-12T08:48:39.973Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "export Chennai",
+          "destination": "Chennai",
+          "driver_name": "K.mohan",
+          "gross_weight": "11300.00",
+          "tare_weight": "35380.00",
+          "no_of_bags": "960",
+          "note": "N/A",
+          "vehicle_number": "TN18L1768",
+          "item_1_name": "TDH URAD SPLIT DALL (1KG)",
+          "item_1_quantity": "960",
+          "item_1_weight": "25",
+          "item_1_total": "24000.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "Caj1sLRIjPyHBo2iO4XK",
+      "data": {
+        "timestamp": "2026-01-24T08:31:46.144Z",
+        "userId": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3",
+        "userName": "Shekar - Dispatch1",
+        "details": {
+          "client_name": "HARIDAS MALIGAI",
+          "destination": "BHUVANAGIRI",
+          "driver_name": "Arun kanth",
+          "gross_weight": "250",
+          "tare_weight": "N/A",
+          "note": "N/A",
+          "vehicle_number": "TN16B9051",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "Dawl3s2onRokQo29ukmB",
+      "data": {
+        "timestamp": "2026-02-24T10:12:11.276Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "zapto",
+          "destination": "Hyderabad",
+          "driver_name": "Abdullah",
+          "gross_weight": "5710.00",
+          "tare_weight": "12370.00",
+          "no_of_bags": "256",
+          "note": "N/A",
+          "vehicle_number": "TG08U4311",
+          "item_1_name": "TDH URAD GOTA 1 KG",
+          "item_1_quantity": "246",
+          "item_1_weight": "25",
+          "item_1_total": "6150.00",
+          "item_2_name": "TDH URAD GOTA 1 KG",
+          "item_2_quantity": "10",
+          "item_2_weight": "40",
+          "item_2_total": "400.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "Dnjfu9dmLIIcPXCYGTXX",
+      "data": {
+        "timestamp": "2026-03-09T13:04:25.433Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "Hiveloop",
+          "destination": "Hyderabad",
+          "driver_name": "Panchalal",
+          "gross_weight": "6120.00",
+          "tare_weight": "12230.00",
+          "no_of_bags": "240",
+          "note": "N/A",
+          "vehicle_number": "TG08U5029",
+          "item_1_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_1_quantity": "240",
+          "item_1_weight": "1",
+          "item_1_total": "240.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "F4FPuhGOuNx2oQXIezhF",
+      "data": {
+        "timestamp": "2026-02-24T12:23:51.788Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "N/A",
+          "destination": "mahabub nagar",
+          "driver_name": "A. Subba Rao",
+          "gross_weight": "1900.00",
+          "tare_weight": "6720.00",
+          "no_of_bags": "N/A",
+          "note": "N/A",
+          "vehicle_number": "AP39WH6620",
+          "item_1_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_1_quantity": "20",
+          "item_1_weight": "50",
+          "item_1_total": "1000.00",
+          "item_2_name": "TDH URAD GOTA 1 KG",
+          "item_2_quantity": "115",
+          "item_2_weight": "25",
+          "item_2_total": "2875.00",
+          "item_3_name": "TDH URAD GOTA 1 KG",
+          "item_3_quantity": "30",
+          "item_3_weight": "30",
+          "item_3_total": "900.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "FTgg5NlB02CPKVf0J0Pb",
+      "data": {
+        "timestamp": "2026-03-09T13:07:35.390Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "Govardhan traders",
+          "destination": "Attapur",
+          "driver_name": "Mohan",
+          "gross_weight": "1960.00",
+          "tare_weight": "6090.00",
+          "no_of_bags": "85",
+          "note": "N/A",
+          "vehicle_number": "AP39UU3865",
+          "item_1_name": "TDH URAD GOTA 1 KG",
+          "item_1_quantity": "80",
+          "item_1_weight": "50",
+          "item_1_total": "4000.00",
+          "item_2_name": "IDLY RAVVA (PER 1 KG)",
+          "item_2_quantity": "5",
+          "item_2_weight": "25",
+          "item_2_total": "125.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "FXCcwavu8zk7qNLM0o5g",
+      "data": {
+        "timestamp": "2026-02-24T12:02:15.801Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "D.mart",
+          "destination": "vizag",
+          "driver_name": "J. Venkata swami",
+          "gross_weight": "6970.00",
+          "tare_weight": "19150.00",
+          "no_of_bags": "480",
+          "note": "N/A",
+          "vehicle_number": "AP04X3148",
+          "item_1_name": "TDH URAD GOTA 1 KG",
+          "item_1_quantity": "480",
+          "item_1_weight": "25",
+          "item_1_total": "12000.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "FcUuf5RtLsD280gwuNkX",
+      "data": {
+        "timestamp": "2026-03-12T04:54:35.516Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "Fathima traders",
+          "destination": "salem",
+          "driver_name": "Malai",
+          "gross_weight": "5310.00",
+          "tare_weight": "16380.00",
+          "no_of_bags": "235",
+          "note": "N/A",
+          "vehicle_number": "TN15MC1096",
+          "item_1_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_1_quantity": "200",
+          "item_1_weight": "50",
+          "item_1_total": "10000.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "FqOiTI16flvMgbiULEmZ",
+      "data": {
+        "timestamp": "2026-03-05T07:53:27.793Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "omkar traders",
+          "destination": "Ongole",
+          "driver_name": "B.Kondala rao",
+          "gross_weight": "6720.00",
+          "tare_weight": "16900.00",
+          "no_of_bags": "203",
+          "note": "N/A",
+          "vehicle_number": "AP16V3429",
+          "item_1_name": "POTTU PAPPU (1KG)",
+          "item_1_quantity": "203",
+          "item_1_weight": "50",
+          "item_1_total": "10150.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "HDKfLciGp0lt7LSUiDJJ",
+      "data": {
+        "timestamp": "2026-01-14T05:42:06.543Z",
+        "userId": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3",
+        "userName": "Dispatch1",
+        "details": {
+          "client_name": "N/A",
+          "destination": "N/A",
+          "driver_name": "Nagi reddy",
+          "gross_weight": "10",
+          "tare_weight": "12",
+          "note": "N/A",
+          "vehicle_number": "AP07TA3479",
+          "item_1_name": "Toor Dall 1kg",
+          "item_1_quantity": "1000",
+          "item_1_weight": "10",
+          "item_1_total": "10000.00",
+          "item_1_type": "Raw",
+          "item_2_name": "Urad gota 30 kg",
+          "item_2_quantity": "20",
+          "item_2_weight": "6",
+          "item_2_total": "120.00",
+          "item_2_type": "Raw",
+          "stageId": "dispatch"
+        },
+        "deleted": true
+      }
+    },
+    {
+      "id": "HNweR4KCBiA8Q4ogi9XI",
+      "data": {
+        "timestamp": "2026-02-03T13:43:24.143Z",
+        "userId": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3",
+        "userName": "Shekar - Dispatch1",
+        "details": {
+          "client_name": "Swiggi and moonstone",
+          "destination": "VIZAG",
+          "driver_name": "S.Venkata Rao",
+          "gross_weight": "272.00",
+          "tare_weight": "N/A",
+          "no_of_bags": "1084",
+          "note": "N/A",
+          "vehicle_number": "AP35X3966",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "IaajBW2hd2V46MuF0Aw6",
+      "data": {
+        "timestamp": "2026-02-28T06:14:10.527Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "Maharani",
+          "destination": "tenali auto nagar",
+          "driver_name": "Dasu",
+          "gross_weight": "1950.00",
+          "tare_weight": "7060.00",
+          "no_of_bags": "170",
+          "note": "N/A",
+          "vehicle_number": "AP39WD6318",
+          "item_1_name": "POTTU PAPPU (1KG)",
+          "item_1_quantity": "170",
+          "item_1_weight": "30",
+          "item_1_total": "5100.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "IguEA7cKsfJiotAAbaSF",
+      "data": {
+        "timestamp": "2026-02-03T14:37:25.852Z",
+        "userId": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3",
+        "userName": "Shekar - Dispatch1",
+        "details": {
+          "client_name": "RADHA SWAMI SATSANG",
+          "destination": "DELHI",
+          "driver_name": "Raghu ram",
+          "gross_weight": "69.00",
+          "tare_weight": "N/A",
+          "no_of_bags": "231",
+          "note": "N/A",
+          "vehicle_number": "AP29T9840",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "JFaSPkDCGwsgW4M3h1n7",
+      "data": {
+        "timestamp": "2026-03-11T12:16:10.724Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "D.mart",
+          "destination": "vizag",
+          "driver_name": "Munna",
+          "gross_weight": "1920.00",
+          "tare_weight": "2890.00",
+          "no_of_bags": "38",
+          "note": "N/A",
+          "vehicle_number": "AP39WA1987",
+          "item_1_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_1_quantity": "38",
+          "item_1_weight": "25",
+          "item_1_total": "950.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "K4dO1k6hKZ7ZdmYNDI4Q",
+      "data": {
+        "timestamp": "2026-03-11T12:27:08.446Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "manikanta traders",
+          "destination": "Nalgonda",
+          "driver_name": "Durga",
+          "gross_weight": "3240.00",
+          "tare_weight": "8510.00",
+          "no_of_bags": "191",
+          "note": "N/A",
+          "vehicle_number": "AP39WL9665",
+          "item_1_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_1_quantity": "6",
+          "item_1_weight": "50",
+          "item_1_total": "300.00",
+          "item_2_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_2_quantity": "60",
+          "item_2_weight": "30",
+          "item_2_total": "1800.00",
+          "item_3_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_3_quantity": "125",
+          "item_3_weight": "25",
+          "item_3_total": "3125.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "KGpNjhEfbOE0N8E8cvH5",
+      "data": {
+        "timestamp": "2026-03-03T05:27:43.837Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "horeca hub",
+          "destination": "Hyderabad",
+          "driver_name": "Kiran",
+          "gross_weight": "1960.00",
+          "tare_weight": "6960.00",
+          "no_of_bags": "100",
+          "note": "N/A",
+          "vehicle_number": "AP39UV6061",
+          "item_1_name": "TDH URAD GOTA 1 KG",
+          "item_1_quantity": "100",
+          "item_1_weight": "50",
+          "item_1_total": "5000.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "NK1DLRBSF28daVt1g645",
+      "data": {
+        "timestamp": "2026-02-23T12:24:39.466Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "Hanuman exports",
+          "destination": "Hyderabad",
+          "driver_name": "Raghavendra Reddy",
+          "gross_weight": "5440.00",
+          "tare_weight": "16180.00",
+          "no_of_bags": "274",
+          "note": "N/A",
+          "vehicle_number": "AP23Y7909",
+          "item_1_name": "POTTU PAPPU (1KG)",
+          "item_1_quantity": "274",
+          "item_1_weight": "30",
+          "item_1_total": "8220.00",
+          "item_2_name": "TDH URAD SPLIT DALL (1KG)",
+          "item_2_quantity": "50",
+          "item_2_weight": "50",
+          "item_2_total": "2500.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "Ns2iMkMjEGqJyEmo1EVo",
+      "data": {
+        "timestamp": "2026-02-28T11:08:28.565Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "Venkateswara traders",
+          "destination": "jadcharla",
+          "driver_name": "Kiran",
+          "gross_weight": "1960.00",
+          "tare_weight": "6930.00",
+          "no_of_bags": "167",
+          "note": "N/A",
+          "vehicle_number": "AP39UV6061",
+          "item_1_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_1_quantity": "15",
+          "item_1_weight": "50",
+          "item_1_total": "750.00",
+          "item_2_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_2_quantity": "77",
+          "item_2_weight": "30",
+          "item_2_total": "2310.00",
+          "item_3_name": "TDH URAD GOTA 1 KG",
+          "item_3_quantity": "75",
+          "item_3_weight": "25",
+          "item_3_total": "1875.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "OaBgXpJtB7tSdeNoH4HG",
+      "data": {
+        "timestamp": "2026-01-22T14:31:27.070Z",
+        "userId": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3",
+        "userName": "Dispatch1",
+        "details": {
+          "client_name": "N/A",
+          "destination": "N/A",
+          "driver_name": "Srinu",
+          "gross_weight": "N/A",
+          "tare_weight": "N/A",
+          "note": "N/A",
+          "vehicle_number": "A07TM1188",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "OlaW0I3rYE7OMxvwcOfS",
+      "data": {
+        "timestamp": "2026-02-03T10:26:39.841Z",
+        "userId": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3",
+        "userName": "Shekar - Dispatch1",
+        "details": {
+          "client_name": "BINDHU INDUSTRIES",
+          "destination": "Tenali",
+          "driver_name": "Gopi",
+          "gross_weight": "10.00",
+          "tare_weight": "N/A",
+          "no_of_bags": "20",
+          "note": "Rose brand 50kg - 20 bags",
+          "vehicle_number": "AP39WH0550",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "OrmJhehnt2AVdgJb79oG",
+      "data": {
+        "timestamp": "2026-02-26T07:28:12.815Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "N/A",
+          "destination": "vijay nagar",
+          "driver_name": "N/A",
+          "gross_weight": "8580.00",
+          "tare_weight": "28600.00",
+          "no_of_bags": "500",
+          "note": "N/A",
+          "vehicle_number": "6354",
+          "item_1_name": "POTTU PAPPU (PER 1 KG)",
+          "item_1_quantity": "500",
+          "item_1_weight": "50",
+          "item_1_total": "25000.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "PNCcCYLuRuILtSMBDuKc",
+      "data": {
+        "timestamp": "2026-03-12T14:49:56.852Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "hema traders",
+          "destination": "vinukonda",
+          "driver_name": "Manikanta",
+          "gross_weight": "1670.00",
+          "tare_weight": "4720.00",
+          "no_of_bags": "120",
+          "note": "N/A",
+          "vehicle_number": "AP07TG9863",
+          "item_1_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_1_quantity": "120",
+          "item_1_weight": "25",
+          "item_1_total": "3000.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "PhaORsS205UwICX0Ys5v",
+      "data": {
+        "timestamp": "2026-01-24T06:20:29.275Z",
+        "userId": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3",
+        "userName": "Shekar - Dispatch1",
+        "details": {
+          "client_name": "Sudha vani dall mill",
+          "destination": "SANTHA NUTHALAPADU",
+          "driver_name": "Venkatesh",
+          "gross_weight": "45",
+          "tare_weight": "N/A",
+          "note": "N/A",
+          "vehicle_number": "AP39UN6189",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "Q1EjYVg32j8yUyYswtse",
+      "data": {
+        "timestamp": "2026-01-24T06:22:40.093Z",
+        "userId": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3",
+        "userName": "Shekar - Dispatch1",
+        "details": {
+          "client_name": "Sudha vani dall mill",
+          "destination": "SANTHA NUTHALAPADU",
+          "driver_name": "Subhani",
+          "gross_weight": "55",
+          "tare_weight": "N/A",
+          "note": "NUNNA 50 KG - 110",
+          "vehicle_number": "AP39UW6189",
+          "item_1_name": "Husk",
+          "item_1_quantity": "110",
+          "item_1_weight": "50",
+          "item_1_total": "5500.00",
+          "item_1_type": "Orid husk",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "QaKWEBNpfUKrL9nuzwTy",
+      "data": {
+        "timestamp": "2026-02-24T12:19:28.166Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "N/A",
+          "destination": "Hyderabad",
+          "driver_name": "Harish",
+          "gross_weight": "2010.00",
+          "tare_weight": "6890.00",
+          "no_of_bags": "134",
+          "note": "N/A",
+          "vehicle_number": "AP39WC5848",
+          "item_1_name": "TDH URAD GOTA 1 KG",
+          "item_1_quantity": "134",
+          "item_1_weight": "25",
+          "item_1_total": "3350.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "S0a4oXn5ICW16Q3wxpIA",
+      "data": {
+        "timestamp": "2026-03-11T12:16:09.307Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "D.mart",
+          "destination": "vizag",
+          "driver_name": "Munna",
+          "gross_weight": "1920.00",
+          "tare_weight": "2890.00",
+          "no_of_bags": "38",
+          "note": "N/A",
+          "vehicle_number": "AP39WA1987",
+          "item_1_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_1_quantity": "38",
+          "item_1_weight": "25",
+          "item_1_total": "950.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "S4nI7oSul3tyloG6zxh2",
+      "data": {
+        "timestamp": "2026-01-23T10:45:32.266Z",
+        "userId": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3",
+        "userName": "Shekar - Dispatch1",
+        "details": {
+          "client_name": "Shree sai durga agencies",
+          "destination": "Uppal",
+          "driver_name": "Masthan vali",
+          "gross_weight": "51",
+          "tare_weight": "N/A",
+          "note": "N/A",
+          "vehicle_number": "AP39WB1803",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "T4KfYeCavswyOt640rvI",
+      "data": {
+        "timestamp": "2026-03-10T07:22:14.872Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "sai balaji",
+          "destination": "vijayanagaram",
+          "driver_name": "John babu",
+          "gross_weight": "6990.00",
+          "tare_weight": "19990.00",
+          "no_of_bags": "315",
+          "note": "N/A",
+          "vehicle_number": "AP04TW6050",
+          "item_1_name": "POTTU PAPPU (1KG)",
+          "item_1_quantity": "275",
+          "item_1_weight": "40",
+          "item_1_total": "11000.00",
+          "item_2_name": "POTTU PAPPU (1KG)",
+          "item_2_quantity": "40",
+          "item_2_weight": "50",
+          "item_2_total": "2000.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "Uiv3yIH46SIDR6Wm55gu",
+      "data": {
+        "timestamp": "2026-02-26T05:48:13.921Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "Hema traders",
+          "destination": "vinukonda",
+          "driver_name": "Manikanta",
+          "gross_weight": "1650.00",
+          "tare_weight": "4690.00",
+          "no_of_bags": "120",
+          "note": "N/A",
+          "vehicle_number": "AP07TG9863",
+          "item_1_name": "TDH URAD GOTA 1 KG",
+          "item_1_quantity": "120",
+          "item_1_weight": "25",
+          "item_1_total": "3000.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "VRwJqaWQObpiYtrPbg6L",
+      "data": {
+        "timestamp": "2026-03-09T12:10:26.910Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "kalpana agencies",
+          "destination": "L.B nagar",
+          "driver_name": "Dasu",
+          "gross_weight": "1980.00",
+          "tare_weight": "6940.00",
+          "no_of_bags": "165",
+          "note": "N/A",
+          "vehicle_number": "AP39UV2731",
+          "item_1_name": "POTTU PAPPU (1KG)",
+          "item_1_quantity": "110",
+          "item_1_weight": "30",
+          "item_1_total": "3300.00",
+          "item_2_name": "TDH URAD SPLIT DALL (PER 1 KG)",
+          "item_2_quantity": "55",
+          "item_2_weight": "30",
+          "item_2_total": "1650.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "W1lXKfr5S0mhqPbGy6J5",
+      "data": {
+        "timestamp": "2026-01-24T12:25:59.910Z",
+        "userId": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3",
+        "userName": "Shekar - Dispatch1",
+        "details": {
+          "client_name": "Sri Rama kirana genral store",
+          "destination": "SHAMSHABAD",
+          "driver_name": "Chiranjeevi",
+          "gross_weight": "50",
+          "tare_weight": "N/A",
+          "note": "N/A",
+          "vehicle_number": "A39UH8347",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "WlQyhr4UWtkoR67f1Wid",
+      "data": {
+        "timestamp": "2026-03-05T10:22:19.737Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "Hema corporation",
+          "destination": "Hyderabad",
+          "driver_name": "N/A",
+          "gross_weight": "5190.00",
+          "tare_weight": "12200.00",
+          "no_of_bags": "140",
+          "note": "N/A",
+          "vehicle_number": "0456",
+          "item_1_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_1_quantity": "140",
+          "item_1_weight": "50",
+          "item_1_total": "7000.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "WvBVOMsRXHiHU1zM3ZbX",
+      "data": {
+        "timestamp": "2026-03-10T12:12:38.807Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "mankali ramakrishna",
+          "destination": "nizampet",
+          "driver_name": "Jhoper",
+          "gross_weight": "2050.00",
+          "tare_weight": "7080.00",
+          "no_of_bags": "130",
+          "note": "N/A",
+          "vehicle_number": "AP39WG7485",
+          "item_1_name": "MAHARANI URAD GOTA (1KG)",
+          "item_1_quantity": "70",
+          "item_1_weight": "50",
+          "item_1_total": "3500.00",
+          "item_2_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_2_quantity": "60",
+          "item_2_weight": "25",
+          "item_2_total": "1500.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "X1GCDl3vatfUsAR8ENcq",
+      "data": {
+        "timestamp": "2026-03-11T12:14:35.842Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "mahalakshmi agencies",
+          "destination": "kosgi",
+          "driver_name": "Prasanth",
+          "gross_weight": "1890.00",
+          "tare_weight": "6310.00",
+          "no_of_bags": "145",
+          "note": "N/A",
+          "vehicle_number": "AP39WL0635",
+          "item_1_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_1_quantity": "40",
+          "item_1_weight": "25",
+          "item_1_total": "1000.00",
+          "item_2_name": "TDH URAD GOTA 1 KG",
+          "item_2_quantity": "92",
+          "item_2_weight": "30",
+          "item_2_total": "2760.00",
+          "item_3_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_3_quantity": "13",
+          "item_3_weight": "50",
+          "item_3_total": "650.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "XUxb4ZTStiPBxYOf5V3G",
+      "data": {
+        "timestamp": "2026-01-24T05:00:42.892Z",
+        "userId": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3",
+        "userName": "Shekar - Dispatch1",
+        "details": {
+          "client_name": "HEMA TRADING COMPANY",
+          "destination": "VINUKONDA",
+          "driver_name": "Manikanta",
+          "gross_weight": "30",
+          "tare_weight": "N/A",
+          "note": "N/A",
+          "vehicle_number": "AP07TG9863",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "Z8khrukw6HUyuznBqSKd",
+      "data": {
+        "timestamp": "2026-03-07T04:20:28.839Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "Ratna deep",
+          "destination": "vja",
+          "driver_name": "N/A",
+          "gross_weight": "1160.00",
+          "tare_weight": "1670.00",
+          "no_of_bags": "20",
+          "note": "N/A",
+          "vehicle_number": "0689",
+          "item_1_name": "TDH URAD GOTA 1 KG",
+          "item_1_quantity": "20",
+          "item_1_weight": "25",
+          "item_1_total": "500.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "ZcyWM4vMcVN6VDhK0v8Q",
+      "data": {
+        "timestamp": "2026-02-03T13:46:06.117Z",
+        "userId": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3",
+        "userName": "Shekar - Dispatch1",
+        "details": {
+          "client_name": "Kiranakart",
+          "destination": "Hyd",
+          "driver_name": "Anil yadav",
+          "gross_weight": "48.00",
+          "tare_weight": "N/A",
+          "no_of_bags": "169",
+          "note": "N/A",
+          "vehicle_number": "TS08UK5653",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "aDBMJ65oOSsfkgSFW6Un",
+      "data": {
+        "timestamp": "2026-03-11T12:18:19.336Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "Sumeet",
+          "destination": "Hyderabad",
+          "driver_name": "Vikram",
+          "gross_weight": "7090.00",
+          "tare_weight": "18550.00",
+          "no_of_bags": "300",
+          "note": "N/A",
+          "vehicle_number": "TG07U7226",
+          "item_1_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_1_quantity": "150",
+          "item_1_weight": "50",
+          "item_1_total": "7500.00",
+          "item_2_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_2_quantity": "30",
+          "item_2_weight": "30",
+          "item_2_total": "900.00",
+          "item_3_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_3_quantity": "120",
+          "item_3_weight": "25",
+          "item_3_total": "3000.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "aUVfG6VJICFwKykMppco",
+      "data": {
+        "timestamp": "2026-03-03T05:20:15.773Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "N/A",
+          "destination": "Srikalahasti",
+          "driver_name": "SAIDULU",
+          "gross_weight": "8860.00",
+          "tare_weight": "21870.00",
+          "no_of_bags": "260",
+          "note": "N/A",
+          "vehicle_number": "AP20V8789",
+          "item_1_name": "POTTU PAPPU (1KG)",
+          "item_1_quantity": "260",
+          "item_1_weight": "50",
+          "item_1_total": "13000.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "ahLqJ1Or7hxwNUR2u7Ko",
+      "data": {
+        "timestamp": "2026-03-11T07:54:43.616Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "d.mart",
+          "destination": "Hyderabad",
+          "driver_name": "Raghavendra Reddy",
+          "gross_weight": "5500.00",
+          "tare_weight": "17690.00",
+          "no_of_bags": "480",
+          "note": "N/A",
+          "vehicle_number": "AP23Y7909",
+          "item_1_name": "TDH URAD GOTA 1 KG",
+          "item_1_quantity": "480",
+          "item_1_weight": "25",
+          "item_1_total": "12000.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "aqu1AfYzdZVol0p2avFp",
+      "data": {
+        "timestamp": "2026-03-11T12:16:08.649Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "D.mart",
+          "destination": "vizag",
+          "driver_name": "Munna",
+          "gross_weight": "1920.00",
+          "tare_weight": "2890.00",
+          "no_of_bags": "38",
+          "note": "N/A",
+          "vehicle_number": "AP39WA1987",
+          "item_1_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_1_quantity": "38",
+          "item_1_weight": "25",
+          "item_1_total": "950.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "b38fZBKE6N6jsz6hNvv9",
+      "data": {
+        "timestamp": "2026-03-05T12:50:59.750Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "moon stone",
+          "destination": "vizag",
+          "driver_name": "N/A",
+          "gross_weight": "1920.00",
+          "tare_weight": "6370.00",
+          "no_of_bags": "175",
+          "note": "N/A",
+          "vehicle_number": "1938",
+          "item_1_name": "TDH URAD GOTA 1 KG",
+          "item_1_quantity": "175",
+          "item_1_weight": "25",
+          "item_1_total": "4375.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "bL96iomNFnKHbc9vzKPe",
+      "data": {
+        "timestamp": "2026-03-07T05:13:20.194Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "kanaka durga traders",
+          "destination": "hoozur nagar",
+          "driver_name": "Srikanth",
+          "gross_weight": "1570.00",
+          "tare_weight": "3100.00",
+          "no_of_bags": "59",
+          "note": "N/A",
+          "vehicle_number": "TS29TB0344",
+          "item_1_name": "TDH URAD GOTA 1 KG",
+          "item_1_quantity": "53",
+          "item_1_weight": "25",
+          "item_1_total": "1325.00",
+          "item_2_name": "POTTU PAPPU (PER 1 KG)",
+          "item_2_quantity": "6",
+          "item_2_weight": "30",
+          "item_2_total": "180.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "bpW0KdOm95DsrvY2RBR7",
+      "data": {
+        "timestamp": "2026-01-23T07:47:10.086Z",
+        "userId": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3",
+        "userName": "Shekar - Dispatch1",
+        "details": {
+          "client_name": "Hyderabad",
+          "destination": "Malakpet",
+          "driver_name": "Neelesh",
+          "gross_weight": "49",
+          "tare_weight": "N/A",
+          "note": "N/A",
+          "vehicle_number": "AP39TX5830",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "c7LzjUP5ppm2ihDOId3J",
+      "data": {
+        "timestamp": "2026-02-03T11:32:21.657Z",
+        "userId": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3",
+        "userName": "Shekar - Dispatch1",
+        "details": {
+          "client_name": "Omkar traders",
+          "destination": "Ongole",
+          "driver_name": "Sekhar",
+          "gross_weight": "130.00",
+          "tare_weight": "N/A",
+          "no_of_bags": "260",
+          "note": "Nunna 50 kg - 260 bags",
+          "vehicle_number": "AP03U4707",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "cqLDCuQyl1wbjsxX9ZCn",
+      "data": {
+        "timestamp": "2026-02-24T10:06:14.395Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "Jambo tail",
+          "destination": "Hyderabad",
+          "driver_name": "Sk. Masthan vali",
+          "gross_weight": "1990.00",
+          "tare_weight": "6600.00",
+          "no_of_bags": "175",
+          "note": "N/A",
+          "vehicle_number": "AP39WB1803",
+          "item_1_name": "TDH URAD GOTA 1 KG",
+          "item_1_quantity": "140",
+          "item_1_weight": "25",
+          "item_1_total": "3500.00",
+          "item_2_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_2_quantity": "35",
+          "item_2_weight": "30",
+          "item_2_total": "1050.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "dieenMa6rSpTDR0svc6X",
+      "data": {
+        "timestamp": "2026-03-03T06:51:02.597Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "Dcc",
+          "destination": "vja",
+          "driver_name": "Sai",
+          "gross_weight": "1880.00",
+          "tare_weight": "6980.00",
+          "no_of_bags": "200",
+          "note": "N/A",
+          "vehicle_number": "AP39WB7191",
+          "item_1_name": "TDH URAD GOTA 1 KG",
+          "item_1_quantity": "200",
+          "item_1_weight": "25",
+          "item_1_total": "5000.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "eAXdunPF76vIFNRrKLxH",
+      "data": {
+        "timestamp": "2026-02-04T05:14:50.754Z",
+        "userId": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3",
+        "userName": "Shekar - Dispatch1",
+        "details": {
+          "client_name": "Bigbasket",
+          "destination": "Vijayawada",
+          "driver_name": "Suribabu",
+          "gross_weight": "12.75",
+          "tare_weight": "N/A",
+          "no_of_bags": "51",
+          "note": "N/A",
+          "vehicle_number": "AP39VA0689",
+          "item_1_name": "DH GOTA 1kg",
+          "item_1_quantity": "51",
+          "item_1_weight": "25",
+          "item_1_total": "1275.00",
+          "item_1_type": "Orid",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "f9qgJJvSoo8kGh4AAsne",
+      "data": {
+        "timestamp": "2026-03-11T12:16:12.720Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "D.mart",
+          "destination": "vizag",
+          "driver_name": "Munna",
+          "gross_weight": "1920.00",
+          "tare_weight": "2890.00",
+          "no_of_bags": "38",
+          "note": "N/A",
+          "vehicle_number": "AP39WA1987",
+          "item_1_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_1_quantity": "38",
+          "item_1_weight": "25",
+          "item_1_total": "950.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "gBjiWY8nzyYtfFarsnq8",
+      "data": {
+        "timestamp": "2026-03-09T12:07:55.614Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "Krishna traders",
+          "destination": "champapet",
+          "driver_name": "Dastagiri",
+          "gross_weight": "2040.00",
+          "tare_weight": "6970.00",
+          "no_of_bags": "136",
+          "note": "N/A",
+          "vehicle_number": "AP39WC7085",
+          "item_1_name": "TDH URAD GOTA 1 KG",
+          "item_1_quantity": "56",
+          "item_1_weight": "50",
+          "item_1_total": "2800.00",
+          "item_2_name": "TDH URAD GOTA 1 KG",
+          "item_2_quantity": "60",
+          "item_2_weight": "25",
+          "item_2_total": "1500.00",
+          "item_3_name": "POTTU PAPPU (PER 1 KG)",
+          "item_3_quantity": "20",
+          "item_3_weight": "30",
+          "item_3_total": "600.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "gVSsuaP2GSEkWYTOpvzW",
+      "data": {
+        "timestamp": "2026-02-23T10:06:18.805Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "sai tiffin",
+          "destination": "Miryalaguda",
+          "driver_name": "Srinivasa Rao",
+          "gross_weight": "1810.00",
+          "tare_weight": "2810.00",
+          "no_of_bags": "20",
+          "note": "N/A",
+          "vehicle_number": "TS05UC9687",
+          "item_1_name": "TDH URAD GOTA 1 KG",
+          "item_1_quantity": "20",
+          "item_1_weight": "50",
+          "item_1_total": "1000.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "gVVHWeR3XrUGWHluoiEM",
+      "data": {
+        "timestamp": "2026-02-21T13:17:43.305Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "Maharani",
+          "destination": "maharani p.p",
+          "driver_name": "Suribabu",
+          "gross_weight": "1160.00",
+          "tare_weight": "2570.00",
+          "no_of_bags": "49",
+          "note": "N/A",
+          "vehicle_number": "AP39VA0689",
+          "item_1_name": "POTTU PAPPU (1KG)",
+          "item_1_quantity": "14",
+          "item_1_weight": "1",
+          "item_1_total": "14.00",
+          "item_2_name": "POTTU PAPPU (PER 1 KG)",
+          "item_2_quantity": "35",
+          "item_2_weight": "30",
+          "item_2_total": "1050.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "gonnhoykqJIxZfTFHsUC",
+      "data": {
+        "timestamp": "2026-02-23T10:21:12.661Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "d.mart",
+          "destination": "vizag",
+          "driver_name": "N/A",
+          "gross_weight": "1910.00",
+          "tare_weight": "2880.00",
+          "no_of_bags": "38",
+          "note": "N/A",
+          "vehicle_number": "1938",
+          "item_1_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_1_quantity": "38",
+          "item_1_weight": "25",
+          "item_1_total": "950.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "hs9Wq8av46q7vSS6JVuY",
+      "data": {
+        "timestamp": "2026-02-21T13:17:42.082Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "Maharani",
+          "destination": "maharani p.p",
+          "driver_name": "Suribabu",
+          "gross_weight": "1160.00",
+          "tare_weight": "2570.00",
+          "no_of_bags": "49",
+          "note": "N/A",
+          "vehicle_number": "AP39VA0689",
+          "item_1_name": "POTTU PAPPU (1KG)",
+          "item_1_quantity": "14",
+          "item_1_weight": "1",
+          "item_1_total": "14.00",
+          "item_2_name": "POTTU PAPPU (PER 1 KG)",
+          "item_2_quantity": "35",
+          "item_2_weight": "30",
+          "item_2_total": "1050.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "hxrx9szwgwFGCwIMcZUm",
+      "data": {
+        "timestamp": "2026-02-21T13:53:18.494Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "Sumeet",
+          "destination": "Hyderabad",
+          "driver_name": "DEEPAK",
+          "gross_weight": "6510.00",
+          "tare_weight": "18550.00",
+          "no_of_bags": "270",
+          "note": "N/A",
+          "vehicle_number": "TS07UK5608",
+          "item_1_name": "TDH URAD GOTA 1 KG",
+          "item_1_quantity": "210",
+          "item_1_weight": "50",
+          "item_1_total": "10500.00",
+          "item_2_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_2_quantity": "60",
+          "item_2_weight": "25",
+          "item_2_total": "1500.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "ifML9lctuVTeNX4nj2Ki",
+      "data": {
+        "timestamp": "2026-02-24T12:30:56.633Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "D.mart",
+          "destination": "Chennai",
+          "driver_name": "Dasu",
+          "gross_weight": "1970.00",
+          "tare_weight": "7000.00",
+          "no_of_bags": "100",
+          "note": "N/A",
+          "vehicle_number": "AP39UV2731",
+          "item_1_name": "POTTU PAPPU (PER 1 KG)",
+          "item_1_quantity": "100",
+          "item_1_weight": "50",
+          "item_1_total": "5000.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "j7wIsjOSNgBztbwY5QZ2",
+      "data": {
+        "timestamp": "2026-03-12T05:15:54.223Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "maharani",
+          "destination": "maharani",
+          "driver_name": "Sk.Subhani",
+          "gross_weight": "2430.00",
+          "tare_weight": "6940.00",
+          "no_of_bags": "150",
+          "note": "N/A",
+          "vehicle_number": "AP39VA0698",
+          "item_1_name": "POTTU PAPPU (1KG)",
+          "item_1_quantity": "150",
+          "item_1_weight": "30",
+          "item_1_total": "4500.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "k7Mmtp0IP9S2KRsdLYHG",
+      "data": {
+        "timestamp": "2026-02-03T08:14:39.738Z",
+        "userId": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3",
+        "userName": "Shekar - Dispatch1",
+        "details": {
+          "client_name": "SRI SAI GOWTHAMI",
+          "destination": "SRIKAKULAM",
+          "driver_name": "Chiranjeevi",
+          "gross_weight": "250.00",
+          "tare_weight": "N/A",
+          "no_of_bags": "625",
+          "note": "Husk 40kg - 625 baga",
+          "vehicle_number": "A39UH8347",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "lCN2kbqBrYx1LGygVlba",
+      "data": {
+        "timestamp": "2026-03-06T05:18:54.835Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "Raghav agro tech",
+          "destination": "Hyderabad",
+          "driver_name": "Vikram",
+          "gross_weight": "7120.00",
+          "tare_weight": "17170.00",
+          "no_of_bags": "260",
+          "note": "N/A",
+          "vehicle_number": "TG07U7226",
+          "item_1_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_1_quantity": "140",
+          "item_1_weight": "50",
+          "item_1_total": "7000.00",
+          "item_2_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_2_quantity": "120",
+          "item_2_weight": "25",
+          "item_2_total": "3000.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "lTR9IM5hy6gZcBb9Y2Xv",
+      "data": {
+        "timestamp": "2026-01-23T10:27:14.030Z",
+        "userId": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3",
+        "userName": "Shekar - Dispatch1",
+        "details": {
+          "client_name": "VIZAYANAGARAM",
+          "destination": "Vizayanagaram",
+          "driver_name": "M.H.S.Rao",
+          "gross_weight": "200",
+          "tare_weight": "N/A",
+          "note": "N/A",
+          "vehicle_number": "AP35U9378",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "lwxq8vLKd1DWJFty3bpS",
+      "data": {
+        "timestamp": "2026-02-21T15:08:44.571Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "lakshmi enterprises",
+          "destination": "Nizampet",
+          "driver_name": "Gagi Reddy",
+          "gross_weight": "5330.00",
+          "tare_weight": "13590.00",
+          "no_of_bags": "204",
+          "note": "N/A",
+          "vehicle_number": "AP21TA0499",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "lzHZUNFEJ5oUpy2fq4Ox",
+      "data": {
+        "timestamp": "2026-03-05T07:00:03.157Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "Pune",
+          "destination": "Pune",
+          "driver_name": "T. Venkateswara Rao",
+          "gross_weight": "10680.00",
+          "tare_weight": "35940.00",
+          "no_of_bags": "840",
+          "note": "N/A",
+          "vehicle_number": "AP16TH8689",
+          "item_1_name": "TDH URAD SPLIT DALL (1KG)",
+          "item_1_quantity": "840",
+          "item_1_weight": "30",
+          "item_1_total": "25200.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "m4CZhWlGeV4pr47e9nnA",
+      "data": {
+        "timestamp": "2026-02-24T14:38:06.827Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "hema traders",
+          "destination": "vinukonda",
+          "driver_name": "Manikanta",
+          "gross_weight": "1660.00",
+          "tare_weight": "4800.00",
+          "no_of_bags": "105",
+          "note": "N/A",
+          "vehicle_number": "AP07TG9863",
+          "item_1_name": "TDH URAD GOTA 1 KG",
+          "item_1_quantity": "100",
+          "item_1_weight": "30",
+          "item_1_total": "3000.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "mSCWpXWI7vKkgkKfxIvS",
+      "data": {
+        "timestamp": "2026-03-09T10:59:02.181Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "sai mithraa agencies",
+          "destination": "salem",
+          "driver_name": "Naga rajan",
+          "gross_weight": "10840.00",
+          "tare_weight": "35880.00",
+          "no_of_bags": "500",
+          "note": "N/A",
+          "vehicle_number": "TN90D8287",
+          "item_1_name": "POTTU PAPPU (1KG)",
+          "item_1_quantity": "500",
+          "item_1_weight": "50",
+          "item_1_total": "25000.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "nF6fpkKu9YOlwqtM6K49",
+      "data": {
+        "timestamp": "2026-02-07T06:20:55.354Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "D.mart",
+          "destination": "D.mart Hyderabad",
+          "driver_name": "Krishna",
+          "gross_weight": "6050.00",
+          "tare_weight": "18610.00",
+          "no_of_bags": "500",
+          "note": "N/A",
+          "vehicle_number": "TS08UK5234",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "naWKUDlPvABSRDbzsman",
+      "data": {
+        "timestamp": "2026-01-24T15:20:07.662Z",
+        "userId": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3",
+        "userName": "Shekar - Dispatch1",
+        "details": {
+          "client_name": "a",
+          "destination": "a",
+          "driver_name": "Chiranjeevi",
+          "gross_weight": "12.90",
+          "tare_weight": "1.98",
+          "no_of_bags": "42",
+          "note": "N/A",
+          "vehicle_number": "A39UH8347",
+          "stageId": "dispatch"
+        },
+        "deleted": true
+      }
+    },
+    {
+      "id": "o1ACE3xR7sQZ1qMzIeMP",
+      "data": {
+        "timestamp": "2026-01-23T11:05:23.121Z",
+        "userId": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3",
+        "userName": "Shekar - Dispatch1",
+        "details": {
+          "client_name": "Suresh oils and flowers mill",
+          "destination": "KHANNA",
+          "driver_name": "Nani",
+          "gross_weight": "121",
+          "tare_weight": "N/A",
+          "note": "N/A",
+          "vehicle_number": "AP39TK3124",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "oDyUuGrfm19uma4IHTEw",
+      "data": {
+        "timestamp": "2026-03-02T06:03:48.314Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "N tree mart",
+          "destination": "Hyderabad",
+          "driver_name": "Vikram",
+          "gross_weight": "7100.00",
+          "tare_weight": "11110.00",
+          "no_of_bags": "90",
+          "note": "N/A",
+          "vehicle_number": "TG07U7226",
+          "item_1_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_1_quantity": "70",
+          "item_1_weight": "50",
+          "item_1_total": "3500.00",
+          "item_2_name": "TDH URAD GOTA 1 KG",
+          "item_2_quantity": "20",
+          "item_2_weight": "25",
+          "item_2_total": "500.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "pUqIuZ500714w7cnBdqd",
+      "data": {
+        "timestamp": "2026-03-12T12:37:34.515Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "cloukart",
+          "destination": "vizag",
+          "driver_name": "Raja",
+          "gross_weight": "6930.00",
+          "tare_weight": "18860.00",
+          "no_of_bags": "459",
+          "note": "N/A",
+          "vehicle_number": "AP29TA3317",
+          "item_1_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_1_quantity": "441",
+          "item_1_weight": "25",
+          "item_1_total": "11025.00",
+          "item_2_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_2_quantity": "18",
+          "item_2_weight": "40",
+          "item_2_total": "720.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "q2C0YVnx6rMwaPeddhvU",
+      "data": {
+        "timestamp": "2026-02-24T12:50:01.120Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "d.mart",
+          "destination": "Hyderabad",
+          "driver_name": "Sarim",
+          "gross_weight": "5800.00",
+          "tare_weight": "20870.00",
+          "no_of_bags": "300",
+          "note": "N/A",
+          "vehicle_number": "TG08V5925",
+          "item_1_name": "BLACK GRAM (1KG)",
+          "item_1_quantity": "300",
+          "item_1_weight": "50",
+          "item_1_total": "15000.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "qThR2kN6DQsugjEHuliS",
+      "data": {
+        "timestamp": "2026-01-24T15:09:14.117Z",
+        "userId": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3",
+        "userName": "Shekar - Dispatch1",
+        "details": {
+          "client_name": "Global",
+          "destination": "Hyderabad",
+          "driver_name": "Srinu",
+          "gross_weight": "N/A",
+          "tare_weight": "N/A",
+          "no_of_bags": "100",
+          "note": "N/A",
+          "vehicle_number": "A07TM1188",
+          "stageId": "dispatch"
+        },
+        "deleted": true
+      }
+    },
+    {
+      "id": "qYF1dKDIFwCGAe9YobG9",
+      "data": {
+        "timestamp": "2026-02-28T10:36:56.429Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "d.mart",
+          "destination": "vizag",
+          "driver_name": "B Nageswara Rao",
+          "gross_weight": "7440.00",
+          "tare_weight": "19490.00",
+          "no_of_bags": "240",
+          "note": "N/A",
+          "vehicle_number": "AP16TD7669",
+          "item_1_name": "POTTU PAPPU (1KG)",
+          "item_1_quantity": "240",
+          "item_1_weight": "50",
+          "item_1_total": "12000.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "qpdoI7z6IOG58P32e1g7",
+      "data": {
+        "timestamp": "2026-02-25T08:56:41.834Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "reliance",
+          "destination": "himmat nagar",
+          "driver_name": "Sareef",
+          "gross_weight": "14530.00",
+          "tare_weight": "44630.00",
+          "no_of_bags": "601",
+          "note": "N/A",
+          "vehicle_number": "GJ36V5141",
+          "item_1_name": "TDH URAD SPLIT DALL (1KG)",
+          "item_1_quantity": "601",
+          "item_1_weight": "50",
+          "item_1_total": "30050.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "rCymIMJIbAiTYvLdR0J3",
+      "data": {
+        "timestamp": "2026-03-05T12:53:29.688Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "Hyderabad",
+          "destination": "Hyderabad",
+          "driver_name": "Azeem",
+          "gross_weight": "1910.00",
+          "tare_weight": "6610.00",
+          "no_of_bags": "170",
+          "note": "N/A",
+          "vehicle_number": "AP39VD0168",
+          "item_1_name": "TDH URAD GOTA 1 KG",
+          "item_1_quantity": "155",
+          "item_1_weight": "25",
+          "item_1_total": "3875.00",
+          "item_2_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_2_quantity": "15",
+          "item_2_weight": "50",
+          "item_2_total": "750.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "riM57Vs0UKgof3p4hjHA",
+      "data": {
+        "timestamp": "2026-02-28T07:19:20.679Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "moon stone",
+          "destination": "vizag",
+          "driver_name": "Srinu",
+          "gross_weight": "6630.00",
+          "tare_weight": "20270.00",
+          "no_of_bags": "537",
+          "note": "N/A",
+          "vehicle_number": "AP12U3069",
+          "item_1_name": "TDH URAD GOTA 1 KG",
+          "item_1_quantity": "536",
+          "item_1_weight": "25",
+          "item_1_total": "13400.00",
+          "item_2_name": "TDH URAD GOTA 1 KG",
+          "item_2_quantity": "1",
+          "item_2_weight": "40",
+          "item_2_total": "40.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "rqrpK6kPPPu6dep6lfAi",
+      "data": {
+        "timestamp": "2026-02-06T06:52:03.291Z",
+        "userId": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3",
+        "userName": "Shekar - Dispatch1",
+        "details": {
+          "client_name": "Sri sia traders",
+          "destination": "Karmanghat",
+          "driver_name": "DEVENDRA",
+          "gross_weight": "90.00",
+          "tare_weight": "N/A",
+          "no_of_bags": "314",
+          "note": "N/A",
+          "vehicle_number": "AP12UD4733",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "sQlfyP9FqPi4vHR3mbyo",
+      "data": {
+        "timestamp": "2026-03-17T04:56:49.951Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "D.mart",
+          "destination": "vja",
+          "driver_name": "K. V. Reddy",
+          "gross_weight": "8880.00",
+          "tare_weight": "28960.00",
+          "no_of_bags": "400",
+          "note": "N/A",
+          "vehicle_number": "AP07TW5279",
+          "item_1_name": "POTTU PAPPU (1KG)",
+          "item_1_quantity": "400",
+          "item_1_weight": "50",
+          "item_1_total": "20000.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "tfWRlJi9rcGyRvKu0BAG",
+      "data": {
+        "timestamp": "2026-02-24T07:59:11.371Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "zapto",
+          "destination": "Hyderabad",
+          "driver_name": "SWAMY",
+          "gross_weight": "5750.00",
+          "tare_weight": "12290.00",
+          "no_of_bags": "227",
+          "note": "N/A",
+          "vehicle_number": "TS12E3578",
+          "item_1_name": "TDH URAD GOTA 1 KG",
+          "item_1_quantity": "227",
+          "item_1_weight": "25",
+          "item_1_total": "5675.00",
+          "item_2_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_2_quantity": "19",
+          "item_2_weight": "40",
+          "item_2_total": "760.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "uaw95K4Fk3UL4nOysD0S",
+      "data": {
+        "timestamp": "2026-03-06T07:33:52.135Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "Bhuvanesh traders",
+          "destination": "Chennai",
+          "driver_name": "N/A",
+          "gross_weight": "35620.00",
+          "tare_weight": "10570.00",
+          "no_of_bags": "500",
+          "note": "N/A",
+          "vehicle_number": "3333",
+          "item_1_name": "POTTU PAPPU (1KG)",
+          "item_1_quantity": "500",
+          "item_1_weight": "50",
+          "item_1_total": "25000.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "ugsPkC8pOEZmUjeM0X8W",
+      "data": {
+        "timestamp": "2026-01-23T10:31:52.373Z",
+        "userId": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3",
+        "userName": "Shekar - Dispatch1",
+        "details": {
+          "client_name": "TAMILANADU TRADERS",
+          "destination": "MADHURAI",
+          "driver_name": "Mohan",
+          "gross_weight": "250",
+          "tare_weight": "N/A",
+          "note": "N/A",
+          "vehicle_number": "TN52H3787",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "xTBBWv4pnItfhOOVSYTl",
+      "data": {
+        "timestamp": "2026-02-24T08:03:27.660Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "maharani",
+          "destination": "auto nagar",
+          "driver_name": "Munna",
+          "gross_weight": "1930.00",
+          "tare_weight": "7040.00",
+          "no_of_bags": "170",
+          "note": "N/A",
+          "vehicle_number": "AP39WA1987",
+          "item_1_name": "POTTU PAPPU (1KG)",
+          "item_1_quantity": "170",
+          "item_1_weight": "30",
+          "item_1_total": "5100.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "xjhuY7S9mtZixqZEJjPS",
+      "data": {
+        "timestamp": "2026-01-24T12:00:10.045Z",
+        "userId": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3",
+        "userName": "Shekar - Dispatch1",
+        "details": {
+          "client_name": "CLOUDKART VENTURES",
+          "destination": "VIZAG",
+          "driver_name": "Anand",
+          "gross_weight": "122",
+          "tare_weight": "N/A",
+          "note": "N/A",
+          "vehicle_number": "AP04Y3856",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "y2GLrdvflXIuaW7juWC2",
+      "data": {
+        "timestamp": "2026-03-10T12:17:49.862Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "zepto",
+          "destination": "Hyderabad",
+          "driver_name": "Sk. Masthan vali",
+          "gross_weight": "1980.00",
+          "tare_weight": "6860.00",
+          "no_of_bags": "192",
+          "note": "N/A",
+          "vehicle_number": "AP39WB1803",
+          "item_1_name": "TDH URAD GOTA (PER 1 KG)",
+          "item_1_quantity": "192",
+          "item_1_weight": "25",
+          "item_1_total": "4800.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "yJFxMNdqz8OhQI1X11Xl",
+      "data": {
+        "timestamp": "2026-03-11T07:53:41.176Z",
+        "userId": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+        "userName": "Ramu - Dispatch2",
+        "details": {
+          "client_name": "reliance",
+          "destination": "gujrat",
+          "driver_name": "Manikyam",
+          "gross_weight": "16900.00",
+          "tare_weight": "35930.00",
+          "no_of_bags": "380",
+          "note": "N/A",
+          "vehicle_number": "TN34W6791",
+          "item_1_name": "TDH URAD SPLIT DALL (1KG)",
+          "item_1_quantity": "380",
+          "item_1_weight": "50",
+          "item_1_total": "19000.00",
+          "stageId": "dispatch"
+        }
+      }
+    },
+    {
+      "id": "zZ3jkyEeG3hMigbQ867r",
+      "data": {
+        "timestamp": "2026-01-22T14:39:45.949Z",
+        "userId": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3",
+        "userName": "Shekar - Dispatch1",
+        "details": {
+          "client_name": "LAVANYA ENTERPRISES",
+          "destination": "MEERPET",
+          "driver_name": "Panchalal",
+          "gross_weight": "60",
+          "tare_weight": "N/A",
+          "note": "N/A",
+          "vehicle_number": "TG08U5029",
+          "stageId": "dispatch"
+        }
+      }
+    }
+  ]
+}

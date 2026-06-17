@@ -3,6 +3,8 @@ import { db } from '../firebase/firebase';
 import { collection, query, orderBy, onSnapshot, Timestamp, doc, updateDoc } from 'firebase/firestore';
 import type { User, LogEntry } from '../types';
 import { GateEntryDetailsModal } from './GateEntryDetailsModal';
+import { USE_MYSQL } from '../services/appConfig';
+import { mysqlApi } from '../services/mysqlApi';
 
 type TimeFilter = '24h' | 'week' | 'month' | 'custom';
 
@@ -25,6 +27,29 @@ export const GateEntryActivityTable: React.FC<{ currentUser: User }> = ({ curren
         if (!currentUser) {
             setGateRecords([]);
             return;
+        }
+
+        if (USE_MYSQL) {
+            let cancelled = false;
+
+            const load = async () => {
+                try {
+                    const records = await mysqlApi.getArrivalRecords();
+                    if (cancelled) return;
+                    const isAdmin = currentUser?.role === 'ADMIN';
+                    setGateRecords(isAdmin ? records : records.filter((r) => !r.deleted));
+                } catch (error) {
+                    if (!cancelled) console.error('Error fetching arrival records from API: ', error);
+                }
+            };
+
+            const interval = setInterval(load, 15000);
+            load();
+
+            return () => {
+                cancelled = true;
+                clearInterval(interval);
+            };
         }
 
         const q = query(collection(db, "arrival_records"), orderBy("timestamp", "desc"));
@@ -129,9 +154,10 @@ export const GateEntryActivityTable: React.FC<{ currentUser: User }> = ({ curren
         
         setIsUpdating(true);
         try {
-            const updatePromises = Array.from(selectedIds).map(id => 
-                updateDoc(doc(db, 'arrival_records', id), { deleted: true })
-            );
+            const updatePromises = Array.from(selectedIds).map((id) => {
+                if (USE_MYSQL) return mysqlApi.softDeleteArrival(id);
+                return updateDoc(doc(db, 'arrival_records', id), { deleted: true });
+            });
             await Promise.all(updatePromises);
             setSelectedIds(new Set());
         } catch (error) {

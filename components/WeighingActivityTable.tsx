@@ -3,6 +3,8 @@ import { db } from '../firebase/firebase';
 import { collection, query, orderBy, onSnapshot, Timestamp, doc, updateDoc } from 'firebase/firestore';
 import type { User, LogEntry } from '../types';
 import { WeighingDetailsModal } from './WeighingDetailsModal'; // Ensure this is the correct modal
+import { USE_MYSQL } from '../services/appConfig';
+import { mysqlApi } from '../services/mysqlApi';
 
 type TimeFilter = '24h' | 'week' | 'month' | 'custom';
 
@@ -26,6 +28,29 @@ export const WeighingActivityTable: React.FC<{ currentUser: User }> = ({ current
         if (!currentUser) {
             setWeighingRecords([]);
             return;
+        }
+
+        if (USE_MYSQL) {
+            let cancelled = false;
+
+            const load = async () => {
+                try {
+                    const records = await mysqlApi.getWeighingRecords();
+                    if (cancelled) return;
+                    const isAdmin = currentUser?.role === 'ADMIN';
+                    setWeighingRecords(isAdmin ? records : records.filter((r) => !r.deleted));
+                } catch (error) {
+                    if (!cancelled) console.error('Error fetching weighing records from API: ', error);
+                }
+            };
+
+            const interval = setInterval(load, 15000);
+            load();
+
+            return () => {
+                cancelled = true;
+                clearInterval(interval);
+            };
         }
 
         // Assuming the collection is named 'weighing_records'
@@ -128,9 +153,10 @@ export const WeighingActivityTable: React.FC<{ currentUser: User }> = ({ current
         
         setIsUpdating(true);
         try {
-            const updatePromises = Array.from(selectedIds).map(id => 
-                updateDoc(doc(db, 'weighing_records', id), { deleted: true })
-            );
+            const updatePromises = Array.from(selectedIds).map((id) => {
+                if (USE_MYSQL) return mysqlApi.softDeleteWeighing(id);
+                return updateDoc(doc(db, 'weighing_records', id), { deleted: true });
+            });
             await Promise.all(updatePromises);
             setSelectedIds(new Set());
         } catch (error) {

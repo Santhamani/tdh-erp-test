@@ -4,6 +4,8 @@ import { onAuthStateChanged, signInWithEmailAndPassword, signOut, createUserWith
 import { collection, onSnapshot, addDoc, updateDoc, doc, setDoc, getDoc, query, where, getDocs, deleteDoc } from "firebase/firestore";
 import { auth, db, firebaseConfig } from '../firebase/firebase';
 import { PROCESS_STAGES } from '../constants'; // Import process stages
+import { USE_MYSQL } from '../services/appConfig';
+import { mysqlApi } from '../services/mysqlApi';
 import type { User } from '../types';
 
 // Ensure LogEntry includes stageId
@@ -36,6 +38,7 @@ interface AuthContextType {
     ensureHardcodedAdmin: () => Promise<void>;
     updateUserProfile: (updatedUser: User) => Promise<void>;
     verifyPin: (pin: string) => boolean;
+    getInModeVehicles: () => Promise<string[]>;
 }
 
 export const AuthContext = createContext<AuthContextType | undefined>(undefined);
@@ -49,6 +52,12 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     const [userDocLoaded, setUserDocLoaded] = useState(false);
 
     useEffect(() => {
+        if (USE_MYSQL) {
+            setLoading(false);
+            setUserDocLoaded(true);
+            return;
+        }
+
         const unsubscribeAuth = onAuthStateChanged(auth, user => {
             if (user) {
                 setUserDocLoaded(false);
@@ -82,6 +91,38 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
 
     // Set up all data listeners ONLY when user is authenticated AND user doc is loaded
     useEffect(() => {
+        if (USE_MYSQL) {
+            let cancelled = false;
+
+            const loadUsers = async () => {
+                if (!currentUser) {
+                    setUsers([]);
+                    setLogs([]);
+                    return;
+                }
+
+                try {
+                    const list = await mysqlApi.getUsers();
+                    if (cancelled) return;
+
+                    const isManager = currentUser.role === 'ADMIN' || currentUser.role === 'MANAGER';
+                    setUsers((isManager ? list : list.filter((u) => u.id === currentUser.id)) as User[]);
+                } catch (error) {
+                    if (!cancelled) {
+                        console.error('Error loading users from MySQL API:', error);
+                    }
+                }
+            };
+
+            const interval = setInterval(loadUsers, 15000);
+            loadUsers();
+
+            return () => {
+                cancelled = true;
+                clearInterval(interval);
+            };
+        }
+
         if (!currentUser || !userDocLoaded) {
             setUsers([]);
             setPasswordRequests([]);
@@ -126,6 +167,17 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     }, [currentUser, userDocLoaded]);
 
     const login = async (identifier: string, pin: string) => {
+    if (USE_MYSQL) {
+        if (!identifier.includes('@')) {
+            throw new Error('Please enter a valid email address.');
+        }
+
+        const response = await mysqlApi.login(identifier, pin);
+        setCurrentUser(response.user as User);
+        setUserDocLoaded(true);
+        return;
+    }
+
     let userEmail = identifier;
 
     // If identifier is not an email, resolve it to an email first
@@ -154,9 +206,27 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     }
 };
 
-    const logout = () => signOut(auth);
+    const logout = () => {
+        if (USE_MYSQL) {
+            setCurrentUser(null);
+            setUsers([]);
+            setLogs([]);
+            return;
+        }
+        signOut(auth);
+    };
 
     const addUser = async (details: Omit<User, 'id' | 'pin' | 'password' | 'status'>) => {
+        if (USE_MYSQL) {
+            const result = await mysqlApi.addUser({
+                name: details.name,
+                email: details.email,
+                role: details.role
+            });
+
+            return { pin: result.pin, password: result.password };
+        }
+
         const newPin = Math.floor(1000 + Math.random() * 9000).toString();
         const newPassword = 'password';
 
@@ -189,14 +259,29 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     };
 
     const updateUserDetails = async (updatedUser: User) => {
+        if (USE_MYSQL) {
+            await mysqlApi.updateUser(updatedUser.id, updatedUser as unknown as Record<string, any>);
+            return;
+        }
+
         await setDoc(doc(db, "users", updatedUser.id), updatedUser, { merge: true });
     };
 
     const deactivateUser = async (userId: string) => {
+        if (USE_MYSQL) {
+            await mysqlApi.deactivateUser(userId);
+            return;
+        }
+
         await updateDoc(doc(db, "users", userId), { status: 'INACTIVE' });
     };
 
     const deleteUser = async (userId: string) => {
+        if (USE_MYSQL) {
+            await mysqlApi.deactivateUser(userId);
+            return;
+        }
+
         try {
             // Delete from Firestore - this prevents login since user document is required for auth
             await deleteDoc(doc(db, "users", userId));
@@ -225,6 +310,11 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
             ...data,
             stageId: stageId 
         };
+
+        if (USE_MYSQL) {
+            await mysqlApi.submitStageData(stageId, dataToSubmit, currentUser);
+            return;
+        }
 
         await addDoc(collection(db, collectionName), {
             timestamp: new Date(),
@@ -261,6 +351,30 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
 
     const ensureHardcodedAdmin = async () => Promise.resolve();
     const updateUserProfile = async (updatedUser: User) => updateUserDetails(updatedUser);
+    const getInModeVehicles = async (): Promise<string[]> => {
+        if (USE_MYSQL) {
+            return mysqlApi.getInModeVehicles();
+        }
+
+        const q = query(collection(db, 'arrival_records'));
+        const snapshot = await getDocs(q);
+        const vehicles = new Set<string>();
+
+        snapshot.docs.forEach((document) => {
+            const d = document.data();
+            const details = (d && (d.details || d)) as Record<string, any>;
+            const gateMode = String(details?.gate_mode ?? '').toLowerCase();
+            const vehicleNum = details?.vehicle_number;
+            const isDeleted = d?.deleted === true;
+
+            if (vehicleNum && typeof vehicleNum === 'string' && gateMode === 'in' && !isDeleted) {
+                vehicles.add(vehicleNum.trim());
+            }
+        });
+
+        return Array.from(vehicles).sort((a, b) => a.localeCompare(b));
+    };
+
     const verifyPin = (pin: string): boolean => {
         if (!currentUser) return false;
         return currentUser.pin === pin;
@@ -270,7 +384,7 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
         currentUser, users, logs, passwordRequests, loading, 
         login, logout, addUser, requestPasswordReset, approvePasswordReset,
         updateUserDetails, deactivateUser, deleteUser, submitStageData,
-        ensureHardcodedAdmin, updateUserProfile, verifyPin
+        ensureHardcodedAdmin, updateUserProfile, verifyPin, getInModeVehicles
     };
 
     return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;

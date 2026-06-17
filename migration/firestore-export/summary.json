@@ -1,0 +1,40 @@
+{
+  "exportedAt": "2026-06-17T07:22:55.635Z",
+  "results": [
+    {
+      "collectionName": "users",
+      "count": 12,
+      "filePath": "D:\\PSIMS\\tdh-erp-test\\migration\\firestore-export\\users.json"
+    },
+    {
+      "collectionName": "arrival_records",
+      "count": 2315,
+      "filePath": "D:\\PSIMS\\tdh-erp-test\\migration\\firestore-export\\arrival_records.json"
+    },
+    {
+      "collectionName": "weighing_records",
+      "count": 698,
+      "filePath": "D:\\PSIMS\\tdh-erp-test\\migration\\firestore-export\\weighing_records.json"
+    },
+    {
+      "collectionName": "quality-check_records",
+      "count": 252,
+      "filePath": "D:\\PSIMS\\tdh-erp-test\\migration\\firestore-export\\quality-check_records.json"
+    },
+    {
+      "collectionName": "dispatch_records",
+      "count": 110,
+      "filePath": "D:\\PSIMS\\tdh-erp-test\\migration\\firestore-export\\dispatch_records.json"
+    },
+    {
+      "collectionName": "bin_operation_records",
+      "count": 0,
+      "filePath": "D:\\PSIMS\\tdh-erp-test\\migration\\firestore-export\\bin_operation_records.json"
+    },
+    {
+      "collectionName": "storage_records",
+      "count": 0,
+      "filePath": "D:\\PSIMS\\tdh-erp-test\\migration\\firestore-export\\storage_records.json"
+    }
+  ]
+}

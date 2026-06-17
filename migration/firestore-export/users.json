@@ -1,0 +1,179 @@
+{
+  "collection": "users",
+  "count": 12,
+  "docs": [
+    {
+      "id": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3",
+      "data": {
+        "role": "DISPATCH_OPERATOR",
+        "address": "TDH Office",
+        "phone": "7648456548",
+        "email": "dispatch1@tdherp.com",
+        "pin": "6751",
+        "status": "ACTIVE",
+        "name": "Shekar - Dispatch1",
+        "id": "18o4P3EH8yXXVgzkZ6EHYCCymhJ3"
+      }
+    },
+    {
+      "id": "CqTcPgA4VXb3jIsEqEFuSErYngR2",
+      "data": {
+        "name": "Ramu - Dispatch2",
+        "role": "DISPATCH_OPERATOR",
+        "address": "",
+        "phone": "9482224145",
+        "email": "dispatch2@tdherp.com",
+        "OtherDetails": "",
+        "emergencyContactPhone": "9482224145",
+        "emergencyContactName": "9482224145",
+        "pin": "3695",
+        "status": "ACTIVE"
+      }
+    },
+    {
+      "id": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+      "data": {
+        "role": "QUALITY_OPERATOR",
+        "address": "TDH Office",
+        "phone": "9898789988",
+        "email": "quality2@tdherp.com",
+        "OtherDetails": "",
+        "emergencyContactPhone": "",
+        "emergencyContactName": "",
+        "pin": "2914",
+        "status": "ACTIVE",
+        "name": "Nikhil - Quality2",
+        "id": "FrjBbaAYslhh9m2wx2KkgdmZm2G3"
+      }
+    },
+    {
+      "id": "IBIndcd6G6aEnYUqxkgBW9Q3zSp2",
+      "data": {
+        "role": "GATE_ENTRY_OPERATOR",
+        "address": "TDH Office",
+        "phone": "8947754568",
+        "email": "gate1@tdherp.com",
+        "pin": "9933",
+        "status": "ACTIVE",
+        "name": "Shankar - Gate1",
+        "id": "IBIndcd6G6aEnYUqxkgBW9Q3zSp2"
+      }
+    },
+    {
+      "id": "QZupfBFLlJZMplzpiYwKcAuRYAh1",
+      "data": {
+        "email": "admin@tdherp.com",
+        "name": "Admin",
+        "pin": "1234",
+        "status": "ACTIVE",
+        "emergencyContactPhone": "9784875678",
+        "OtherDetails": "Admin key",
+        "address": "Tenali Double Horse Office",
+        "emergencyContactName": "Shyam Prasad",
+        "phone": "7878474989",
+        "id": "QZupfBFLlJZMplzpiYwKcAuRYAh1",
+        "role": "ADMIN"
+      }
+    },
+    {
+      "id": "TVYoYDqQQqY1asGVvTm7yNDNLng2",
+      "data": {
+        "role": "QUALITY_OPERATOR",
+        "address": "TDH Office",
+        "phone": "8961715654",
+        "email": "quality1@tdherp.com",
+        "pin": "9914",
+        "status": "ACTIVE",
+        "id": "TVYoYDqQQqY1asGVvTm7yNDNLng2",
+        "name": "Ramu - Quality1"
+      }
+    },
+    {
+      "id": "UuncuT8acHVmRKE1aEJGgegrb382",
+      "data": {
+        "role": "SALES_OPERATOR",
+        "address": "TDH Office ",
+        "phone": "8787089788",
+        "email": "sales1@tdherp.com",
+        "OtherDetails": "",
+        "emergencyContactPhone": "",
+        "emergencyContactName": "",
+        "pin": "5561",
+        "status": "ACTIVE",
+        "name": "Sita - Sales1",
+        "id": "UuncuT8acHVmRKE1aEJGgegrb382"
+      }
+    },
+    {
+      "id": "VUYnutGLoKeB47kxDYjZrtMXd5u1",
+      "data": {
+        "role": "PLANT_OPERATOR",
+        "address": "TDH Office",
+        "phone": "9273726383",
+        "email": "plant1@tdherp.com",
+        "OtherDetails": "",
+        "emergencyContactPhone": "",
+        "emergencyContactName": "",
+        "pin": "1820",
+        "status": "ACTIVE",
+        "name": "Srinivas - Plant 1",
+        "id": "VUYnutGLoKeB47kxDYjZrtMXd5u1"
+      }
+    },
+    {
+      "id": "bFfNNvUcbCNJr3JK7LiYaaEnPQE2",
+      "data": {
+        "name": "Manager",
+        "address": "TDH ERP Office",
+        "phone": "8945458158",
+        "pin": "8044",
+        "status": "ACTIVE",
+        "id": "bFfNNvUcbCNJr3JK7LiYaaEnPQE2",
+        "role": "MANAGER",
+        "email": "manager@tdherp.com"
+      }
+    },
+    {
+      "id": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+      "data": {
+        "role": "QUALITY_OPERATOR",
+        "address": "TDH Office",
+        "phone": "9254136346",
+        "email": "quality3@tdherp.com",
+        "OtherDetails": "",
+        "emergencyContactPhone": "",
+        "emergencyContactName": "",
+        "pin": "6630",
+        "status": "ACTIVE",
+        "name": "Subrahmanyam - Quality3",
+        "id": "f4PFI0BvkkMZARVb7oK1cJzbfnq2"
+      }
+    },
+    {
+      "id": "tJicV4GAUpg21JgwZ3J7zpnbSsJ2",
+      "data": {
+        "role": "WEIGHING_OPERATOR",
+        "address": "Double Horse Office",
+        "phone": "9482224145",
+        "email": "weight1@tdherp.com",
+        "pin": "9491",
+        "status": "ACTIVE",
+        "id": "tJicV4GAUpg21JgwZ3J7zpnbSsJ2",
+        "name": "Ramu - Weight 1"
+      }
+    },
+    {
+      "id": "uoqQCAzuC8MqhbT6dGzZFXFDI6R2",
+      "data": {
+        "name": "Assistant Manager",
+        "role": "ASSISTANT_MANAGER",
+        "address": "",
+        "phone": "9868686768",
+        "email": "asstmanager@tdherp.com",
+        "em": "",
+        "pin": "8948",
+        "status": "ACTIVE"
+      }
+    }
+  ]
+}

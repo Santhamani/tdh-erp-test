@@ -1,0 +1,5808 @@
+{
+  "collection": "quality-check_records",
+  "count": 252,
+  "docs": [
+    {
+      "id": "00le7iXugI5LLVu8730L",
+      "data": {
+        "timestamp": "2026-03-02T10:14:48.938Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP27Y9239",
+          "transaction_id": "Atmakuru ",
+          "note": "New sai ram traders ",
+          "size_analysis_7": 56,
+          "size_analysis_5": 94,
+          "size_analysis_4": 95.8,
+          "small_mud_percent": 4.2,
+          "big_mud_stones_percent": 0.3,
+          "damage_1": 0.2,
+          "physical_damage_2": 0.5,
+          "moisture_content_percent": 10.8,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "03RnHcZdYDr1JmiPvJpH",
+      "data": {
+        "timestamp": "2026-02-13T10:15:45.376Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "RJ14GJ9915",
+          "transaction_id": "Bra",
+          "note": "ArbazA",
+          "size_analysis_7": 90,
+          "size_analysis_5": 99.5,
+          "size_analysis_4": 99.8,
+          "small_mud_percent": 0.2,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 9,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "0NdpmTYaRGiniYWQXW21",
+      "data": {
+        "timestamp": "2026-02-28T14:36:38.228Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP21TX9689",
+          "transaction_id": "Athmakur",
+          "note": "Baddi 501 Bages ",
+          "size_analysis_7": 57,
+          "size_analysis_5": 93,
+          "size_analysis_4": 96,
+          "small_mud_percent": 4,
+          "big_mud_stones_percent": 0.1,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.8,
+          "moisture_content_percent": 11,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "0UGhAKODccCsgSAghGrS",
+      "data": {
+        "timestamp": "2026-03-24T16:47:33.613Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP37X1827",
+          "transaction_id": "Challa palli ",
+          "note": "Baddi sada 279 Bages ",
+          "size_analysis_7": 61,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98,
+          "small_mud_percent": 2,
+          "big_mud_stones_percent": 0.7,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.2,
+          "moisture_content_percent": 10.3,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "156LsFgKXasc7th654Pg",
+      "data": {
+        "timestamp": "2026-03-06T13:27:29.676Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "RJ09GC1158",
+          "transaction_id": "Brazil polish ",
+          "note": "Polish 867",
+          "size_analysis_7": 88,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.3,
+          "small_mud_percent": 0.7,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 10,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "163bsPGb8AWYJH6btGZZ",
+      "data": {
+        "timestamp": "2026-01-26T11:36:00.856Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP21TE1836",
+          "transaction_id": "Kadapa",
+          "note": "Sadalu",
+          "size_analysis_7": 62,
+          "size_analysis_5": 95,
+          "size_analysis_4": 96,
+          "small_mud_percent": 4,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.2,
+          "physical_damage_2": 0.7,
+          "moisture_content_percent": 12,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "1Aov8aex4qS0S1a1eYAr",
+      "data": {
+        "timestamp": "2026-02-28T14:32:50.084Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP02TA3677",
+          "transaction_id": "Athmakur",
+          "note": "Baddi 495 Bages ",
+          "size_analysis_7": 60,
+          "size_analysis_5": 94,
+          "size_analysis_4": 96.4,
+          "small_mud_percent": 3.6,
+          "big_mud_stones_percent": 0.3,
+          "damage_1": 0.4,
+          "physical_damage_2": 0.4,
+          "moisture_content_percent": 10.6,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "1JpXvVc4f14bIWT1OsYd",
+      "data": {
+        "timestamp": "2026-02-27T04:44:09.581Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP39WK2732",
+          "transaction_id": "",
+          "note": "Kallam  100Bages",
+          "size_analysis_7": 58,
+          "size_analysis_5": 93,
+          "size_analysis_4": 96,
+          "small_mud_percent": 4,
+          "big_mud_stones_percent": 0.6,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.3,
+          "moisture_content_percent": 12.8,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "1R3lkd66GqeCwM541QAQ",
+      "data": {
+        "timestamp": "2026-03-23T17:18:25.870Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP05V1459",
+          "transaction_id": "Challa palli ",
+          "note": "Baddi polish 300 Bages ",
+          "size_analysis_7": 67,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98.1,
+          "small_mud_percent": 1.9,
+          "big_mud_stones_percent": 1.2,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.6,
+          "moisture_content_percent": 11.1,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "1aEzLcgs6FXFF7IaFXmr",
+      "data": {
+        "timestamp": "2026-03-24T16:54:49.196Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP05V5877",
+          "transaction_id": "Mallovolu",
+          "note": "Kallam polish 236 Bages ",
+          "size_analysis_7": 73,
+          "size_analysis_5": 98,
+          "size_analysis_4": 98.8,
+          "small_mud_percent": 1.2,
+          "big_mud_stones_percent": 0.4,
+          "damage_1": "",
+          "physical_damage_2": 0.1,
+          "moisture_content_percent": 12.7,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "1h4lBfnJdMzXcrBmONJu",
+      "data": {
+        "timestamp": "2026-03-18T12:43:21.907Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP05V5877",
+          "transaction_id": "Mallavolu ",
+          "note": "Polish 305",
+          "size_analysis_7": 70,
+          "size_analysis_5": 96.5,
+          "size_analysis_4": 99,
+          "small_mud_percent": 1,
+          "big_mud_stones_percent": 0.3,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.1,
+          "moisture_content_percent": 11.8,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "1iv2ob70r4Rkd0dh9Atn",
+      "data": {
+        "timestamp": "2026-03-04T11:28:22.564Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP39UP1377",
+          "transaction_id": "Atmakuru",
+          "note": "Polish 40bags",
+          "size_analysis_7": 57,
+          "size_analysis_5": 91,
+          "size_analysis_4": 94.9,
+          "small_mud_percent": 5.1,
+          "big_mud_stones_percent": 0.1,
+          "damage_1": 0,
+          "physical_damage_2": 0,
+          "moisture_content_percent": 10.6,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "1kQb5bRyBtYKj3NvfXI9",
+      "data": {
+        "timestamp": "2026-03-18T13:48:04.330Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP16TU3138",
+          "transaction_id": "Dokiparu",
+          "note": "Baddi sada 109 Bages ",
+          "size_analysis_7": 67,
+          "size_analysis_5": 96,
+          "size_analysis_4": 98.5,
+          "small_mud_percent": 1.5,
+          "big_mud_stones_percent": 0.1,
+          "damage_1": 0.4,
+          "physical_damage_2": 0.3,
+          "moisture_content_percent": 10.3,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "1nodoJBJ8aH9oUbvdf53",
+      "data": {
+        "timestamp": "2026-03-24T17:01:54.275Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP29U6662",
+          "transaction_id": "Kaza",
+          "note": "Baddi polish 260 Bages ",
+          "size_analysis_7": 60,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98.4,
+          "small_mud_percent": 1.6,
+          "big_mud_stones_percent": 0.5,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.4,
+          "moisture_content_percent": 12.4,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "23efdJvpXwX28yqyWcpd",
+      "data": {
+        "timestamp": "2026-03-24T16:40:34.559Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP39TJ4440",
+          "transaction_id": "Amarthaluru",
+          "note": "Kallam polish 72 Bages ",
+          "size_analysis_7": 62,
+          "size_analysis_5": 96,
+          "size_analysis_4": 97.6,
+          "small_mud_percent": 2.4,
+          "big_mud_stones_percent": 1.1,
+          "damage_1": 0.2,
+          "physical_damage_2": 0.2,
+          "moisture_content_percent": 10.8,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "28vf7ZQOSLqSy9ubzcnN",
+      "data": {
+        "timestamp": "2026-02-18T05:58:31.339Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP04TW9079",
+          "transaction_id": "Kamalapuram ",
+          "note": "Sadalu 588bags",
+          "size_analysis_7": 60,
+          "size_analysis_5": 95,
+          "size_analysis_4": 97.5,
+          "small_mud_percent": 2.5,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.6,
+          "physical_damage_2": 0.7,
+          "moisture_content_percent": 11.4,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "2FbBcVAQhdN2Mkd90KTh",
+      "data": {
+        "timestamp": "2026-01-24T15:25:47.576Z",
+        "userId": "TVYoYDqQQqY1asGVvTm7yNDNLng2",
+        "userName": "Ramu - Quality1",
+        "details": {
+          "vehicle_number": "A07TM1188",
+          "transaction_id": "as",
+          "note": "q",
+          "size_analysis_7": 21,
+          "size_analysis_5": 12,
+          "size_analysis_4": 434,
+          "small_mud_percent": 34,
+          "big_mud_stones_percent": 53,
+          "damage_1": 3,
+          "physical_damage_2": 3,
+          "moisture_content_percent": 2,
+          "upload_report": "",
+          "stageId": "quality-check"
+        },
+        "deleted": true
+      }
+    },
+    {
+      "id": "2rLTEnVlRxP4tKn4apey",
+      "data": {
+        "timestamp": "2026-02-03T07:49:04.111Z",
+        "userId": "TVYoYDqQQqY1asGVvTm7yNDNLng2",
+        "userName": "Ramu - Quality1",
+        "details": {
+          "vehicle_number": "AP39UD6397",
+          "transaction_id": "287 ",
+          "note": "Kamalapuram ",
+          "size_analysis_7": 51,
+          "size_analysis_5": 91,
+          "size_analysis_4": 96.1,
+          "small_mud_percent": 3.9,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.2,
+          "physical_damage_2": 0.3,
+          "moisture_content_percent": 12,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "2xxgLJSg5cEtqdcYnR4T",
+      "data": {
+        "timestamp": "2026-02-14T11:46:59.345Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP02TA7857",
+          "transaction_id": "Kamalapuram ",
+          "note": "Sadalu 490",
+          "size_analysis_7": 43,
+          "size_analysis_5": 91,
+          "size_analysis_4": 94.5,
+          "small_mud_percent": 5.5,
+          "big_mud_stones_percent": 0.3,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.4,
+          "moisture_content_percent": 11,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "31SxxwVT4OmErSloWb9D",
+      "data": {
+        "timestamp": "2026-03-21T10:36:16.098Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP16X5679",
+          "transaction_id": "Mukkollu",
+          "note": "Kallam sada 132 Bages ",
+          "size_analysis_7": 74,
+          "size_analysis_5": 96,
+          "size_analysis_4": 98.8,
+          "small_mud_percent": 1.2,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.4,
+          "moisture_content_percent": 11.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "35NNrmA3EsSSYDNQD4ZP",
+      "data": {
+        "timestamp": "2026-02-07T08:06:32.282Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP39WH6759",
+          "transaction_id": "Athmakur",
+          "note": "Baddi ",
+          "size_analysis_7": 64,
+          "size_analysis_5": 95,
+          "size_analysis_4": 97.1,
+          "small_mud_percent": 2.9,
+          "big_mud_stones_percent": 0.1,
+          "damage_1": 0.4,
+          "physical_damage_2": 0.4,
+          "moisture_content_percent": 11,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "3B7ICCXiCU73eOjXqDAv",
+      "data": {
+        "timestamp": "2026-02-06T15:14:48.642Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "KA566583",
+          "transaction_id": "Brazil polish ",
+          "note": "Siddaratha traders ",
+          "size_analysis_7": 62,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.5,
+          "small_mud_percent": 0.5,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": 10,
+          "moisture_content_percent": 10.3,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "3odtVRcFQarcN9ihWonY",
+      "data": {
+        "timestamp": "2026-02-12T09:53:36.762Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP04TX2649",
+          "transaction_id": "Kadapa",
+          "note": "Sadalu ",
+          "size_analysis_7": 58,
+          "size_analysis_5": 95,
+          "size_analysis_4": 97.2,
+          "small_mud_percent": 2.8,
+          "big_mud_stones_percent": 0.1,
+          "damage_1": 0.3,
+          "physical_damage_2": 0.8,
+          "moisture_content_percent": 11.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "4Q9y7xnsiTuEUvxPCpg8",
+      "data": {
+        "timestamp": "2026-03-19T07:59:06.440Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP30U0175",
+          "transaction_id": "Nadakudhuru",
+          "note": "Baddi polish 280 Bages ",
+          "size_analysis_7": 73,
+          "size_analysis_5": 97,
+          "size_analysis_4": 97.7,
+          "small_mud_percent": 2.3,
+          "big_mud_stones_percent": 0.3,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.8,
+          "moisture_content_percent": 11.2,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "4Ub2eLzJ8EYe5sC8Oovr",
+      "data": {
+        "timestamp": "2026-02-12T11:07:36.790Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "GJ16AV7265",
+          "transaction_id": "Brazil polish ",
+          "note": "Arbaza",
+          "size_analysis_7": 90,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.5,
+          "small_mud_percent": 0.5,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 9,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "4jiBPyNWb8Z4xB0Xihfw",
+      "data": {
+        "timestamp": "2026-03-04T11:27:24.164Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP39UP1377",
+          "transaction_id": "Atmakuru ",
+          "note": "Polish 660bags",
+          "size_analysis_7": 56,
+          "size_analysis_5": 93,
+          "size_analysis_4": 96.3,
+          "small_mud_percent": 3.7,
+          "big_mud_stones_percent": 0.3,
+          "damage_1": 0,
+          "physical_damage_2": 0.3,
+          "moisture_content_percent": 10.6,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "57iGWXFAYkrjOznkiMFb",
+      "data": {
+        "timestamp": "2026-03-20T07:17:36.280Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP16U9259",
+          "transaction_id": "Mukkollu",
+          "note": "Baddi sada 50 Bages ",
+          "size_analysis_7": 57,
+          "size_analysis_5": 96,
+          "size_analysis_4": 98.2,
+          "small_mud_percent": 1.8,
+          "big_mud_stones_percent": 0.9,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.1,
+          "moisture_content_percent": 10.6,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "5Uzh63qj3oEiny6JrqlA",
+      "data": {
+        "timestamp": "2026-03-21T11:21:17.534Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP16TG2466",
+          "transaction_id": "Lakshmi puram ",
+          "note": "Sadalu 44",
+          "size_analysis_7": 56,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98.4,
+          "small_mud_percent": 1.6,
+          "big_mud_stones_percent": 0.4,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.3,
+          "moisture_content_percent": 10,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "5VyxrTRsquJGI3EINyrO",
+      "data": {
+        "timestamp": "2026-03-24T17:03:17.835Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP16TD0405",
+          "transaction_id": "Gudivada ",
+          "note": "Kallam polish 500 Bages ",
+          "size_analysis_7": 72,
+          "size_analysis_5": 96,
+          "size_analysis_4": 97.8,
+          "small_mud_percent": 2.2,
+          "big_mud_stones_percent": 0.6,
+          "damage_1": "",
+          "physical_damage_2": 0.5,
+          "moisture_content_percent": 11.2,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "5jhZmK0gn7W9EV3IhZLr",
+      "data": {
+        "timestamp": "2026-03-23T17:37:44.309Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP16X0729",
+          "transaction_id": "Vadalamanndu ",
+          "note": "Baddi polish 235 Bages ",
+          "size_analysis_7": 69,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98.4,
+          "small_mud_percent": 1.6,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.2,
+          "physical_damage_2": 0.4,
+          "moisture_content_percent": 11,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "5zPd9q7nYgRiHeLklZWJ",
+      "data": {
+        "timestamp": "2026-02-02T10:26:27.515Z",
+        "userId": "TVYoYDqQQqY1asGVvTm7yNDNLng2",
+        "userName": "Ramu - Quality1",
+        "details": {
+          "vehicle_number": "AP04TU9986",
+          "transaction_id": "",
+          "note": "Kamalapuram ",
+          "size_analysis_7": 63,
+          "size_analysis_5": 95,
+          "size_analysis_4": 97.3,
+          "small_mud_percent": 2.7,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.2,
+          "physical_damage_2": 0.7,
+          "moisture_content_percent": 11.8,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "68wSqrAxTEQENaiiqoks",
+      "data": {
+        "timestamp": "2026-03-19T06:35:20.592Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP29U6662",
+          "transaction_id": "Mukkollu",
+          "note": "Polish 208",
+          "size_analysis_7": 73,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98.5,
+          "small_mud_percent": 1.5,
+          "big_mud_stones_percent": 0.6,
+          "damage_1": 0,
+          "physical_damage_2": 0,
+          "moisture_content_percent": 12.3,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "6EjP9FKyRrHJowcsDZ2W",
+      "data": {
+        "timestamp": "2026-02-14T11:44:14.099Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP26TA3478",
+          "transaction_id": "Kamalapuram ",
+          "note": "Sadalu 435",
+          "size_analysis_7": 56,
+          "size_analysis_5": 92,
+          "size_analysis_4": 95,
+          "small_mud_percent": 5,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.2,
+          "physical_damage_2": 0.2,
+          "moisture_content_percent": 0.6,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "6Ks0XrNGthNR9kzM5q2D",
+      "data": {
+        "timestamp": "2026-03-13T06:59:35.949Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP37TE2445",
+          "transaction_id": "Polavaram ",
+          "note": "Polish 130",
+          "size_analysis_7": 62,
+          "size_analysis_5": 96,
+          "size_analysis_4": 98.2,
+          "small_mud_percent": 1.8,
+          "big_mud_stones_percent": 0.3,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.9,
+          "moisture_content_percent": 11.9,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "6M5Icm8HVFZJHLgUGF6c",
+      "data": {
+        "timestamp": "2026-02-23T13:16:37.666Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP39UE1315",
+          "transaction_id": "Polavaram",
+          "note": "Polish 80bags",
+          "size_analysis_7": 62,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98.3,
+          "small_mud_percent": 1.7,
+          "big_mud_stones_percent": 0.4,
+          "damage_1": 0.2,
+          "physical_damage_2": 0.3,
+          "moisture_content_percent": 12.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "6apJI9eBiZI6SYM7kKvp",
+      "data": {
+        "timestamp": "2026-01-29T09:14:09.684Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "MH09Hh6713",
+          "transaction_id": "Brazil polish ",
+          "note": "Arbaza",
+          "size_analysis_7": 83,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.5,
+          "small_mud_percent": 0.5,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 9.9,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "6lDS7QOUzQ6Hd2VLj0NI",
+      "data": {
+        "timestamp": "2026-03-19T05:45:58.869Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP37X1827",
+          "transaction_id": "Chall",
+          "note": "Polish 300",
+          "size_analysis_7": 70,
+          "size_analysis_5": 95,
+          "size_analysis_4": 97,
+          "small_mud_percent": 3,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.5,
+          "moisture_content_percent": 11,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "6xrS1HDrLlj8pwe86YQU",
+      "data": {
+        "timestamp": "2026-03-19T06:34:01.523Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AEG0545",
+          "transaction_id": "Mukkollu ",
+          "note": "Polish 187",
+          "size_analysis_7": 70,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98.3,
+          "small_mud_percent": 1.7,
+          "big_mud_stones_percent": 0.5,
+          "damage_1": 0,
+          "physical_damage_2": 0.7,
+          "moisture_content_percent": 11.6,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "6yfTiCLcu7xYQcX3cO4a",
+      "data": {
+        "timestamp": "2026-02-12T09:53:41.383Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP07TJ1445",
+          "transaction_id": "Arbaza",
+          "note": "Kallam 867 Bages",
+          "size_analysis_7": 90,
+          "size_analysis_5": 99.5,
+          "size_analysis_4": 99.9,
+          "small_mud_percent": 0.1,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 0.89,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "70WgwkGkJSehljN3vQi8",
+      "data": {
+        "timestamp": "2026-02-16T14:06:42.916Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP39UC7599",
+          "transaction_id": "Pamulapadu",
+          "note": "Sadalu",
+          "size_analysis_7": 58,
+          "size_analysis_5": 95,
+          "size_analysis_4": 96.8,
+          "small_mud_percent": 3.2,
+          "big_mud_stones_percent": 0.1,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.4,
+          "moisture_content_percent": 11.4,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "713cDdnzJSHYECOQO3yW",
+      "data": {
+        "timestamp": "2026-03-06T06:46:43.215Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP39UZ1359",
+          "transaction_id": "Pamulapadu ",
+          "note": "Sadalu 704 bags",
+          "size_analysis_7": 51,
+          "size_analysis_5": 92,
+          "size_analysis_4": 95.6,
+          "small_mud_percent": 4.4,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.3,
+          "moisture_content_percent": 10.4,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "7CHvPVXMJtvYiEyFlaGv",
+      "data": {
+        "timestamp": "2026-01-22T14:08:58.663Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP04TW2480",
+          "transaction_id": "hugoi",
+          "note": "jhvb",
+          "size_analysis_7": 9,
+          "size_analysis_5": "",
+          "size_analysis_4": "",
+          "small_mud_percent": "",
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": "",
+          "upload_report": "",
+          "stageId": "quality-check"
+        },
+        "deleted": true
+      }
+    },
+    {
+      "id": "7Ng18WQGo4T54sDPaxEg",
+      "data": {
+        "timestamp": "2026-03-14T07:23:06.636Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP16TU9508",
+          "transaction_id": "Ekanuru",
+          "note": "Polish 243",
+          "size_analysis_7": 65,
+          "size_analysis_5": 96,
+          "size_analysis_4": 98.1,
+          "small_mud_percent": 1.9,
+          "big_mud_stones_percent": 1.2,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.5,
+          "moisture_content_percent": 10.7,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "7ZYDvFyoKPNjmYrGnOis",
+      "data": {
+        "timestamp": "2026-03-21T11:54:43.534Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP37X1827",
+          "transaction_id": "Challa palli ",
+          "note": "Baddi polish 280 Bages ",
+          "size_analysis_7": 68,
+          "size_analysis_5": 96,
+          "size_analysis_4": 97.7,
+          "small_mud_percent": 2.3,
+          "big_mud_stones_percent": 1,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.3,
+          "moisture_content_percent": 11.2,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "7bzZZvrj23DpfMgn6WdU",
+      "data": {
+        "timestamp": "2026-03-06T10:17:30.155Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "RJ09GB6480",
+          "transaction_id": "Brazil polish ",
+          "note": "Arbaza",
+          "size_analysis_7": 85,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.7,
+          "small_mud_percent": 0.3,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 9.3,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "7srZKuHKM8RuUCXEeDlq",
+      "data": {
+        "timestamp": "2026-03-11T09:47:40.815Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP04T7415",
+          "transaction_id": "Kavipuram",
+          "note": "Polish 26",
+          "size_analysis_7": 58,
+          "size_analysis_5": 95,
+          "size_analysis_4": 98.1,
+          "small_mud_percent": 1.9,
+          "big_mud_stones_percent": 0.5,
+          "damage_1": 0,
+          "physical_damage_2": 0.2,
+          "moisture_content_percent": 10.9,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "7z0MZpdd8LJJzLjNPbuy",
+      "data": {
+        "timestamp": "2026-02-21T07:04:24.363Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP07TF8109",
+          "transaction_id": "Pamulapadu",
+          "note": "Baddi 528bages",
+          "size_analysis_7": 61,
+          "size_analysis_5": 94,
+          "size_analysis_4": 96.7,
+          "small_mud_percent": 3.3,
+          "big_mud_stones_percent": 0.1,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.2,
+          "moisture_content_percent": 10.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "8AA9eVYRk4w3kclwyAhH",
+      "data": {
+        "timestamp": "2026-02-13T10:20:54.691Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP04TX6248",
+          "transaction_id": "Kamalapuram ",
+          "note": "Sadalu ",
+          "size_analysis_7": 54,
+          "size_analysis_5": 93,
+          "size_analysis_4": 96.7,
+          "small_mud_percent": 3.3,
+          "big_mud_stones_percent": 0.6,
+          "damage_1": 0.1,
+          "physical_damage_2": 0,
+          "moisture_content_percent": 11.8,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "8Km1FC2iBgbcvPBrOMUJ",
+      "data": {
+        "timestamp": "2026-02-21T07:03:08.389Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP39WD6138",
+          "transaction_id": "Nandhikotkur",
+          "note": "Sadalu 245bags",
+          "size_analysis_7": 67,
+          "size_analysis_5": 95,
+          "size_analysis_4": 97,
+          "small_mud_percent": 3,
+          "big_mud_stones_percent": 0.1,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.3,
+          "moisture_content_percent": 11,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "8yzjQbytbRw0CnQiKiEh",
+      "data": {
+        "timestamp": "2026-03-04T13:21:43.300Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP02TC2258",
+          "transaction_id": "Alampur ",
+          "note": "Sadalu 504 bags",
+          "size_analysis_7": 60,
+          "size_analysis_5": 95,
+          "size_analysis_4": 95.4,
+          "small_mud_percent": 4.6,
+          "big_mud_stones_percent": 0.3,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.2,
+          "moisture_content_percent": 10.8,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "9EUkpeAxbXFnTvTqxSiF",
+      "data": {
+        "timestamp": "2026-03-23T17:58:13.315Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP16U9259",
+          "transaction_id": "Mukkollu",
+          "note": "Kallam sada 180 Bages ",
+          "size_analysis_7": 64,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98.6,
+          "small_mud_percent": 1.4,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.2,
+          "moisture_content_percent": 11,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "9VPRVwpJp6UUGmJdiW82",
+      "data": {
+        "timestamp": "2026-03-23T17:45:53.989Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP16TU6929",
+          "transaction_id": "Challa palli ",
+          "note": "Kallam polish 280 Bages ",
+          "size_analysis_7": 57,
+          "size_analysis_5": 93,
+          "size_analysis_4": 97.3,
+          "small_mud_percent": 2.7,
+          "big_mud_stones_percent": 0.4,
+          "damage_1": "",
+          "physical_damage_2": 0.6,
+          "moisture_content_percent": 12,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "AB0zJYzFQhl2Hlm2wJqA",
+      "data": {
+        "timestamp": "2026-02-13T10:16:44.488Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP07TM8479",
+          "transaction_id": "Brazil polish ",
+          "note": "Arbaza",
+          "size_analysis_7": 90,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.5,
+          "small_mud_percent": 0.5,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 8.9,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "AOrGM7BGp1tblkRxy1fI",
+      "data": {
+        "timestamp": "2026-03-20T12:33:07.355Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP16TD5099",
+          "transaction_id": "Challapalle ",
+          "note": "Polish 280",
+          "size_analysis_7": 72,
+          "size_analysis_5": 96,
+          "size_analysis_4": 98.5,
+          "small_mud_percent": 1.5,
+          "big_mud_stones_percent": 0.3,
+          "damage_1": 0,
+          "physical_damage_2": 0.7,
+          "moisture_content_percent": 11.3,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "AijL0Dp6OTdrSpqXSefw",
+      "data": {
+        "timestamp": "2026-01-31T07:45:19.088Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "MH18BG6124",
+          "transaction_id": "Brazil polish ",
+          "note": "Arbaza alimentos ",
+          "size_analysis_7": 92,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.3,
+          "small_mud_percent": 0.7,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": "",
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "AtTUTVJnXxSYmdlpPH8Z",
+      "data": {
+        "timestamp": "2026-01-27T05:16:13.592Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "KA567284",
+          "transaction_id": "Brazil polish ",
+          "note": "Akshara agri",
+          "size_analysis_7": 90,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.7,
+          "small_mud_percent": 0.3,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 10,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "BPcq34yzIKVuqIUfakk1",
+      "data": {
+        "timestamp": "2026-01-24T08:14:40.635Z",
+        "userId": "TVYoYDqQQqY1asGVvTm7yNDNLng2",
+        "userName": "Ramu - Quality1",
+        "details": {
+          "vehicle_number": "AP16TC4547",
+          "transaction_id": "",
+          "note": "",
+          "size_analysis_7": 89,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.6,
+          "small_mud_percent": 0.4,
+          "big_mud_stones_percent": 9,
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": "",
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "BgV61i6ZYg3terO90p4V",
+      "data": {
+        "timestamp": "2026-03-02T07:45:30.116Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP02TB2889",
+          "transaction_id": "Atmakuru ",
+          "note": "New sri sai traders",
+          "size_analysis_7": 65,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98.7,
+          "small_mud_percent": 1.3,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.2,
+          "physical_damage_2": 0.4,
+          "moisture_content_percent": 11.2,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "CBmDxf3hoHxjv10rXjjK",
+      "data": {
+        "timestamp": "2026-02-02T10:26:20.387Z",
+        "userId": "TVYoYDqQQqY1asGVvTm7yNDNLng2",
+        "userName": "Ramu - Quality1",
+        "details": {
+          "vehicle_number": "AP04TU9986",
+          "transaction_id": "",
+          "note": "Kamalapuram ",
+          "size_analysis_7": 63,
+          "size_analysis_5": 95,
+          "size_analysis_4": 97.3,
+          "small_mud_percent": 2.7,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.2,
+          "physical_damage_2": 0.7,
+          "moisture_content_percent": 11.8,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "CRyRGURN1vi0SKcax05m",
+      "data": {
+        "timestamp": "2026-03-24T17:06:12.038Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP16TW6192",
+          "transaction_id": "Vadalamanndu ",
+          "note": "Kallam polish 293",
+          "size_analysis_7": 70,
+          "size_analysis_5": 97,
+          "size_analysis_4": 97.7,
+          "small_mud_percent": 2.3,
+          "big_mud_stones_percent": 0.4,
+          "damage_1": "",
+          "physical_damage_2": 0.2,
+          "moisture_content_percent": 12.3,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "DDN3m5JFUrMZQaHFHgmB",
+      "data": {
+        "timestamp": "2026-01-26T14:21:41.245Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "TN52U3297",
+          "transaction_id": "Kdv",
+          "note": "Sadalu",
+          "size_analysis_7": 54,
+          "size_analysis_5": 95,
+          "size_analysis_4": 97.2,
+          "small_mud_percent": 2.8,
+          "big_mud_stones_percent": 0.3,
+          "damage_1": "",
+          "physical_damage_2": 0.3,
+          "moisture_content_percent": 11.3,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "DKcUl2jcflW8QpmyLfG2",
+      "data": {
+        "timestamp": "2026-01-29T12:21:42.424Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "RJ09GC4217",
+          "transaction_id": "Brazil polish ",
+          "note": "Salecha polyweave",
+          "size_analysis_7": 75,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.6,
+          "small_mud_percent": 0.4,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 9.9,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "DM3MQwyIDJlY5jt49bfU",
+      "data": {
+        "timestamp": "2026-03-18T12:45:16.517Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP16X5679",
+          "transaction_id": "Mukkollu",
+          "note": "Polish 238",
+          "size_analysis_7": 74,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98.6,
+          "small_mud_percent": 1.4,
+          "big_mud_stones_percent": 0.3,
+          "damage_1": 0,
+          "physical_damage_2": 0.1,
+          "moisture_content_percent": 12.1,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "DtlZ0ILwYT3yQsiU04jT",
+      "data": {
+        "timestamp": "2026-01-03T14:40:00.304Z",
+        "userId": "TVYoYDqQQqY1asGVvTm7yNDNLng2",
+        "userName": "Quality1",
+        "details": {
+          "vehicle_number": "TN18L1768",
+          "transaction_id": "",
+          "note": "866Bags",
+          "size_analysis_7": 75,
+          "size_analysis_5": 99,
+          "size_analysis_4": 2,
+          "small_mud_percent": "",
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 9,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "EW5wB0OHXL8Sdbj9EwBu",
+      "data": {
+        "timestamp": "2026-03-16T13:16:33.643Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP16X0729",
+          "transaction_id": "Vadalamanndu ",
+          "note": "Baddi sada 17 Bages ",
+          "size_analysis_7": 70,
+          "size_analysis_5": 95,
+          "size_analysis_4": 97.4,
+          "small_mud_percent": 2.6,
+          "big_mud_stones_percent": 1.6,
+          "damage_1": "",
+          "physical_damage_2": 0.1,
+          "moisture_content_percent": 11.1,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "Ej0DRPGFHtpZpLyJl4M7",
+      "data": {
+        "timestamp": "2026-01-22T14:07:45.590Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AEE6109",
+          "transaction_id": "td45tfr",
+          "note": "noite",
+          "size_analysis_7": 9,
+          "size_analysis_5": 6,
+          "size_analysis_4": 8,
+          "small_mud_percent": "",
+          "big_mud_stones_percent": "",
+          "damage_1": 78,
+          "physical_damage_2": "",
+          "moisture_content_percent": "",
+          "upload_report": "",
+          "stageId": "quality-check"
+        },
+        "deleted": true
+      }
+    },
+    {
+      "id": "Fh0p6tqiNTTYGSd7UoQ3",
+      "data": {
+        "timestamp": "2026-02-01T08:43:16.236Z",
+        "userId": "TVYoYDqQQqY1asGVvTm7yNDNLng2",
+        "userName": "Ramu - Quality1",
+        "details": {
+          "vehicle_number": "RJ27GD1602",
+          "transaction_id": "",
+          "note": "Brazil ",
+          "size_analysis_7": 90,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.6,
+          "small_mud_percent": 0.4,
+          "big_mud_stones_percent": 0,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.5,
+          "moisture_content_percent": 9.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "GMxj1X7I4d8BopWDc93w",
+      "data": {
+        "timestamp": "2026-02-16T14:04:49.245Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "TN76Q0843",
+          "transaction_id": "Dhailand",
+          "note": "Sada.500.bages",
+          "size_analysis_7": 75,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.6,
+          "small_mud_percent": 0.4,
+          "big_mud_stones_percent": 0.6,
+          "damage_1": 0.8,
+          "physical_damage_2": 12,
+          "moisture_content_percent": 11,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "GPGLGOPlqEIFJ3PWzHgY",
+      "data": {
+        "timestamp": "2026-02-27T13:09:32.052Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP39WA9970",
+          "transaction_id": "Amaravai",
+          "note": "Baddi 604 Bages ",
+          "size_analysis_7": 55,
+          "size_analysis_5": 92,
+          "size_analysis_4": 95,
+          "small_mud_percent": 5,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.2,
+          "physical_damage_2": 0.2,
+          "moisture_content_percent": 11.2,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "GTcUiI8LaNtYvoLL01CB",
+      "data": {
+        "timestamp": "2026-02-24T13:59:35.863Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP04TX9558",
+          "transaction_id": "Atmakuru ",
+          "note": "New sri sai traders",
+          "size_analysis_7": 60,
+          "size_analysis_5": 95,
+          "size_analysis_4": 96.6,
+          "small_mud_percent": 3.4,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.6,
+          "moisture_content_percent": 10.7,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "GXGFWiIuVvDVkH6HVriu",
+      "data": {
+        "timestamp": "2026-01-13T15:30:48.575Z",
+        "userId": "TVYoYDqQQqY1asGVvTm7yNDNLng2",
+        "userName": "Quality1",
+        "details": {
+          "vehicle_number": "AP39T4919",
+          "transaction_id": "",
+          "note": "476BAGS",
+          "size_analysis_7": 68,
+          "size_analysis_5": 96,
+          "size_analysis_4": 97.6,
+          "small_mud_percent": 2.4,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.3,
+          "moisture_content_percent": 11,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "GeGu46B1ehyv5xG3VTe0",
+      "data": {
+        "timestamp": "2026-02-24T06:33:56.904Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP39UC7599",
+          "transaction_id": "Pamulapadu ",
+          "note": "Sadalu 660bags",
+          "size_analysis_7": 61,
+          "size_analysis_5": 95,
+          "size_analysis_4": 96.7,
+          "small_mud_percent": 3.3,
+          "big_mud_stones_percent": 0.1,
+          "damage_1": 0.2,
+          "physical_damage_2": 1.1,
+          "moisture_content_percent": 10.6,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "GpxdCisS8oo5hX2j1ZWy",
+      "data": {
+        "timestamp": "2026-03-12T11:46:44.967Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP05V5877",
+          "transaction_id": "Pedana",
+          "note": "Baddi polish 180 Bages ",
+          "size_analysis_7": 69,
+          "size_analysis_5": 96,
+          "size_analysis_4": 98.3,
+          "small_mud_percent": 1.7,
+          "big_mud_stones_percent": 0.6,
+          "damage_1": "",
+          "physical_damage_2": 0.4,
+          "moisture_content_percent": 12.1,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "Gt4IejtRxmbwnJCheYyu",
+      "data": {
+        "timestamp": "2026-03-16T11:45:46.446Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP16TU3069",
+          "transaction_id": "Lakshmi puram",
+          "note": "Polish 240bags",
+          "size_analysis_7": 75,
+          "size_analysis_5": 96,
+          "size_analysis_4": 98.6,
+          "small_mud_percent": 1.4,
+          "big_mud_stones_percent": 0.7,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.6,
+          "moisture_content_percent": 11,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "H94486g0diCBHdvTQnye",
+      "data": {
+        "timestamp": "2026-02-16T14:05:07.380Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "TN76Q0843",
+          "transaction_id": "Dhailand",
+          "note": "Sada.500.bages",
+          "size_analysis_7": 75,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.6,
+          "small_mud_percent": 0.4,
+          "big_mud_stones_percent": 0.6,
+          "damage_1": 0.8,
+          "physical_damage_2": 12,
+          "moisture_content_percent": 11,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "HPNOkyLLlbGHl8BhsQeD",
+      "data": {
+        "timestamp": "2026-02-12T12:49:39.183Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP07TF8109",
+          "transaction_id": "Allampur",
+          "note": "New sri sai ram traders 25 Bages polesh ",
+          "size_analysis_7": 66,
+          "size_analysis_5": 96,
+          "size_analysis_4": 97.4,
+          "small_mud_percent": 2.6,
+          "big_mud_stones_percent": 0.4,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.2,
+          "moisture_content_percent": 11.2,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "HlUrp2medhtKOH9aVSUa",
+      "data": {
+        "timestamp": "2026-03-11T13:41:57.186Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP39V1177",
+          "transaction_id": "Kollapur ",
+          "note": "Sada baddi 516 Bages ",
+          "size_analysis_7": 66,
+          "size_analysis_5": 95,
+          "size_analysis_4": 97.5,
+          "small_mud_percent": 2.5,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": "",
+          "physical_damage_2": 0.3,
+          "moisture_content_percent": 10.8,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "I81U5WZAK5xPi9f0Udsy",
+      "data": {
+        "timestamp": "2026-02-12T09:52:21.249Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP04TX2649",
+          "transaction_id": "Kadapa",
+          "note": "Polish ",
+          "size_analysis_7": 65,
+          "size_analysis_5": 96,
+          "size_analysis_4": 97.9,
+          "small_mud_percent": 2.1,
+          "big_mud_stones_percent": 0.1,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.4,
+          "moisture_content_percent": 12.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "IKfJMlFecG3VlN3gTWDV",
+      "data": {
+        "timestamp": "2026-02-13T13:38:33.730Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP04TU4878",
+          "transaction_id": "Amalapuram ",
+          "note": "Sada 483Bages Baddi",
+          "size_analysis_7": 58,
+          "size_analysis_5": 94,
+          "size_analysis_4": 96.5,
+          "small_mud_percent": 3.5,
+          "big_mud_stones_percent": 0.1,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.2,
+          "moisture_content_percent": 12,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "IU6vr0rdJc9aMaDz8YQD",
+      "data": {
+        "timestamp": "2026-02-23T13:19:20.646Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP39UP8101",
+          "transaction_id": "Amaravai",
+          "note": "Baddi 706 Bages ",
+          "size_analysis_7": 62,
+          "size_analysis_5": 95,
+          "size_analysis_4": 97,
+          "small_mud_percent": 3,
+          "big_mud_stones_percent": 0.3,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.1,
+          "moisture_content_percent": 10.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "IYwlmnAxF6KGvq7dguGY",
+      "data": {
+        "timestamp": "2026-03-18T12:46:47.554Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP16X5679",
+          "transaction_id": "Mukkollu ",
+          "note": "Sadalu 75",
+          "size_analysis_7": 65,
+          "size_analysis_5": 97,
+          "size_analysis_4": 99,
+          "small_mud_percent": 1,
+          "big_mud_stones_percent": 0.4,
+          "damage_1": 0,
+          "physical_damage_2": 0.1,
+          "moisture_content_percent": 11.2,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "IwFNzU8mjkLzvEqL7QEw",
+      "data": {
+        "timestamp": "2026-02-06T15:13:33.384Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "KA566582",
+          "transaction_id": "Brazil polish ",
+          "note": "Siddaratha traders",
+          "size_analysis_7": 62,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.6,
+          "small_mud_percent": 0.4,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": 12,
+          "moisture_content_percent": 10.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "J7eXmCUBBkXc0I7zJKEa",
+      "data": {
+        "timestamp": "2026-03-16T12:39:35.764Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP07TA6105",
+          "transaction_id": "Koduru",
+          "note": "Polish 231",
+          "size_analysis_7": 75,
+          "size_analysis_5": 96,
+          "size_analysis_4": 97.4,
+          "small_mud_percent": 2.6,
+          "big_mud_stones_percent": 1.8,
+          "damage_1": 0,
+          "physical_damage_2": 0.5,
+          "moisture_content_percent": 11.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "JAraZQfBh3ysG0rvVk8K",
+      "data": {
+        "timestamp": "2026-03-17T15:46:29.023Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP16Y1590",
+          "transaction_id": "Dokiparru",
+          "note": "Polish 205",
+          "size_analysis_7": 75,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98.5,
+          "small_mud_percent": 1.5,
+          "big_mud_stones_percent": 0.9,
+          "damage_1": 0,
+          "physical_damage_2": 0.8,
+          "moisture_content_percent": 11.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "JZSnErbZFHp0LIfz9u9W",
+      "data": {
+        "timestamp": "2026-02-16T14:09:05.410Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP07TM1115",
+          "transaction_id": "Kamalapuram",
+          "note": "Sada 492 bages",
+          "size_analysis_7": 70,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.7,
+          "small_mud_percent": 0.3,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.2,
+          "physical_damage_2": 11,
+          "moisture_content_percent": 10.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "JabbSln8Ra76FYwCsLmo",
+      "data": {
+        "timestamp": "2026-02-14T11:45:45.461Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP39WH6759",
+          "transaction_id": "Amaravai",
+          "note": "New sri sai traders",
+          "size_analysis_7": 61,
+          "size_analysis_5": 95,
+          "size_analysis_4": 96.6,
+          "small_mud_percent": 3.4,
+          "big_mud_stones_percent": 0.1,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.7,
+          "moisture_content_percent": 10.7,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "JjZiEhrVEbV27PC7Ugya",
+      "data": {
+        "timestamp": "2026-02-04T11:39:11.398Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "TN18AT8067",
+          "transaction_id": "Karumuri",
+          "note": "Oil Baddi",
+          "size_analysis_7": 88,
+          "size_analysis_5": 99.5,
+          "size_analysis_4": 99.7,
+          "small_mud_percent": 0.3,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 9.7,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "JxXOWNdEqUNKVH2kAyLr",
+      "data": {
+        "timestamp": "2026-03-19T07:50:49.133Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP16V3976",
+          "transaction_id": " mangalapuram",
+          "note": "Baddi polish 240 Bages ",
+          "size_analysis_7": 75,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98,
+          "small_mud_percent": 2,
+          "big_mud_stones_percent": 0.7,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.6,
+          "moisture_content_percent": 11.6,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "KHbCVpsfIxQL69uKuUVU",
+      "data": {
+        "timestamp": "2026-03-23T17:39:53.429Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP16X0729",
+          "transaction_id": "Vadalamanndu ",
+          "note": "Baddi sada 15 Bages ",
+          "size_analysis_7": 60,
+          "size_analysis_5": 95,
+          "size_analysis_4": 98,
+          "small_mud_percent": 2,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": "",
+          "physical_damage_2": 0.4,
+          "moisture_content_percent": 11.8,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "LGP9sOuTLt1asSZRdJCo",
+      "data": {
+        "timestamp": "2026-01-30T18:48:01.540Z",
+        "userId": "TVYoYDqQQqY1asGVvTm7yNDNLng2",
+        "userName": "Ramu - Quality1",
+        "details": {
+          "vehicle_number": "A07TM1188",
+          "transaction_id": "as",
+          "note": "f",
+          "size_analysis_7": 2,
+          "size_analysis_5": 2,
+          "size_analysis_4": 2,
+          "small_mud_percent": 2,
+          "big_mud_stones_percent": 2,
+          "damage_1": 2,
+          "physical_damage_2": 2,
+          "moisture_content_percent": 2,
+          "upload_report": "",
+          "stageId": "quality-check"
+        },
+        "deleted": true
+      }
+    },
+    {
+      "id": "LpfFvu3Gx8bm05diVQbU",
+      "data": {
+        "timestamp": "2026-03-11T09:44:27.452Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP07TE9966",
+          "transaction_id": "Nandhikotkur ",
+          "note": "Polish 198",
+          "size_analysis_7": 42,
+          "size_analysis_5": 95,
+          "size_analysis_4": 97.1,
+          "small_mud_percent": 2.9,
+          "big_mud_stones_percent": 0.3,
+          "damage_1": 0,
+          "physical_damage_2": 0.5,
+          "moisture_content_percent": 9.6,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "NFHRZr5p4Bacxj5GASN1",
+      "data": {
+        "timestamp": "2026-02-02T10:45:51.689Z",
+        "userId": "TVYoYDqQQqY1asGVvTm7yNDNLng2",
+        "userName": "Ramu - Quality1",
+        "details": {
+          "vehicle_number": "0477",
+          "transaction_id": "",
+          "note": "Kamalapuram ",
+          "size_analysis_7": 55,
+          "size_analysis_5": 95,
+          "size_analysis_4": 96.7,
+          "small_mud_percent": 3.3,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.3,
+          "physical_damage_2": 0.8,
+          "moisture_content_percent": 11.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "Nhlj9h447hFCa3l8EOfw",
+      "data": {
+        "timestamp": "2026-01-08T11:10:51.279Z",
+        "userId": "TVYoYDqQQqY1asGVvTm7yNDNLng2",
+        "userName": "Quality1",
+        "details": {
+          "vehicle_number": "AP21TA0499",
+          "transaction_id": "",
+          "note": "450",
+          "size_analysis_7": 63,
+          "size_analysis_5": 97,
+          "size_analysis_4": 97.6,
+          "small_mud_percent": 2.4,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.3,
+          "physical_damage_2": 0.5,
+          "moisture_content_percent": 13.2,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "OkL3zLfqy7bGCMQ89A8h",
+      "data": {
+        "timestamp": "2026-02-16T14:11:04.392Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP39TG7262",
+          "transaction_id": "Manikanta traders",
+          "note": "Sadalu 100bags",
+          "size_analysis_7": 45,
+          "size_analysis_5": 93,
+          "size_analysis_4": 96.2,
+          "small_mud_percent": 3.8,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.2,
+          "physical_damage_2": 0.2,
+          "moisture_content_percent": 11.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "OrXFs9TwBDjCDDEYeWNc",
+      "data": {
+        "timestamp": "2026-02-04T09:41:37.562Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP16TH2060",
+          "transaction_id": "Wanapatthy ",
+          "note": "Sadalu",
+          "size_analysis_7": 75,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98.7,
+          "small_mud_percent": 1.3,
+          "big_mud_stones_percent": 0.1,
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 10.4,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "OvTrOmQ6uL8oODwy71Mr",
+      "data": {
+        "timestamp": "2026-03-11T09:43:26.660Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP07TE9966",
+          "transaction_id": "Nandhikotkur ",
+          "note": "Sadalu 304",
+          "size_analysis_7": 58,
+          "size_analysis_5": 95,
+          "size_analysis_4": 98.2,
+          "small_mud_percent": 1.8,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.4,
+          "moisture_content_percent": 10.2,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "OxQGC7t8O5cOzDHbVgEe",
+      "data": {
+        "timestamp": "2026-03-11T13:32:45.687Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP37U3259",
+          "transaction_id": "Karakampadu",
+          "note": "Polish Kallam 240 Bages ",
+          "size_analysis_7": 70,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98.2,
+          "small_mud_percent": 1.8,
+          "big_mud_stones_percent": 0.5,
+          "damage_1": 0.2,
+          "physical_damage_2": 0.5,
+          "moisture_content_percent": 11.8,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "P9Bl6NmceTS1cFRQMwpT",
+      "data": {
+        "timestamp": "2026-03-23T17:15:30.062Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP16TG2466",
+          "transaction_id": "Lakshmipuram",
+          "note": "Baddi polish 280 Bages ",
+          "size_analysis_7": 70,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98.4,
+          "small_mud_percent": 1.6,
+          "big_mud_stones_percent": 0.5,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.1,
+          "moisture_content_percent": 11,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "PH4729vnrsAtIlKJopLR",
+      "data": {
+        "timestamp": "2026-03-16T12:33:27.612Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP27AB6681",
+          "transaction_id": "Sivaradurgapuram",
+          "note": "Polish 241bags",
+          "size_analysis_7": 75,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98.5,
+          "small_mud_percent": 1.5,
+          "big_mud_stones_percent": 0.6,
+          "damage_1": 0.1,
+          "physical_damage_2": 1.7,
+          "moisture_content_percent": 10.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "PXGcuXZgv0RjOPYMxH1f",
+      "data": {
+        "timestamp": "2026-01-03T14:51:20.212Z",
+        "userId": "TVYoYDqQQqY1asGVvTm7yNDNLng2",
+        "userName": "Quality1",
+        "details": {
+          "vehicle_number": "AP26TA3478",
+          "transaction_id": "",
+          "note": "485 BAGS ",
+          "size_analysis_7": 65,
+          "size_analysis_5": 95,
+          "size_analysis_4": 96,
+          "small_mud_percent": 3,
+          "big_mud_stones_percent": "",
+          "damage_1": 5,
+          "physical_damage_2": 1,
+          "moisture_content_percent": 13,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "Q0TxUqDPodIczPoPZEXn",
+      "data": {
+        "timestamp": "2026-03-20T05:52:45.598Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "A7TE1299",
+          "transaction_id": "Vadlamannadu",
+          "note": "Polish 246",
+          "size_analysis_7": 70,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98,
+          "small_mud_percent": 2,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0,
+          "physical_damage_2": 0.6,
+          "moisture_content_percent": 11.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "Q5BdhLXG5OZmHBsQd0RN",
+      "data": {
+        "timestamp": "2026-01-31T05:39:45.501Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "KA567181",
+          "transaction_id": "Brazil polish ",
+          "note": "Akshara agri ",
+          "size_analysis_7": 90,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.6,
+          "small_mud_percent": 0.4,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 9.1,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "QvV1ErObrBCAgkDjo5XQ",
+      "data": {
+        "timestamp": "2026-03-12T11:45:00.191Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP05V5877",
+          "transaction_id": "Pedana",
+          "note": "Baddi sada 120 Bages ",
+          "size_analysis_7": 62,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98.6,
+          "small_mud_percent": 1.4,
+          "big_mud_stones_percent": 0.8,
+          "damage_1": "",
+          "physical_damage_2": 0.3,
+          "moisture_content_percent": 11.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "R22p9cmLkiJnuVwLrl5p",
+      "data": {
+        "timestamp": "2026-02-27T13:11:25.443Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP39UZ1359",
+          "transaction_id": "Amaravai",
+          "note": "Baddi 650 Bages ",
+          "size_analysis_7": 61,
+          "size_analysis_5": 94,
+          "size_analysis_4": 96.3,
+          "small_mud_percent": 3.7,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.4,
+          "physical_damage_2": 0.4,
+          "moisture_content_percent": 10.9,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "R3fCBvOvdK1geY4Yq6I3",
+      "data": {
+        "timestamp": "2026-01-24T10:50:06.946Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP26TA3478",
+          "transaction_id": "121212",
+          "note": "Kamalapuram ",
+          "size_analysis_7": 61,
+          "size_analysis_5": 94,
+          "size_analysis_4": 964,
+          "small_mud_percent": 4,
+          "big_mud_stones_percent": 0.3,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.3,
+          "moisture_content_percent": 12,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "RFUpL1MNJx78waEvX7sX",
+      "data": {
+        "timestamp": "2026-03-23T17:28:15.615Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP16TX2789",
+          "transaction_id": "Mallovolu",
+          "note": "Kallam polish 310 Bages ",
+          "size_analysis_7": 65,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98.3,
+          "small_mud_percent": 1.7,
+          "big_mud_stones_percent": 0.5,
+          "damage_1": "",
+          "physical_damage_2": 0.2,
+          "moisture_content_percent": 12.2,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "RcCpatunClU9SPSd5fiq",
+      "data": {
+        "timestamp": "2026-02-28T14:34:58.857Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP04TU5999",
+          "transaction_id": "Athmakur",
+          "note": "Baddi 604 Bages ",
+          "size_analysis_7": 55,
+          "size_analysis_5": 93,
+          "size_analysis_4": 96.2,
+          "small_mud_percent": 3.8,
+          "big_mud_stones_percent": 0.3,
+          "damage_1": 0.6,
+          "physical_damage_2": 0.4,
+          "moisture_content_percent": 10.1,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "RoRIwa84IVxYj3W8MiMu",
+      "data": {
+        "timestamp": "2026-01-22T14:01:36.317Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "GJ16AV7265",
+          "transaction_id": "Karumuri",
+          "note": "Buddy ",
+          "size_analysis_7": 93,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.7,
+          "small_mud_percent": 0.3,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": 2,
+          "moisture_content_percent": 9.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "S2bhGf2v5vcoshaZLd7f",
+      "data": {
+        "timestamp": "2026-01-13T15:27:35.018Z",
+        "userId": "TVYoYDqQQqY1asGVvTm7yNDNLng2",
+        "userName": "Quality1",
+        "details": {
+          "vehicle_number": "AP02TA2569",
+          "transaction_id": "",
+          "note": "495 BAGS",
+          "size_analysis_7": 66,
+          "size_analysis_5": 95,
+          "size_analysis_4": 96.3,
+          "small_mud_percent": 3.7,
+          "big_mud_stones_percent": 0.7,
+          "damage_1": 0.2,
+          "physical_damage_2": 0.2,
+          "moisture_content_percent": 12.4,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "Sg3siVu2qyCrQe5RvA8k",
+      "data": {
+        "timestamp": "2026-03-19T05:44:21.498Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP16TF3866",
+          "transaction_id": "Lakshmi puram ",
+          "note": "Polish 440",
+          "size_analysis_7": 75,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98.9,
+          "small_mud_percent": 1.1,
+          "big_mud_stones_percent": 0.6,
+          "damage_1": 0,
+          "physical_damage_2": 1,
+          "moisture_content_percent": 11.3,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "SmmogDB5WXxdA7mFH1xs",
+      "data": {
+        "timestamp": "2026-03-02T12:45:24.556Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP07TC7866",
+          "transaction_id": "Athmakur",
+          "note": "Kallam 515 Bages ",
+          "size_analysis_7": 66,
+          "size_analysis_5": 96,
+          "size_analysis_4": 97.6,
+          "small_mud_percent": 2.4,
+          "big_mud_stones_percent": 0.3,
+          "damage_1": 0.4,
+          "physical_damage_2": 0.2,
+          "moisture_content_percent": 10.1,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "SyEddc5fMV66YXFsTbZm",
+      "data": {
+        "timestamp": "2026-03-23T17:56:06.305Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP16U9259",
+          "transaction_id": "Mukkollu",
+          "note": "Kallam polish 146 Bages ",
+          "size_analysis_7": 77,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98.3,
+          "small_mud_percent": 1.7,
+          "big_mud_stones_percent": 0.5,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.2,
+          "moisture_content_percent": 12,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "TLjj04RfxGgogr30nOXS",
+      "data": {
+        "timestamp": "2026-03-12T11:50:20.665Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP16TB7479",
+          "transaction_id": "Madenepalli",
+          "note": "Baddi polish 400 Bages ",
+          "size_analysis_7": 61,
+          "size_analysis_5": 95,
+          "size_analysis_4": 97.4,
+          "small_mud_percent": 2.6,
+          "big_mud_stones_percent": 0.7,
+          "damage_1": "",
+          "physical_damage_2": 0.5,
+          "moisture_content_percent": 11.2,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "TRxuwZTjSZvkGzHZdHhH",
+      "data": {
+        "timestamp": "2026-03-17T15:48:49.598Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP05V5877",
+          "transaction_id": "Mallavolu ",
+          "note": "Sadalu 97",
+          "size_analysis_7": 61,
+          "size_analysis_5": 96,
+          "size_analysis_4": 98.5,
+          "small_mud_percent": 1.5,
+          "big_mud_stones_percent": 0.4,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.1,
+          "moisture_content_percent": 10,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "TieTtUKAqg68GSIrnxix",
+      "data": {
+        "timestamp": "2026-03-14T07:26:18.580Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP16X5679",
+          "transaction_id": "Mukkollu",
+          "note": "Baddi sada 301 Bages ",
+          "size_analysis_7": 62,
+          "size_analysis_5": 96,
+          "size_analysis_4": 98.5,
+          "small_mud_percent": 1.5,
+          "big_mud_stones_percent": 0.7,
+          "damage_1": "",
+          "physical_damage_2": 0.3,
+          "moisture_content_percent": 10.2,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "U0BDhHJaWhDUsbC7cFYM",
+      "data": {
+        "timestamp": "2026-03-16T13:12:13.230Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP16T1951",
+          "transaction_id": "Karakampadu",
+          "note": "Baddi polish 240 Bages ",
+          "size_analysis_7": 63,
+          "size_analysis_5": 96,
+          "size_analysis_4": 98,
+          "small_mud_percent": 2,
+          "big_mud_stones_percent": 1,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.5,
+          "moisture_content_percent": 10.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "U57jLL6s3HGkUEsn64P8",
+      "data": {
+        "timestamp": "2026-03-23T17:42:53.151Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP16TD5099",
+          "transaction_id": "Challa palli ",
+          "note": "Baddi polish 280 Bages ",
+          "size_analysis_7": 68,
+          "size_analysis_5": 96,
+          "size_analysis_4": 97.7,
+          "small_mud_percent": 2.3,
+          "big_mud_stones_percent": 0.3,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.5,
+          "moisture_content_percent": 11,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "U8BKQqpmW5NnFYT43Vwc",
+      "data": {
+        "timestamp": "2026-03-20T05:53:38.059Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "A7TE1299",
+          "transaction_id": "Vadlamannadu",
+          "note": "Sadalu 73",
+          "size_analysis_7": 70,
+          "size_analysis_5": 98,
+          "size_analysis_4": 99.2,
+          "small_mud_percent": 0.8,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0,
+          "physical_damage_2": 0.1,
+          "moisture_content_percent": 10.1,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "UHiRZ2jwKRbCA5vNf7Zr",
+      "data": {
+        "timestamp": "2026-02-23T06:48:22.065Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP21TX9689",
+          "transaction_id": "Amaravai",
+          "note": "Baddi 504 Bages ",
+          "size_analysis_7": 55,
+          "size_analysis_5": 92,
+          "size_analysis_4": 95.8,
+          "small_mud_percent": 4.2,
+          "big_mud_stones_percent": 0.1,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.5,
+          "moisture_content_percent": 10.7,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "UXv5DAz2kSCWJi0WvNOv",
+      "data": {
+        "timestamp": "2026-02-23T05:52:57.859Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP39UC1536",
+          "transaction_id": "Wanapatthy ",
+          "note": "Sadalu 602bags",
+          "size_analysis_7": 60,
+          "size_analysis_5": 95,
+          "size_analysis_4": 97.5,
+          "small_mud_percent": 2.5,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.8,
+          "moisture_content_percent": 10.4,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "Umm4PKa1fhUhxZB3t4XM",
+      "data": {
+        "timestamp": "2026-03-06T12:15:43.758Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP04TX7188",
+          "transaction_id": "Amaravai ",
+          "note": "New sri sai traders",
+          "size_analysis_7": 60,
+          "size_analysis_5": 94,
+          "size_analysis_4": 97.2,
+          "small_mud_percent": 2.8,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.5,
+          "moisture_content_percent": 10.1,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "UoNo4Gvpt1fVFaI2CxPU",
+      "data": {
+        "timestamp": "2026-01-27T05:29:29.204Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "KA567284",
+          "transaction_id": "Brazil polish ",
+          "note": "Akshra agri",
+          "size_analysis_7": 90,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.7,
+          "small_mud_percent": 0.3,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 10,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "V7oOXXKh5inKf555PRoF",
+      "data": {
+        "timestamp": "2026-03-19T09:45:34.016Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP16TD5099",
+          "transaction_id": "Challa palli ",
+          "note": "Baddi polish 280 Bages ",
+          "size_analysis_7": 70,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98.5,
+          "small_mud_percent": 1.5,
+          "big_mud_stones_percent": 0.8,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.5,
+          "moisture_content_percent": 11.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "VXjm8VdlsXcqyJrhS4kG",
+      "data": {
+        "timestamp": "2026-03-17T15:43:35.686Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP05V6166",
+          "transaction_id": "Karakampadu",
+          "note": "Polish 240",
+          "size_analysis_7": 72,
+          "size_analysis_5": 96,
+          "size_analysis_4": 97.7,
+          "small_mud_percent": 2.3,
+          "big_mud_stones_percent": 0.6,
+          "damage_1": 0,
+          "physical_damage_2": 0.2,
+          "moisture_content_percent": 10.6,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "VizllObTQngZHKTT9uqL",
+      "data": {
+        "timestamp": "2026-03-04T05:53:33.154Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP39WH6759",
+          "transaction_id": "Alampur ",
+          "note": "Sadalu 609 bags",
+          "size_analysis_7": 57,
+          "size_analysis_5": 93,
+          "size_analysis_4": 95.2,
+          "small_mud_percent": 4.8,
+          "big_mud_stones_percent": 0.4,
+          "damage_1": 0.2,
+          "physical_damage_2": 0.6,
+          "moisture_content_percent": 11,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "WUghVAGQRtGx9pY6nmOt",
+      "data": {
+        "timestamp": "2026-03-24T16:53:05.581Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP05V5877",
+          "transaction_id": "Mallovolu",
+          "note": "Baddi sada 80 Bages ",
+          "size_analysis_7": 55,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98.2,
+          "small_mud_percent": 1.8,
+          "big_mud_stones_percent": 0.4,
+          "damage_1": "",
+          "physical_damage_2": 0.3,
+          "moisture_content_percent": 11.6,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "WaALbz0UYEIhrb56CVff",
+      "data": {
+        "timestamp": "2026-03-18T06:36:30.445Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP07TT2439",
+          "transaction_id": "Challapalle ",
+          "note": "Polish 280",
+          "size_analysis_7": 70,
+          "size_analysis_5": 96,
+          "size_analysis_4": 98.2,
+          "small_mud_percent": 1.8,
+          "big_mud_stones_percent": 1.1,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.6,
+          "moisture_content_percent": 10.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "WamvRoYguRrd616TdYvj",
+      "data": {
+        "timestamp": "2026-01-03T14:47:11.381Z",
+        "userId": "TVYoYDqQQqY1asGVvTm7yNDNLng2",
+        "userName": "Quality1",
+        "details": {
+          "vehicle_number": "AP39UC2791",
+          "transaction_id": "",
+          "note": "235 Bags",
+          "size_analysis_7": 65,
+          "size_analysis_5": 95,
+          "size_analysis_4": 96,
+          "small_mud_percent": 4,
+          "big_mud_stones_percent": 1,
+          "damage_1": 2,
+          "physical_damage_2": 4,
+          "moisture_content_percent": 11,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "WgwcKndPKC3S4sio2Xai",
+      "data": {
+        "timestamp": "2026-01-03T14:43:28.838Z",
+        "userId": "TVYoYDqQQqY1asGVvTm7yNDNLng2",
+        "userName": "Quality1",
+        "details": {
+          "vehicle_number": "MP09HH4634",
+          "transaction_id": "",
+          "note": "866 BAGS",
+          "size_analysis_7": 68,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99,
+          "small_mud_percent": 2,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 9,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "WvCgbruC0UF5a6iGb8vz",
+      "data": {
+        "timestamp": "2026-01-08T11:12:33.212Z",
+        "userId": "TVYoYDqQQqY1asGVvTm7yNDNLng2",
+        "userName": "Quality1",
+        "details": {
+          "vehicle_number": "AP04TX3247",
+          "transaction_id": "",
+          "note": "481bagas",
+          "size_analysis_7": 57,
+          "size_analysis_5": 91,
+          "size_analysis_4": 93.9,
+          "small_mud_percent": 6.1,
+          "big_mud_stones_percent": 0.4,
+          "damage_1": 0.3,
+          "physical_damage_2": 0.2,
+          "moisture_content_percent": 12.4,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "XckKo1G6SA21bTYu2i2G",
+      "data": {
+        "timestamp": "2026-02-12T09:58:16.554Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP07TF8299",
+          "transaction_id": "Arbaza",
+          "note": "Oil Baddi 867Bages",
+          "size_analysis_7": 88,
+          "size_analysis_5": 99.5,
+          "size_analysis_4": 99.9,
+          "small_mud_percent": 0.1,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 8.8,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "XiK8UIRYCMRG7Y6LJOGp",
+      "data": {
+        "timestamp": "2026-02-16T14:11:05.574Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP39TG7262",
+          "transaction_id": "Manikanta traders",
+          "note": "Sadalu 100bags",
+          "size_analysis_7": 45,
+          "size_analysis_5": 93,
+          "size_analysis_4": 96.2,
+          "small_mud_percent": 3.8,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.2,
+          "physical_damage_2": 0.2,
+          "moisture_content_percent": 11.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "XkNHNHzCvt07m9yO8bCQ",
+      "data": {
+        "timestamp": "2026-01-30T04:46:40.460Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP02TE2457",
+          "transaction_id": "Kamalapuram ",
+          "note": "Sadalu",
+          "size_analysis_7": 58,
+          "size_analysis_5": 95,
+          "size_analysis_4": 96.1,
+          "small_mud_percent": 3.9,
+          "big_mud_stones_percent": 0.3,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.3,
+          "moisture_content_percent": 11,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "Y2gHhl7A5YAwG6g1K3WG",
+      "data": {
+        "timestamp": "2026-03-16T13:14:58.516Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP16X0729",
+          "transaction_id": "Vadalamanndu ",
+          "note": "Baddi polish 224 Bages ",
+          "size_analysis_7": 68,
+          "size_analysis_5": 96,
+          "size_analysis_4": 98.3,
+          "small_mud_percent": 1.7,
+          "big_mud_stones_percent": 0.5,
+          "damage_1": "",
+          "physical_damage_2": 0.2,
+          "moisture_content_percent": 11.9,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "YDKcV6WtN0CSUUudK0Hg",
+      "data": {
+        "timestamp": "2026-03-16T13:19:17.957Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP37TA1117",
+          "transaction_id": "Bogi Reddy Palam",
+          "note": "Baddi polish 240 Bages ",
+          "size_analysis_7": 78,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98,
+          "small_mud_percent": 2,
+          "big_mud_stones_percent": 0.8,
+          "damage_1": "",
+          "physical_damage_2": 0.2,
+          "moisture_content_percent": 11,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "YFP7uWHF7LPbqPqbE6xN",
+      "data": {
+        "timestamp": "2026-01-26T09:05:03.205Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "KA569273",
+          "transaction_id": "Akshara ",
+          "note": "121212",
+          "size_analysis_7": 93,
+          "size_analysis_5": 99.5,
+          "size_analysis_4": 99.7,
+          "small_mud_percent": 0.3,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 9.4,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "YIakWCnaEGFyhFsvoo1U",
+      "data": {
+        "timestamp": "2026-01-31T05:37:44.981Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "KA563551",
+          "transaction_id": "Brazil polish ",
+          "note": "Akshara agri",
+          "size_analysis_7": 91,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.5,
+          "small_mud_percent": 0.5,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 10.2,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "YO1ffx4l5aG5fh72ujAD",
+      "data": {
+        "timestamp": "2026-02-02T12:07:58.127Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP39UP0239",
+          "transaction_id": "Kamalapuram",
+          "note": "480 Kallam",
+          "size_analysis_7": 50,
+          "size_analysis_5": 93,
+          "size_analysis_4": 95.3,
+          "small_mud_percent": 4.7,
+          "big_mud_stones_percent": 0.3,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.1,
+          "moisture_content_percent": 13,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "YeA80C5vWaeGF7ZGbEAb",
+      "data": {
+        "timestamp": "2026-02-16T14:02:50.732Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP07TJ1445",
+          "transaction_id": "Dhailand",
+          "note": "Sadalu",
+          "size_analysis_7": 72,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.6,
+          "small_mud_percent": 0.4,
+          "big_mud_stones_percent": 0.4,
+          "damage_1": 0.8,
+          "physical_damage_2": 10,
+          "moisture_content_percent": 10.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "YiFfGjWXjYmCiHvCIyuy",
+      "data": {
+        "timestamp": "2026-03-18T14:01:02.565Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP16TY7729",
+          "transaction_id": "Vadalamanndu ",
+          "note": "Kallam polish 240 Bages ",
+          "size_analysis_7": 64,
+          "size_analysis_5": 95,
+          "size_analysis_4": 97.1,
+          "small_mud_percent": 2.9,
+          "big_mud_stones_percent": 0.5,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.7,
+          "moisture_content_percent": 11.2,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "YqAV5ErPXdtlgxAqHdal",
+      "data": {
+        "timestamp": "2026-03-20T07:16:17.634Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP16U9259",
+          "transaction_id": "Mukkollu",
+          "note": "Baddi polish 271 bagy",
+          "size_analysis_7": 72,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98.3,
+          "small_mud_percent": 1.7,
+          "big_mud_stones_percent": 0.4,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.1,
+          "moisture_content_percent": 11.6,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "Z52I9fhL9WUirCxUpm1b",
+      "data": {
+        "timestamp": "2026-03-03T13:25:33.885Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP21TB1501",
+          "transaction_id": "Atmakuru ",
+          "note": "Newsri sai ram traders ",
+          "size_analysis_7": 50,
+          "size_analysis_5": 92,
+          "size_analysis_4": 95.2,
+          "small_mud_percent": 4.8,
+          "big_mud_stones_percent": 0.1,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.7,
+          "moisture_content_percent": 10.2,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "Z7KG4p8M0nNQ0hriiX7X",
+      "data": {
+        "timestamp": "2026-03-16T13:09:28.564Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP07TH4789",
+          "transaction_id": "Brazil polish ",
+          "note": "Kallam 869 Bages",
+          "size_analysis_7": 64,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.5,
+          "small_mud_percent": 0.5,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": 7,
+          "moisture_content_percent": 10.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "ZLibTm0S8bH0cezEqkgR",
+      "data": {
+        "timestamp": "2026-02-05T14:00:10.808Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP04TX3423",
+          "transaction_id": "Kadapa",
+          "note": "Kallam 481 bages",
+          "size_analysis_7": 51,
+          "size_analysis_5": 93,
+          "size_analysis_4": 96,
+          "small_mud_percent": 4,
+          "big_mud_stones_percent": 0.5,
+          "damage_1": 0.3,
+          "physical_damage_2": 0.5,
+          "moisture_content_percent": 10.9,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "Zkyp46elwE9T8NzSSdLH",
+      "data": {
+        "timestamp": "2026-02-09T05:58:02.711Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP03TE2178",
+          "transaction_id": "Kamalapuram",
+          "note": "Sadalu",
+          "size_analysis_7": 70,
+          "size_analysis_5": 96,
+          "size_analysis_4": 97.9,
+          "small_mud_percent": 2.1,
+          "big_mud_stones_percent": 0.1,
+          "damage_1": 0.3,
+          "physical_damage_2": 0.5,
+          "moisture_content_percent": 12.1,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "Zn47Rw4lR2voLv8u4ebr",
+      "data": {
+        "timestamp": "2026-03-23T17:50:37.816Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP29TA2257",
+          "transaction_id": "Challa palli ",
+          "note": "Baddi polish 300 Bages ",
+          "size_analysis_7": 70,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98.8,
+          "small_mud_percent": 1.2,
+          "big_mud_stones_percent": 0.4,
+          "damage_1": "",
+          "physical_damage_2": 0.9,
+          "moisture_content_percent": 11.3,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "ZutWCEJP3aAkgonFNNF6",
+      "data": {
+        "timestamp": "2026-02-27T04:45:56.574Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP04TX6248",
+          "transaction_id": "Kamalapuram",
+          "note": "Baddi 488 Bages",
+          "size_analysis_7": 61,
+          "size_analysis_5": 95,
+          "size_analysis_4": 96.8,
+          "small_mud_percent": 3.2,
+          "big_mud_stones_percent": 0.4,
+          "damage_1": 0.4,
+          "physical_damage_2": 1,
+          "moisture_content_percent": 11.7,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "auPx4NLbpThxvJu4Mbja",
+      "data": {
+        "timestamp": "2026-03-06T10:15:30.343Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP21TZ0738",
+          "transaction_id": "Atmakuru",
+          "note": "New sri sai traders",
+          "size_analysis_7": 61,
+          "size_analysis_5": 96,
+          "size_analysis_4": 97,
+          "small_mud_percent": 3,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.3,
+          "moisture_content_percent": 11,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "axLv1Q21dVzKvun7iuiy",
+      "data": {
+        "timestamp": "2026-03-10T04:53:09.135Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP21TA4770",
+          "transaction_id": "Atmakuru ",
+          "note": "New sri sai ram traders ",
+          "size_analysis_7": 55,
+          "size_analysis_5": 94,
+          "size_analysis_4": 96.5,
+          "small_mud_percent": 3.5,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0,
+          "physical_damage_2": 0.4,
+          "moisture_content_percent": 10.1,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "b2uWmuWr4Cttc3vdPa1k",
+      "data": {
+        "timestamp": "2026-02-28T14:38:31.527Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "TS07UP2262",
+          "transaction_id": "Amaravai",
+          "note": "Baddi 592 Bages ",
+          "size_analysis_7": 57,
+          "size_analysis_5": 94,
+          "size_analysis_4": 96,
+          "small_mud_percent": 4,
+          "big_mud_stones_percent": 0.1,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.5,
+          "moisture_content_percent": 11.2,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "b4EDLJWIPExE470f99wh",
+      "data": {
+        "timestamp": "2026-03-24T16:44:01.660Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP39TT5236",
+          "transaction_id": "Kothamajeru",
+          "note": "Kallam polish 290 Bages ",
+          "size_analysis_7": 75,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98.2,
+          "small_mud_percent": 1.8,
+          "big_mud_stones_percent": 0.7,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.3,
+          "moisture_content_percent": 10.7,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "cJQMpCLLTQUXQJbUvnzN",
+      "data": {
+        "timestamp": "2026-01-22T14:10:52.791Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AEE6109",
+          "transaction_id": "Vsus",
+          "note": "Gdhs",
+          "size_analysis_7": 1,
+          "size_analysis_5": "",
+          "size_analysis_4": 2,
+          "small_mud_percent": "",
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": "",
+          "upload_report": "",
+          "stageId": "quality-check"
+        },
+        "deleted": true
+      }
+    },
+    {
+      "id": "cmctsHFrcM4XuSlH4rcO",
+      "data": {
+        "timestamp": "2026-02-12T11:08:40.249Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP02TP8469",
+          "transaction_id": "Brazil polish ",
+          "note": "Kamadhenu ",
+          "size_analysis_7": 90,
+          "size_analysis_5": 99.5,
+          "size_analysis_4": 99.8,
+          "small_mud_percent": 0.2,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 8.9,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "cws7jskJzU7CXx5h6mXK",
+      "data": {
+        "timestamp": "2026-03-11T09:48:48.140Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP04T7415",
+          "transaction_id": "Kavipuram",
+          "note": "Sadalu 224",
+          "size_analysis_7": 64,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98.3,
+          "small_mud_percent": 1.7,
+          "big_mud_stones_percent": 0.6,
+          "damage_1": 0.2,
+          "physical_damage_2": 0.2,
+          "moisture_content_percent": 11.1,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "d1Ut1E3cecpLYHX5pwwu",
+      "data": {
+        "timestamp": "2026-01-30T18:47:42.059Z",
+        "userId": "TVYoYDqQQqY1asGVvTm7yNDNLng2",
+        "userName": "Ramu - Quality1",
+        "details": {
+          "vehicle_number": "A07TM1188",
+          "transaction_id": "se",
+          "note": "f",
+          "size_analysis_7": 2,
+          "size_analysis_5": 2,
+          "size_analysis_4": 2,
+          "small_mud_percent": 2,
+          "big_mud_stones_percent": 2,
+          "damage_1": 2,
+          "physical_damage_2": 2,
+          "moisture_content_percent": 2,
+          "upload_report": "",
+          "stageId": "quality-check"
+        },
+        "deleted": true
+      }
+    },
+    {
+      "id": "dBJxzY4xarSb3ugxM3OJ",
+      "data": {
+        "timestamp": "2026-02-16T14:04:43.356Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "TN76Q0843",
+          "transaction_id": "Dhailand",
+          "note": "Sada.500.bages",
+          "size_analysis_7": 75,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.6,
+          "small_mud_percent": 0.4,
+          "big_mud_stones_percent": 0.6,
+          "damage_1": 0.8,
+          "physical_damage_2": 12,
+          "moisture_content_percent": 11,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "dEK1h8VnbDG4D7eVoyiX",
+      "data": {
+        "timestamp": "2026-03-23T17:05:07.420Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP37X1827",
+          "transaction_id": "Challa palli ",
+          "note": "Baddi polish 292 Bages ",
+          "size_analysis_7": 73,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98.6,
+          "small_mud_percent": 1.4,
+          "big_mud_stones_percent": 1.1,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.5,
+          "moisture_content_percent": 10.8,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "ddtBLPHwlcFBtrfzn5xT",
+      "data": {
+        "timestamp": "2026-03-18T13:50:51.725Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP39TT5236",
+          "transaction_id": "Kothamajeru",
+          "note": "Baddi polish 261 Bages ",
+          "size_analysis_7": 72,
+          "size_analysis_5": 95,
+          "size_analysis_4": 97.6,
+          "small_mud_percent": 2.4,
+          "big_mud_stones_percent": 1.6,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.4,
+          "moisture_content_percent": 11.2,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "dvdWr93F4Yw1sHIzcbRH",
+      "data": {
+        "timestamp": "2026-02-16T14:04:58.784Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "TN76Q0843",
+          "transaction_id": "Dhailand",
+          "note": "Sada.500.bages",
+          "size_analysis_7": 75,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.6,
+          "small_mud_percent": 0.4,
+          "big_mud_stones_percent": 0.6,
+          "damage_1": 0.8,
+          "physical_damage_2": 12,
+          "moisture_content_percent": 11,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "eDMC9G1D3EYMiOGq1J1F",
+      "data": {
+        "timestamp": "2026-03-21T07:59:04.646Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP39UN2156",
+          "transaction_id": "Vadalamanndu ",
+          "note": "Baddi polish 466 Bages ",
+          "size_analysis_7": 68,
+          "size_analysis_5": 96,
+          "size_analysis_4": 98,
+          "small_mud_percent": 2,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": "",
+          "physical_damage_2": 0.3,
+          "moisture_content_percent": 11.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "eQ3ZVumqbtZVCCdp9luL",
+      "data": {
+        "timestamp": "2026-01-24T12:22:13.928Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP21W5839",
+          "transaction_id": "121212",
+          "note": "Kamalapuram ",
+          "size_analysis_7": 50,
+          "size_analysis_5": 93,
+          "size_analysis_4": 95.1,
+          "small_mud_percent": 4.9,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.5,
+          "moisture_content_percent": 12,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "ecyn6zRcH2iwuTdcwe4O",
+      "data": {
+        "timestamp": "2026-02-16T14:08:09.960Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP04W3307",
+          "transaction_id": "Kamalapuram ",
+          "note": "Sadalu",
+          "size_analysis_7": 58,
+          "size_analysis_5": 95,
+          "size_analysis_4": 97.4,
+          "small_mud_percent": 2.6,
+          "big_mud_stones_percent": "",
+          "damage_1": 1.1,
+          "physical_damage_2": 0.4,
+          "moisture_content_percent": 11.6,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "edmca02uJSG2n61BNlnW",
+      "data": {
+        "timestamp": "2026-01-29T09:37:30.826Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP39U7550",
+          "transaction_id": "Kamalapuram",
+          "note": "Baddi",
+          "size_analysis_7": 58,
+          "size_analysis_5": 95,
+          "size_analysis_4": 96.4,
+          "small_mud_percent": 3.1,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.2,
+          "moisture_content_percent": 11.2,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "ejp4RBkzibnFHuh86b29",
+      "data": {
+        "timestamp": "2026-02-16T14:04:39.291Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "TN76Q0843",
+          "transaction_id": "Dhailand",
+          "note": "Sada.500.bages",
+          "size_analysis_7": 75,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.6,
+          "small_mud_percent": 0.4,
+          "big_mud_stones_percent": 0.6,
+          "damage_1": 0.8,
+          "physical_damage_2": 12,
+          "moisture_content_percent": 11,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "fMYDPtTi2EInjwkMRmDC",
+      "data": {
+        "timestamp": "2026-03-05T05:55:07.917Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP39UC7599",
+          "transaction_id": "New sri Sai trders",
+          "note": "Sadalu 604bags",
+          "size_analysis_7": 65,
+          "size_analysis_5": 95,
+          "size_analysis_4": 98.2,
+          "small_mud_percent": 1.8,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.5,
+          "moisture_content_percent": 10.8,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "fspS3uVEpMAjNxUYdS61",
+      "data": {
+        "timestamp": "2026-03-16T12:42:35.880Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP07TT1179",
+          "transaction_id": "Challapalle",
+          "note": "Polish 240",
+          "size_analysis_7": 77,
+          "size_analysis_5": 97,
+          "size_analysis_4": 97.8,
+          "small_mud_percent": 2.2,
+          "big_mud_stones_percent": 1.2,
+          "damage_1": 0.1,
+          "physical_damage_2": 1.3,
+          "moisture_content_percent": 10.8,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "gU5AhOMiFkzhIrXYJj5j",
+      "data": {
+        "timestamp": "2026-03-14T05:10:17.578Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP07Y3489",
+          "transaction_id": "Pedasanagallu",
+          "note": "Polish 385",
+          "size_analysis_7": 64,
+          "size_analysis_5": 95,
+          "size_analysis_4": 96.7,
+          "small_mud_percent": 3.3,
+          "big_mud_stones_percent": 0.3,
+          "damage_1": 0.3,
+          "physical_damage_2": 0.3,
+          "moisture_content_percent": 0.3,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "ggooufDhzwPYext24foC",
+      "data": {
+        "timestamp": "2026-03-23T17:32:25.980Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP05V1629",
+          "transaction_id": "Koduru",
+          "note": "Baddi polish 260 Bages ",
+          "size_analysis_7": 70,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98,
+          "small_mud_percent": 2,
+          "big_mud_stones_percent": 1.4,
+          "damage_1": 0.1,
+          "physical_damage_2": 1,
+          "moisture_content_percent": 11.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "gv1KIEtdgaQOx5nDpRQW",
+      "data": {
+        "timestamp": "2026-03-18T13:46:27.558Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP16TU3138",
+          "transaction_id": "Dokiparu",
+          "note": "Baddi polish 131 Bages ",
+          "size_analysis_7": 75,
+          "size_analysis_5": 95,
+          "size_analysis_4": 97.5,
+          "small_mud_percent": 2.5,
+          "big_mud_stones_percent": 1.8,
+          "damage_1": "",
+          "physical_damage_2": 0.6,
+          "moisture_content_percent": 10.6,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "hCUvcQo5wxHlxmx3u6Sr",
+      "data": {
+        "timestamp": "2026-02-23T04:36:19.977Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP03TE2196",
+          "transaction_id": "Amaravai",
+          "note": "Baddi 487. Bages ",
+          "size_analysis_7": 62,
+          "size_analysis_5": 93,
+          "size_analysis_4": 95,
+          "small_mud_percent": 5,
+          "big_mud_stones_percent": 0.3,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.3,
+          "moisture_content_percent": 10.7,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "isDj4zJcAFpkaYJ8Clse",
+      "data": {
+        "timestamp": "2026-02-27T13:13:39.206Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP02TE2448",
+          "transaction_id": "Allampur ",
+          "note": "Baddi 503 Bages ",
+          "size_analysis_7": 64,
+          "size_analysis_5": 94,
+          "size_analysis_4": 96.7,
+          "small_mud_percent": 3.3,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": "",
+          "physical_damage_2": 0.2,
+          "moisture_content_percent": 10.8,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "jEgNsszxUobwny6vsngO",
+      "data": {
+        "timestamp": "2026-03-17T15:48:12.567Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP05V5877",
+          "transaction_id": "Mallavolu ",
+          "note": "Polish 188",
+          "size_analysis_7": 67,
+          "size_analysis_5": 96,
+          "size_analysis_4": 98.5,
+          "small_mud_percent": 1.5,
+          "big_mud_stones_percent": 0.7,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.2,
+          "moisture_content_percent": 11.4,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "jK9ihzOIBBbHGLF98I0U",
+      "data": {
+        "timestamp": "2026-03-18T14:02:29.927Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP16TY7729",
+          "transaction_id": "Vadalamanndu ",
+          "note": "Kallam sada 160 Bages ",
+          "size_analysis_7": 46,
+          "size_analysis_5": 93,
+          "size_analysis_4": 96.2,
+          "small_mud_percent": 3.8,
+          "big_mud_stones_percent": 0.3,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.5,
+          "moisture_content_percent": 10.7,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "jRF94sEi7jhkw9uIfao4",
+      "data": {
+        "timestamp": "2026-01-29T12:23:53.028Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP9DX9148",
+          "transaction_id": "Brazil polish ",
+          "note": "H.s.s.inter national",
+          "size_analysis_7": 89,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.9,
+          "small_mud_percent": 0.1,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 9.1,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "jyWUmiqMBOBmI8wiss67",
+      "data": {
+        "timestamp": "2026-01-29T09:07:11.389Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "MH40CM8080",
+          "transaction_id": "Brazil polish ",
+          "note": "Arbaza alimentos ltd",
+          "size_analysis_7": 90,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.5,
+          "small_mud_percent": 0.5,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 9,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "k4aof7cylGVvK0Qg3GEu",
+      "data": {
+        "timestamp": "2026-01-31T05:38:46.240Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "KA568706",
+          "transaction_id": "Brazil polish",
+          "note": "Akshara agri",
+          "size_analysis_7": 93,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.9,
+          "small_mud_percent": 0.1,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": "",
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "kCQ6EpwxRMmmM7pysjDd",
+      "data": {
+        "timestamp": "2026-03-05T07:34:22.411Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP04TX4809",
+          "transaction_id": "Pamulapadu ",
+          "note": "Sadalu 500 bags",
+          "size_analysis_7": 55,
+          "size_analysis_5": 95,
+          "size_analysis_4": 96.5,
+          "small_mud_percent": 3.5,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.6,
+          "moisture_content_percent": 10.8,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "kK8kHUK01zi7cLnSUXXB",
+      "data": {
+        "timestamp": "2026-02-17T11:08:24.968Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP39U0477",
+          "transaction_id": "Kamalapuram ",
+          "note": "Sadalu 534 bags",
+          "size_analysis_7": 48,
+          "size_analysis_5": 93,
+          "size_analysis_4": 95.4,
+          "small_mud_percent": 4.6,
+          "big_mud_stones_percent": 0.5,
+          "damage_1": 0.2,
+          "physical_damage_2": 0.4,
+          "moisture_content_percent": 10.8,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "kYC8p8EiWLCyH1sByIrV",
+      "data": {
+        "timestamp": "2026-03-21T07:57:40.084Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP05V1629",
+          "transaction_id": "Koduru",
+          "note": "Polish 260",
+          "size_analysis_7": 72,
+          "size_analysis_5": 96,
+          "size_analysis_4": 98.5,
+          "small_mud_percent": 1.5,
+          "big_mud_stones_percent": 1,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.2,
+          "moisture_content_percent": 10.7,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "kdGjtW9AqGR50mF0fVzk",
+      "data": {
+        "timestamp": "2026-03-20T10:24:37.459Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP37TA1117",
+          "transaction_id": " lakshmipuram",
+          "note": "Baddi polish 240 Bages ",
+          "size_analysis_7": 72,
+          "size_analysis_5": 96,
+          "size_analysis_4": 98.4,
+          "small_mud_percent": 1.6,
+          "big_mud_stones_percent": 0.6,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.4,
+          "moisture_content_percent": 10.7,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "kfGmWkCl7Db5bqHQ0tn3",
+      "data": {
+        "timestamp": "2026-03-24T16:46:04.793Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP07TA6105",
+          "transaction_id": "Vekanuru",
+          "note": "Kallam polish 297 Bages ",
+          "size_analysis_7": 66,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98.8,
+          "small_mud_percent": 1.2,
+          "big_mud_stones_percent": 0.6,
+          "damage_1": "",
+          "physical_damage_2": 0.2,
+          "moisture_content_percent": 11.6,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "liO7jWcAwTB8dIFD8QgJ",
+      "data": {
+        "timestamp": "2026-03-23T17:22:10.212Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP39UB4595",
+          "transaction_id": "Gudivada ",
+          "note": "Baddi polish 463 Bages ",
+          "size_analysis_7": 70,
+          "size_analysis_5": 96,
+          "size_analysis_4": 97.9,
+          "small_mud_percent": 2.1,
+          "big_mud_stones_percent": 0.3,
+          "damage_1": "",
+          "physical_damage_2": 0.3,
+          "moisture_content_percent": 10.7,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "ljK6SG2i19nMdTvtB43D",
+      "data": {
+        "timestamp": "2026-03-06T10:33:01.333Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP21TX9689",
+          "transaction_id": "Athmakur",
+          "note": "Kallam 501 Bages ",
+          "size_analysis_7": 58,
+          "size_analysis_5": 94,
+          "size_analysis_4": 96.2,
+          "small_mud_percent": 3.8,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.4,
+          "physical_damage_2": 0.4,
+          "moisture_content_percent": 11,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "m5hcprUYLKMwSavZm32j",
+      "data": {
+        "timestamp": "2026-01-03T14:54:41.581Z",
+        "userId": "TVYoYDqQQqY1asGVvTm7yNDNLng2",
+        "userName": "Quality1",
+        "details": {
+          "vehicle_number": "AP39TZ1139",
+          "transaction_id": "",
+          "note": "479 BAGS",
+          "size_analysis_7": 51,
+          "size_analysis_5": 91,
+          "size_analysis_4": 94,
+          "small_mud_percent": 6,
+          "big_mud_stones_percent": 2,
+          "damage_1": 1,
+          "physical_damage_2": 4,
+          "moisture_content_percent": 13,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "mXjYEHf7LPk4N7Vh4afz",
+      "data": {
+        "timestamp": "2026-02-01T08:50:56.204Z",
+        "userId": "TVYoYDqQQqY1asGVvTm7yNDNLng2",
+        "userName": "Ramu - Quality1",
+        "details": {
+          "vehicle_number": "AP39TP9394",
+          "transaction_id": "",
+          "note": "Brazil ",
+          "size_analysis_7": 90,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.5,
+          "small_mud_percent": 0.5,
+          "big_mud_stones_percent": 0,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.5,
+          "moisture_content_percent": 9.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "n3TzQKHqxdU2VbirZGJg",
+      "data": {
+        "timestamp": "2026-03-21T10:54:41.554Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP16TG2466",
+          "transaction_id": "Lakshmi puram ",
+          "note": "Polish 216",
+          "size_analysis_7": 75,
+          "size_analysis_5": 98,
+          "size_analysis_4": 98.9,
+          "small_mud_percent": 1.1,
+          "big_mud_stones_percent": 0.9,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.4,
+          "moisture_content_percent": 10.7,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "nI8CxgUfxygnXDRAgRDV",
+      "data": {
+        "timestamp": "2026-03-05T12:05:44.388Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP04TW4459",
+          "transaction_id": "Kamalapuram ",
+          "note": "Polish 45",
+          "size_analysis_7": 43,
+          "size_analysis_5": 92,
+          "size_analysis_4": 95.7,
+          "small_mud_percent": 4.3,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.1,
+          "physical_damage_2": 8,
+          "moisture_content_percent": 10.4,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "ngHqfb4YWdExQrhzyxb4",
+      "data": {
+        "timestamp": "2026-02-12T12:51:38.037Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP07TF8109",
+          "transaction_id": "Allampur",
+          "note": "New sri sai ram traders 521Bages sada",
+          "size_analysis_7": 68,
+          "size_analysis_5": 95,
+          "size_analysis_4": 95.2,
+          "small_mud_percent": 4.8,
+          "big_mud_stones_percent": 0.3,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.6,
+          "moisture_content_percent": 11,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "nn0wiubN3hKUO3QF0di7",
+      "data": {
+        "timestamp": "2026-03-11T09:46:01.171Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP05V5877",
+          "transaction_id": "Mallavolu",
+          "note": "Polish 306",
+          "size_analysis_7": 65,
+          "size_analysis_5": 96,
+          "size_analysis_4": 98.2,
+          "small_mud_percent": 1.8,
+          "big_mud_stones_percent": 0.5,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.3,
+          "moisture_content_percent": 11.8,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "noiHrpIoYbe7RQTdPjoi",
+      "data": {
+        "timestamp": "2026-01-24T09:42:37.710Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "MP13H4466",
+          "transaction_id": "121212",
+          "note": "Brazil polish hss ",
+          "size_analysis_7": 90,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.6,
+          "small_mud_percent": 0.4,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 9.4,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "oKGEsxsxnlIR5jdIdYmO",
+      "data": {
+        "timestamp": "2026-03-07T05:24:22.679Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP04TX2786",
+          "transaction_id": "Amaravai ",
+          "note": "Sadalu 469 bags",
+          "size_analysis_7": 68,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98.3,
+          "small_mud_percent": 1.7,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.6,
+          "moisture_content_percent": 10.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "ocG7WuzDfQcguMbHYkgO",
+      "data": {
+        "timestamp": "2026-03-13T10:03:12.936Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP16T4669",
+          "transaction_id": "Chennuru",
+          "note": "Baddi polish 260 Bages ",
+          "size_analysis_7": 64,
+          "size_analysis_5": 95,
+          "size_analysis_4": 97.5,
+          "small_mud_percent": 2.5,
+          "big_mud_stones_percent": 0.6,
+          "damage_1": 0.2,
+          "physical_damage_2": 0.3,
+          "moisture_content_percent": 11.4,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "ojC7B9fExD2Y7ykm6imZ",
+      "data": {
+        "timestamp": "2026-02-17T04:46:11.234Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP39UU3769",
+          "transaction_id": "Kamalapuram ",
+          "note": "Sadalu 583bags",
+          "size_analysis_7": 55,
+          "size_analysis_5": 94,
+          "size_analysis_4": 96.8,
+          "small_mud_percent": 3.2,
+          "big_mud_stones_percent": 0.1,
+          "damage_1": 0.6,
+          "physical_damage_2": 0.6,
+          "moisture_content_percent": 11.4,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "olqVlbEOOPZZIGdvMi0c",
+      "data": {
+        "timestamp": "2026-03-10T07:08:21.954Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP07Z0617",
+          "transaction_id": "Vinakota",
+          "note": "Polish Baddi 120 Bages ",
+          "size_analysis_7": 67,
+          "size_analysis_5": 95,
+          "size_analysis_4": 96.3,
+          "small_mud_percent": 3.7,
+          "big_mud_stones_percent": 1.3,
+          "damage_1": 0.2,
+          "physical_damage_2": 1.2,
+          "moisture_content_percent": 13.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "ovzIWpAqqgxmCMhHKD2A",
+      "data": {
+        "timestamp": "2026-01-22T14:19:25.464Z",
+        "userId": "TVYoYDqQQqY1asGVvTm7yNDNLng2",
+        "userName": "Ramu - Quality1",
+        "details": {
+          "vehicle_number": "AP21TX1355",
+          "transaction_id": "Bazil",
+          "note": "Baddi",
+          "size_analysis_7": 88,
+          "size_analysis_5": 99.5,
+          "size_analysis_4": 99.8,
+          "small_mud_percent": 0.2,
+          "big_mud_stones_percent": 0.1,
+          "damage_1": 0.1,
+          "physical_damage_2": 2,
+          "moisture_content_percent": 9.8,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "pJta4dI4iiwtTw7eh0q9",
+      "data": {
+        "timestamp": "2026-03-06T13:30:35.658Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "MP09BF1840",
+          "transaction_id": "Brazil polish ",
+          "note": "Polish 867",
+          "size_analysis_7": 90,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.8,
+          "small_mud_percent": 0.2,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 9.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "pPXTrDzSnicLHhUjsvCt",
+      "data": {
+        "timestamp": "2026-03-03T13:27:31.051Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP27TY0819",
+          "transaction_id": "Pamulapadu ",
+          "note": "Sadalu 510 bags",
+          "size_analysis_7": 62,
+          "size_analysis_5": 95,
+          "size_analysis_4": 96.2,
+          "small_mud_percent": 3.8,
+          "big_mud_stones_percent": 0.3,
+          "damage_1": 0.2,
+          "physical_damage_2": 0.7,
+          "moisture_content_percent": 11.6,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "pSDWdKh3GC8MRoWbe3dT",
+      "data": {
+        "timestamp": "2026-02-23T05:18:48.694Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP04TU2737",
+          "transaction_id": "Pamulapadu ",
+          "note": "New sri sai traers",
+          "size_analysis_7": 65,
+          "size_analysis_5": 96,
+          "size_analysis_4": 97.3,
+          "small_mud_percent": 2.7,
+          "big_mud_stones_percent": 0.1,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.8,
+          "moisture_content_percent": 10.7,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "phVF7KGg9NUAPKXfIVTi",
+      "data": {
+        "timestamp": "2026-01-29T12:21:47.087Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "RJ09GC4217",
+          "transaction_id": "Brazil polish ",
+          "note": "Salecha polyweave",
+          "size_analysis_7": 75,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.6,
+          "small_mud_percent": 0.4,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 9.9,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "piMII2c6M1IHH66j9eML",
+      "data": {
+        "timestamp": "2026-03-05T12:04:46.092Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP04TW4459",
+          "transaction_id": "Kamalapuram ",
+          "note": "Sadalu 530",
+          "size_analysis_7": 54,
+          "size_analysis_5": 95,
+          "size_analysis_4": 96.7,
+          "small_mud_percent": 3.3,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.2,
+          "physical_damage_2": 1.3,
+          "moisture_content_percent": 11.4,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "psTrx07nwUPJCYhHJPHc",
+      "data": {
+        "timestamp": "2026-01-29T09:09:40.073Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "RJ27GD6494",
+          "transaction_id": "Brazil polish ",
+          "note": "Samba foods ltd",
+          "size_analysis_7": 91,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.6,
+          "small_mud_percent": 0.4,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 9.2,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "q0kPUIUBSNKPRLh9KnbO",
+      "data": {
+        "timestamp": "2026-01-22T14:15:36.337Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP04TW2480",
+          "transaction_id": "Karumuri",
+          "note": "Baddi ",
+          "size_analysis_7": 90,
+          "size_analysis_5": 99.5,
+          "size_analysis_4": 99.8,
+          "small_mud_percent": 0.2,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": 0.2,
+          "moisture_content_percent": 9.6,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "qBrwdMyf6vWqOs9c4bp1",
+      "data": {
+        "timestamp": "2026-01-13T15:30:47.250Z",
+        "userId": "TVYoYDqQQqY1asGVvTm7yNDNLng2",
+        "userName": "Quality1",
+        "details": {
+          "vehicle_number": "AP39T4919",
+          "transaction_id": "",
+          "note": "476BAGS",
+          "size_analysis_7": 68,
+          "size_analysis_5": 96,
+          "size_analysis_4": 97.6,
+          "small_mud_percent": 2.4,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.3,
+          "moisture_content_percent": 11,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "qG2QSAcvdV6ag8GeVtl5",
+      "data": {
+        "timestamp": "2026-02-27T04:47:46.238Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP39VD5759",
+          "transaction_id": "Kamalapuram",
+          "note": "Kallam 620 Bages ",
+          "size_analysis_7": 61,
+          "size_analysis_5": 95,
+          "size_analysis_4": 96.5,
+          "small_mud_percent": 3.5,
+          "big_mud_stones_percent": 0.1,
+          "damage_1": "",
+          "physical_damage_2": 0.5,
+          "moisture_content_percent": 11,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "qU7ydBVQXslSyyBHlnlq",
+      "data": {
+        "timestamp": "2026-03-14T07:24:28.345Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP16X5679",
+          "transaction_id": "Mukkollu",
+          "note": "Baddi polish 181 Bages ",
+          "size_analysis_7": 74,
+          "size_analysis_5": 96,
+          "size_analysis_4": 98.5,
+          "small_mud_percent": 1.5,
+          "big_mud_stones_percent": 0.5,
+          "damage_1": "",
+          "physical_damage_2": 0.4,
+          "moisture_content_percent": 11.8,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "qtRr2U9UK5IlpTkXRWHl",
+      "data": {
+        "timestamp": "2026-02-02T10:49:57.418Z",
+        "userId": "TVYoYDqQQqY1asGVvTm7yNDNLng2",
+        "userName": "Ramu - Quality1",
+        "details": {
+          "vehicle_number": "8769",
+          "transaction_id": "",
+          "note": "Kamalapuram ",
+          "size_analysis_7": 54,
+          "size_analysis_5": 93,
+          "size_analysis_4": 96,
+          "small_mud_percent": 4,
+          "big_mud_stones_percent": 0.4,
+          "damage_1": 0,
+          "physical_damage_2": 0,
+          "moisture_content_percent": 11.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "r47JwdVkdwlChYh0SnLW",
+      "data": {
+        "timestamp": "2026-03-17T15:44:33.365Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP16Y2739",
+          "transaction_id": "Devarakota",
+          "note": "Sadalu 300",
+          "size_analysis_7": 56,
+          "size_analysis_5": 93,
+          "size_analysis_4": 96.8,
+          "small_mud_percent": 3.2,
+          "big_mud_stones_percent": 1.3,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.5,
+          "moisture_content_percent": 10.8,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "rSe4uRIxRSMqNBm4b1UP",
+      "data": {
+        "timestamp": "2026-03-06T10:37:45.494Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "TN16D9799",
+          "transaction_id": "Arbaza",
+          "note": "Baddi 867 Bages ",
+          "size_analysis_7": 92,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.9,
+          "small_mud_percent": 0.1,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 9.6,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "rr3uBsEfjdH0M3FLjU3p",
+      "data": {
+        "timestamp": "2026-03-24T16:58:45.286Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP05Y5252",
+          "transaction_id": "Kothamajeru",
+          "note": "Kallam polish 280 Bages ",
+          "size_analysis_7": 70,
+          "size_analysis_5": 96,
+          "size_analysis_4": 97.6,
+          "small_mud_percent": 2.4,
+          "big_mud_stones_percent": 0.8,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.5,
+          "moisture_content_percent": 11.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "s1quHkCsKsD6OXwFXqFB",
+      "data": {
+        "timestamp": "2026-01-03T14:35:03.737Z",
+        "userId": "TVYoYDqQQqY1asGVvTm7yNDNLng2",
+        "userName": "Quality1",
+        "details": {
+          "vehicle_number": "AP01Y6097",
+          "transaction_id": "",
+          "note": "861 BAGS ",
+          "size_analysis_7": 92,
+          "size_analysis_5": 99,
+          "size_analysis_4": "",
+          "small_mud_percent": "",
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": "",
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "s2ad2RDzdAOGDgfS2BAi",
+      "data": {
+        "timestamp": "2026-03-02T08:12:44.764Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP16TY6588",
+          "transaction_id": "Wanaparthy",
+          "note": "Kallam 532 Bages ",
+          "size_analysis_7": 59,
+          "size_analysis_5": 93,
+          "size_analysis_4": 95.7,
+          "small_mud_percent": 4.3,
+          "big_mud_stones_percent": 0.1,
+          "damage_1": 0.2,
+          "physical_damage_2": 0.2,
+          "moisture_content_percent": 11.1,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "sRmcD5a5lNm3xWmuCnWA",
+      "data": {
+        "timestamp": "2026-03-24T17:00:26.772Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP05V6166",
+          "transaction_id": "Pedasanagallu",
+          "note": "Kallam polish 270 Bages ",
+          "size_analysis_7": 76,
+          "size_analysis_5": 96,
+          "size_analysis_4": 98,
+          "small_mud_percent": 2,
+          "big_mud_stones_percent": 0.6,
+          "damage_1": "",
+          "physical_damage_2": 0.2,
+          "moisture_content_percent": 10.8,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "sSDRpdTbe4SgRLKBEzli",
+      "data": {
+        "timestamp": "2026-03-21T10:37:42.509Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP16X5679",
+          "transaction_id": "Mukkollu",
+          "note": "Baddi polish 184 Bages ",
+          "size_analysis_7": 78,
+          "size_analysis_5": 98,
+          "size_analysis_4": 99,
+          "small_mud_percent": 1,
+          "big_mud_stones_percent": 0.4,
+          "damage_1": "",
+          "physical_damage_2": 0.1,
+          "moisture_content_percent": 12,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "sm528Bijok6VQmFEqQv3",
+      "data": {
+        "timestamp": "2026-02-13T10:18:16.447Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP27TY0819",
+          "transaction_id": "Amarai",
+          "note": "New sri sai traders ",
+          "size_analysis_7": 65,
+          "size_analysis_5": 96,
+          "size_analysis_4": 97.3,
+          "small_mud_percent": 2.7,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.3,
+          "moisture_content_percent": 11.7,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "snp2T4jZSLmbOqtJuCCL",
+      "data": {
+        "timestamp": "2026-01-26T09:08:26.095Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "RJ09GD9043",
+          "transaction_id": "Karumuri pulses",
+          "note": "121212",
+          "size_analysis_7": 78,
+          "size_analysis_5": 99.5,
+          "size_analysis_4": 99.8,
+          "small_mud_percent": 0.2,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 10.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "sqBDf7RRwmA6zhefskao",
+      "data": {
+        "timestamp": "2026-02-06T15:11:40.198Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP07TF8287",
+          "transaction_id": "Brazil polish ",
+          "note": "Arbaza",
+          "size_analysis_7": 94,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.8,
+          "small_mud_percent": 0.2,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 8.7,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "t9lvABbH8P7ZNHQpahm9",
+      "data": {
+        "timestamp": "2026-02-03T13:56:54.020Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "TG32T1449",
+          "transaction_id": "Wanapatthy",
+          "note": "Sadalu",
+          "size_analysis_7": 60,
+          "size_analysis_5": 93,
+          "size_analysis_4": 96.3,
+          "small_mud_percent": 3.7,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.3,
+          "physical_damage_2": 0.5,
+          "moisture_content_percent": 11,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "tJQwzfDUhqSyeDyaC22R",
+      "data": {
+        "timestamp": "2026-03-17T15:49:54.836Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP07TA6105",
+          "transaction_id": "Nagayalanka",
+          "note": "Polish 261",
+          "size_analysis_7": 70,
+          "size_analysis_5": 96,
+          "size_analysis_4": 97.8,
+          "small_mud_percent": 2.2,
+          "big_mud_stones_percent": 1.6,
+          "damage_1": 0.2,
+          "physical_damage_2": 0.4,
+          "moisture_content_percent": 10.6,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "tUitLcVmWIJ7lmkxBdVa",
+      "data": {
+        "timestamp": "2026-03-06T13:32:15.657Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "RJ17GA9905",
+          "transaction_id": "Brazil polish ",
+          "note": "867 bags",
+          "size_analysis_7": 92,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.9,
+          "small_mud_percent": 0.11,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 10,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "ts4hVCAC5mkl9XKt80og",
+      "data": {
+        "timestamp": "2026-03-03T13:28:48.751Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP16TH0869",
+          "transaction_id": "Atmakuru ",
+          "note": "New sri sai ram traders ",
+          "size_analysis_7": 58,
+          "size_analysis_5": 94,
+          "size_analysis_4": 96.5,
+          "small_mud_percent": 3.5,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.4,
+          "moisture_content_percent": 11,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "u5BQrxGHsY1xk1yMjUq0",
+      "data": {
+        "timestamp": "2026-03-16T12:55:41.685Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP16Y7729",
+          "transaction_id": "Vadalamanndu ",
+          "note": "Baddi sada 7 Bages",
+          "size_analysis_7": 56,
+          "size_analysis_5": 97,
+          "size_analysis_4": 97.9,
+          "small_mud_percent": 2.1,
+          "big_mud_stones_percent": 1.7,
+          "damage_1": "",
+          "physical_damage_2": 0.6,
+          "moisture_content_percent": 11.2,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "u9DIQqGlVatFwAxz3bjO",
+      "data": {
+        "timestamp": "2026-03-24T16:42:22.191Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP39TT5236",
+          "transaction_id": "Kothamajeru",
+          "note": "Baddi sada 10 Bages ",
+          "size_analysis_7": 49,
+          "size_analysis_5": 96,
+          "size_analysis_4": 98.2,
+          "small_mud_percent": 1.8,
+          "big_mud_stones_percent": 0.7,
+          "damage_1": 0.2,
+          "physical_damage_2": 0.2,
+          "moisture_content_percent": 11.7,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "uLTUHP3uazXKaaaU0FWo",
+      "data": {
+        "timestamp": "2026-03-02T07:44:03.210Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP39UD9519",
+          "transaction_id": "Atmakuru ",
+          "note": "New sri sai trders",
+          "size_analysis_7": 66,
+          "size_analysis_5": 95,
+          "size_analysis_4": 3.5,
+          "small_mud_percent": 3.5,
+          "big_mud_stones_percent": 0.5,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.4,
+          "moisture_content_percent": 11,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "uWOT0Y3VPn8eVE09xd2Y",
+      "data": {
+        "timestamp": "2026-01-30T06:44:28.199Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP39WH6758",
+          "transaction_id": "Kadapa",
+          "note": "Sada baddi",
+          "size_analysis_7": 58,
+          "size_analysis_5": 94,
+          "size_analysis_4": 96.9,
+          "small_mud_percent": 3.1,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.2,
+          "physical_damage_2": 0.3,
+          "moisture_content_percent": 11.1,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "uiitJ5xvPgoVKSMtiXR8",
+      "data": {
+        "timestamp": "2026-03-13T06:57:45.423Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP16T1951",
+          "transaction_id": "Karakampadu",
+          "note": "Polish 252",
+          "size_analysis_7": 72,
+          "size_analysis_5": 96,
+          "size_analysis_4": 98,
+          "small_mud_percent": 2,
+          "big_mud_stones_percent": 0.6,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.2,
+          "moisture_content_percent": 11,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "uxRntmdUZ549fgCghM69",
+      "data": {
+        "timestamp": "2026-03-17T15:45:25.709Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP26Y2643",
+          "transaction_id": "Challapalle ",
+          "note": "Polish 240",
+          "size_analysis_7": 70,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98.5,
+          "small_mud_percent": 1.5,
+          "big_mud_stones_percent": 0.8,
+          "damage_1": 0,
+          "physical_damage_2": 1,
+          "moisture_content_percent": 10.7,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "v0uiIskpLeChSq6podVg",
+      "data": {
+        "timestamp": "2026-03-16T12:40:51.957Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP39VC7099",
+          "transaction_id": "Nandhikotkur ",
+          "note": "Sadalu 286",
+          "size_analysis_7": 72,
+          "size_analysis_5": 95,
+          "size_analysis_4": 97,
+          "small_mud_percent": 3,
+          "big_mud_stones_percent": 0.3,
+          "damage_1": 0,
+          "physical_damage_2": 0.2,
+          "moisture_content_percent": 10.2,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "vHoO49qWq3YO4UOgmbqi",
+      "data": {
+        "timestamp": "2026-03-06T04:16:31.510Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP04TX9459",
+          "transaction_id": "Atmakuru ",
+          "note": "New sri sai ram traders",
+          "size_analysis_7": 52,
+          "size_analysis_5": 94,
+          "size_analysis_4": 96,
+          "small_mud_percent": 4,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0,
+          "physical_damage_2": 0.5,
+          "moisture_content_percent": 10.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "vLAuEBwj30nzC5F9w1vP",
+      "data": {
+        "timestamp": "2026-02-23T04:39:42.635Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "MP09HH3880",
+          "transaction_id": "Amrith pulse ",
+          "note": "Baddi 500 Bages ",
+          "size_analysis_7": 77,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.9,
+          "small_mud_percent": 0.1,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 10.2,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "vOrEaOABTQ6Bg1XK2ibw",
+      "data": {
+        "timestamp": "2026-03-16T13:07:38.668Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP16Y7729",
+          "transaction_id": "Vadalamanndu ",
+          "note": "Baddi polish 373 Bages ",
+          "size_analysis_7": 65,
+          "size_analysis_5": 96,
+          "size_analysis_4": 97.5,
+          "small_mud_percent": 2.5,
+          "big_mud_stones_percent": 0.7,
+          "damage_1": "",
+          "physical_damage_2": 1.2,
+          "moisture_content_percent": 11.2,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "vl8tNlHmlxQn5KNQecbB",
+      "data": {
+        "timestamp": "2026-01-26T09:06:51.784Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "TN54Q4774",
+          "transaction_id": "Hss international ",
+          "note": "121212",
+          "size_analysis_7": 93,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.5,
+          "small_mud_percent": 0.5,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 9.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "vsCPJQcFctFqt0gWvwIQ",
+      "data": {
+        "timestamp": "2026-03-24T16:49:37.401Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP12T5436",
+          "transaction_id": "Batla pamaru",
+          "note": "Kallam polish 240 Bages ",
+          "size_analysis_7": 72,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98.2,
+          "small_mud_percent": 1.8,
+          "big_mud_stones_percent": 0.6,
+          "damage_1": "",
+          "physical_damage_2": 0.5,
+          "moisture_content_percent": 12,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "vwJzqfNXlyesxn84uso8",
+      "data": {
+        "timestamp": "2026-03-24T16:51:33.300Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP16T1951",
+          "transaction_id": "Batlapenamarru",
+          "note": "Kallam polish 240 Bages ",
+          "size_analysis_7": 66,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98.4,
+          "small_mud_percent": 1.6,
+          "big_mud_stones_percent": 0.7,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.1,
+          "moisture_content_percent": 12.1,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "vzlxqJqSfds67NAewn6k",
+      "data": {
+        "timestamp": "2026-02-13T10:19:33.401Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP03TE0376",
+          "transaction_id": "Kamalapuram ",
+          "note": "Sadalu",
+          "size_analysis_7": 54,
+          "size_analysis_5": 94,
+          "size_analysis_4": 95.7,
+          "small_mud_percent": 4.3,
+          "big_mud_stones_percent": 0.3,
+          "damage_1": 0.2,
+          "physical_damage_2": 1,
+          "moisture_content_percent": 10.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "w7r6femUbq3HlXNAIu4G",
+      "data": {
+        "timestamp": "2026-02-12T09:55:07.258Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP04TX3247",
+          "transaction_id": "Kamalapuram ",
+          "note": "Sadalu ",
+          "size_analysis_7": 51,
+          "size_analysis_5": 94,
+          "size_analysis_4": 97,
+          "small_mud_percent": 3,
+          "big_mud_stones_percent": 0.1,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.3,
+          "moisture_content_percent": 11.4,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "wEieyicUX5jdO9kN0S6I",
+      "data": {
+        "timestamp": "2026-03-20T10:50:43.655Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP30U0175",
+          "transaction_id": "Pedd kalle palle",
+          "note": "Polish 260",
+          "size_analysis_7": 78,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98.5,
+          "small_mud_percent": 1.5,
+          "big_mud_stones_percent": 0.4,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.8,
+          "moisture_content_percent": 11.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "wQ2UrNDOhTFc9MQqoM0K",
+      "data": {
+        "timestamp": "2026-01-24T09:44:50.935Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP26TD4017",
+          "transaction_id": "121212",
+          "note": "Brazil polish hss ",
+          "size_analysis_7": 87,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.5,
+          "small_mud_percent": 0.5,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 9,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "wv0Ef1c2UZm7YABrSEMQ",
+      "data": {
+        "timestamp": "2026-02-02T10:26:29.711Z",
+        "userId": "TVYoYDqQQqY1asGVvTm7yNDNLng2",
+        "userName": "Ramu - Quality1",
+        "details": {
+          "vehicle_number": "AP04TU9986",
+          "transaction_id": "",
+          "note": "Kamalapuram ",
+          "size_analysis_7": 63,
+          "size_analysis_5": 95,
+          "size_analysis_4": 97.3,
+          "small_mud_percent": 2.7,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.2,
+          "physical_damage_2": 0.7,
+          "moisture_content_percent": 11.8,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "xA906DyPOJMmsocPQyiK",
+      "data": {
+        "timestamp": "2026-03-09T05:47:08.826Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP39V1177",
+          "transaction_id": "Alampur ",
+          "note": "New sri sai ram traders ",
+          "size_analysis_7": 65,
+          "size_analysis_5": 95,
+          "size_analysis_4": 97.6,
+          "small_mud_percent": 2.4,
+          "big_mud_stones_percent": 0.1,
+          "damage_1": 0,
+          "physical_damage_2": 0.5,
+          "moisture_content_percent": 10.8,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "xcvKS2JCBdiOD8SekZeO",
+      "data": {
+        "timestamp": "2026-03-13T07:00:37.717Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP37TE2445",
+          "transaction_id": "Polavaram ",
+          "note": "Michene cutting ",
+          "size_analysis_7": 75,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98.8,
+          "small_mud_percent": 1.2,
+          "big_mud_stones_percent": 0.7,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.8,
+          "moisture_content_percent": 11.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "xgAwwMDAmAQmTG0H3Bzo",
+      "data": {
+        "timestamp": "2026-03-18T12:42:01.897Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP07TT2439",
+          "transaction_id": "Challapalle",
+          "note": "Polish 280",
+          "size_analysis_7": 70,
+          "size_analysis_5": 96,
+          "size_analysis_4": 98.2,
+          "small_mud_percent": 1.8,
+          "big_mud_stones_percent": 1.1,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.6,
+          "moisture_content_percent": 10.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "xszpuUJU7fcvc2kDlGDF",
+      "data": {
+        "timestamp": "2026-03-17T15:47:24.402Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP16Y1590",
+          "transaction_id": "Dokiparru ",
+          "note": "Sadalu 45",
+          "size_analysis_7": 59,
+          "size_analysis_5": 97,
+          "size_analysis_4": 97.7,
+          "small_mud_percent": 2.3,
+          "big_mud_stones_percent": 0.8,
+          "damage_1": 0,
+          "physical_damage_2": 0.4,
+          "moisture_content_percent": 11,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "y2Rn9Qwfmr8zN7UZWAr1",
+      "data": {
+        "timestamp": "2026-02-04T04:39:28.037Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP04TX9558",
+          "transaction_id": "Wanapatthy ",
+          "note": "Sadalu",
+          "size_analysis_7": 57,
+          "size_analysis_5": 95,
+          "size_analysis_4": 97,
+          "small_mud_percent": 3,
+          "big_mud_stones_percent": 0.3,
+          "damage_1": 0.2,
+          "physical_damage_2": 0.6,
+          "moisture_content_percent": 11,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "yHOqwRVD5TR8YFJCv2bi",
+      "data": {
+        "timestamp": "2026-03-10T07:10:02.988Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP07Z0617",
+          "transaction_id": "Vinakota",
+          "note": "Sada baddi 120 Bages ",
+          "size_analysis_7": 65,
+          "size_analysis_5": 95,
+          "size_analysis_4": 96,
+          "small_mud_percent": 4,
+          "big_mud_stones_percent": 0.5,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.4,
+          "moisture_content_percent": 11.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "yIaeVstTQeYZf6oLgm8a",
+      "data": {
+        "timestamp": "2026-02-12T09:50:30.423Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP39UN6877",
+          "transaction_id": "Atmakuru",
+          "note": "Sadalu",
+          "size_analysis_7": 55,
+          "size_analysis_5": 95,
+          "size_analysis_4": 96,
+          "small_mud_percent": 4,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": "",
+          "physical_damage_2": 0.3,
+          "moisture_content_percent": 10.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "ybLA2KqsYNNiyljGZvww",
+      "data": {
+        "timestamp": "2026-02-06T15:15:54.322Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "KA567114",
+          "transaction_id": "Brazil polish ",
+          "note": "Siddaratha traders ",
+          "size_analysis_7": 37,
+          "size_analysis_5": 95,
+          "size_analysis_4": 99,
+          "small_mud_percent": 1,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 9.6,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "yijO3XCO4X5QJAEJlE0u",
+      "data": {
+        "timestamp": "2026-02-05T14:00:07.216Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP26TD2718",
+          "transaction_id": "Brazil polish ",
+          "note": "Karumuri pulses ",
+          "size_analysis_7": 90,
+          "size_analysis_5": 99.5,
+          "size_analysis_4": 99.8,
+          "small_mud_percent": 0.2,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 9.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "yrz8AO58mzwI94S3FMav",
+      "data": {
+        "timestamp": "2026-03-24T16:57:13.988Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP05Y5252",
+          "transaction_id": "Kothamajeru",
+          "note": "Baddi sada 20 Bages ",
+          "size_analysis_7": 56,
+          "size_analysis_5": 96,
+          "size_analysis_4": 97.4,
+          "small_mud_percent": 2.6,
+          "big_mud_stones_percent": 0.6,
+          "damage_1": "",
+          "physical_damage_2": 0.1,
+          "moisture_content_percent": 11.3,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "z4qDjoR5yILzUxCB1UjJ",
+      "data": {
+        "timestamp": "2026-02-11T12:41:13.839Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP07TE2133",
+          "transaction_id": "Amaravai",
+          "note": "Baddi",
+          "size_analysis_7": 55,
+          "size_analysis_5": 93,
+          "size_analysis_4": 95.2,
+          "small_mud_percent": 4.8,
+          "big_mud_stones_percent": 0.1,
+          "damage_1": 0.1,
+          "physical_damage_2": 0.1,
+          "moisture_content_percent": 11,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "z7ggXph2QEwJ8Dz9sbQE",
+      "data": {
+        "timestamp": "2026-03-24T17:05:06.689Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP16TW6192",
+          "transaction_id": "Vadalamanndu ",
+          "note": "Baddi sada 11 Bages ",
+          "size_analysis_7": 60,
+          "size_analysis_5": 97,
+          "size_analysis_4": 98.7,
+          "small_mud_percent": 1.3,
+          "big_mud_stones_percent": 1.2,
+          "damage_1": "",
+          "physical_damage_2": 0.1,
+          "moisture_content_percent": 12.1,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "zD1yfQDVJEuoCw5NX8cO",
+      "data": {
+        "timestamp": "2026-02-05T14:01:25.144Z",
+        "userId": "f4PFI0BvkkMZARVb7oK1cJzbfnq2",
+        "userName": "Subrahmanyam - Quality3",
+        "details": {
+          "vehicle_number": "AP39V2525",
+          "transaction_id": "Brazil polish ",
+          "note": "Karumuri pulses ",
+          "size_analysis_7": 88,
+          "size_analysis_5": 99,
+          "size_analysis_4": 99.6,
+          "small_mud_percent": 0.4,
+          "big_mud_stones_percent": "",
+          "damage_1": "",
+          "physical_damage_2": "",
+          "moisture_content_percent": 9.5,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    },
+    {
+      "id": "zxKvcPMPcKdDEwWWXYDY",
+      "data": {
+        "timestamp": "2026-02-03T11:06:46.461Z",
+        "userId": "FrjBbaAYslhh9m2wx2KkgdmZm2G3",
+        "userName": "Nikhil - Quality2",
+        "details": {
+          "vehicle_number": "AP20TB4156",
+          "transaction_id": "Duvvuru",
+          "note": "Baddi 463Bages",
+          "size_analysis_7": 62,
+          "size_analysis_5": 95,
+          "size_analysis_4": 95.7,
+          "small_mud_percent": 4.3,
+          "big_mud_stones_percent": 0.2,
+          "damage_1": 0.4,
+          "physical_damage_2": 0.3,
+          "moisture_content_percent": 11.9,
+          "upload_report": "",
+          "stageId": "quality-check"
+        }
+      }
+    }
+  ]
+}

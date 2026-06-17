@@ -4,6 +4,8 @@ import type { LogEntry } from '../types';
 import { DispatchDetailsModal } from './DispatchDetailsModal';
 import { db } from '../firebase/firebase';
 import { collection, query, orderBy, onSnapshot, Timestamp, doc, updateDoc } from 'firebase/firestore';
+import { USE_MYSQL } from '../services/appConfig';
+import { mysqlApi } from '../services/mysqlApi';
 
 type TimeFilter = '24h' | 'week' | 'month' | 'custom';
 
@@ -26,6 +28,29 @@ export const DispatchActivityTable: React.FC = () => {
         if (!currentUser) {
             setDispatchRecords([]);
             return;
+        }
+
+        if (USE_MYSQL) {
+            let cancelled = false;
+
+            const load = async () => {
+                try {
+                    const records = await mysqlApi.getDispatchRecords();
+                    if (cancelled) return;
+                    const isAdmin = currentUser?.role === 'ADMIN';
+                    setDispatchRecords(isAdmin ? records : records.filter((r) => !r.deleted));
+                } catch (error) {
+                    if (!cancelled) console.error('Error fetching dispatch records from API:', error);
+                }
+            };
+
+            const interval = setInterval(load, 15000);
+            load();
+
+            return () => {
+                cancelled = true;
+                clearInterval(interval);
+            };
         }
 
         const q = query(collection(db, 'dispatch_records'), orderBy('timestamp', 'desc'));
@@ -62,6 +87,27 @@ export const DispatchActivityTable: React.FC = () => {
         if (!currentUser) {
             setWeighingRecords([]);
             return;
+        }
+
+        if (USE_MYSQL) {
+            let cancelled = false;
+
+            const load = async () => {
+                try {
+                    const records = await mysqlApi.getWeighingRecords();
+                    if (!cancelled) setWeighingRecords(records);
+                } catch (error) {
+                    if (!cancelled) console.error('Error fetching weighing records from API:', error);
+                }
+            };
+
+            const interval = setInterval(load, 15000);
+            load();
+
+            return () => {
+                cancelled = true;
+                clearInterval(interval);
+            };
         }
 
         const q = query(collection(db, 'weighing_records'));
@@ -188,9 +234,10 @@ export const DispatchActivityTable: React.FC = () => {
         
         setIsUpdating(true);
         try {
-            const updatePromises = Array.from(selectedIds).map(id => 
-                updateDoc(doc(db, 'dispatch_records', id), { deleted: true })
-            );
+            const updatePromises = Array.from(selectedIds).map((id) => {
+                if (USE_MYSQL) return mysqlApi.softDeleteDispatch(id);
+                return updateDoc(doc(db, 'dispatch_records', id), { deleted: true });
+            });
             await Promise.all(updatePromises);
             setSelectedIds(new Set());
         } catch (error) {

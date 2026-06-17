@@ -1,0 +1,185 @@
+{
+  "name": "TDH ERP API - Local",
+  "description": "Thunder Client collection for testing migrated MySQL data through API",
+  "version": "1.0.0",
+  "requests": [
+    {
+      "name": "Health Check",
+      "method": "GET",
+      "url": "http://127.0.0.1:4000/health",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "docs": "Verify API is running and connected to MySQL"
+    },
+    {
+      "name": "Login - Admin User",
+      "method": "POST",
+      "url": "http://127.0.0.1:4000/auth/login",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": {
+        "type": "json",
+        "content": {
+          "email": "admin@tdh.local",
+          "pin": "1234"
+        }
+      },
+      "docs": "Login with admin credentials. Returns user object with id, name, email, role."
+    },
+    {
+      "name": "Login - Manager User",
+      "method": "POST",
+      "url": "http://127.0.0.1:4000/auth/login",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": {
+        "type": "json",
+        "content": {
+          "email": "manager@tdh.local",
+          "pin": "5678"
+        }
+      },
+      "docs": "Login with manager credentials"
+    },
+    {
+      "name": "Get All Users",
+      "method": "GET",
+      "url": "http://127.0.0.1:4000/users",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "docs": "List all users in the system"
+    },
+    {
+      "name": "Get Arrival Records",
+      "method": "GET",
+      "url": "http://127.0.0.1:4000/arrival-records",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "docs": "List all arrival records (vehicle gate entry/exit). Add ?includeDeleted=1 to show deleted records."
+    },
+    {
+      "name": "Get Weighing Records",
+      "method": "GET",
+      "url": "http://127.0.0.1:4000/weighing-records",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "docs": "List all weighing records with gross/tare weights"
+    },
+    {
+      "name": "Get Quality Check Records",
+      "method": "GET",
+      "url": "http://127.0.0.1:4000/quality-check-records",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "docs": "List quality inspection records with lab analysis metrics"
+    },
+    {
+      "name": "Get Dispatch Records",
+      "method": "GET",
+      "url": "http://127.0.0.1:4000/dispatch-records",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "docs": "List all dispatch records with items"
+    },
+    {
+      "name": "Get In-Mode Vehicles",
+      "method": "GET",
+      "url": "http://127.0.0.1:4000/in-mode-vehicles",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "docs": "Get list of vehicle numbers that have IN gate mode records"
+    },
+    {
+      "name": "Soft Delete Arrival Record",
+      "method": "PATCH",
+      "url": "http://127.0.0.1:4000/arrival-records/arr-001/soft-delete",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "docs": "Mark arrival record as deleted (soft delete). Record will be hidden unless includeDeleted=1 is used."
+    },
+    {
+      "name": "Create New User",
+      "method": "POST",
+      "url": "http://127.0.0.1:4000/users",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": {
+        "type": "json",
+        "content": {
+          "name": "New Weighing Operator",
+          "email": "weighing@tdh.local",
+          "role": "WEIGHING_OPERATOR"
+        }
+      },
+      "docs": "Create a new user. Returns id, pin, and password."
+    },
+    {
+      "name": "Submit Arrival Data",
+      "method": "POST",
+      "url": "http://127.0.0.1:4000/stage-records",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": {
+        "type": "json",
+        "content": {
+          "stageId": "arrival",
+          "data": {
+            "vehicle_number": "MH05XY7777",
+            "driver_name": "Priya Sharma",
+            "phone_number": "9111111111",
+            "gate_mode": "in",
+            "from_location": "Indore",
+            "to_location": "Storage B",
+            "party": "PQR Supplies",
+            "quantity": 125.75,
+            "bags": 63,
+            "item": "Dal"
+          },
+          "currentUser": {
+            "id": "user-gate-1",
+            "name": "Gate Operator"
+          }
+        }
+      },
+      "docs": "Submit new arrival record through API"
+    },
+    {
+      "name": "Submit Weighing Data",
+      "method": "POST",
+      "url": "http://127.0.0.1:4000/stage-records",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": {
+        "type": "json",
+        "content": {
+          "stageId": "weighing",
+          "data": {
+            "vehicle_number": "MH05XY7777",
+            "ticket_no": "TKT-20260617-002",
+            "gross_weight": 630.0,
+            "tare_weight": 500.0,
+            "sample_collector": "Lab Tech 2"
+          },
+          "currentUser": {
+            "id": "user-gate-1",
+            "name": "Gate Operator"
+          }
+        }
+      },
+      "docs": "Submit new weighing record"
+    }
+  ]
+}
